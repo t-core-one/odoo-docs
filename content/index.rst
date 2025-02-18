@@ -8,6 +8,6 @@ Odoo Documentation
 .. toctree::
 
     applications
-    administration
-    developer
-    contributing
+    .. administration
+    .. developer
+    .. contributing

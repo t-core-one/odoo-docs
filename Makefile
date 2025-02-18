@@ -6,7 +6,7 @@ ifndef WORKERS
 endif
 
 ifndef BUILD_DIR
-  BUILD_DIR    = _build
+  BUILD_DIR    = ../../odoo_docs/_build
 endif
 
 ifndef CURRENT_LANG

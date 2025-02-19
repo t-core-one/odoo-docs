@@ -216,8 +216,8 @@ intersphinx_mapping = {
     'werkzeug': ('https://werkzeug.palletsprojects.com/en/2.3.x/', None),
 }
 
-github_user = 'odoo'
-github_project = 'documentation'
+github_user = 't-core-one'
+github_project = 'odoo-docs'
 
 locale_dirs = ['../locale/']
 templates_path = ['../extensions']

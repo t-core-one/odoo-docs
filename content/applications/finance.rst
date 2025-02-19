@@ -9,4 +9,3 @@ Finance
     finance/accounting
     finance/expenses
     finance/payment_providers
-    finance/fiscal_localizations

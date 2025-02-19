@@ -17,7 +17,7 @@ Configuration of an account
 ===========================
 
 The country you select during the creation of your database (or additional company in your database)
-determines which :doc:`fiscal localization package <../../fiscal_localizations>` is installed by
+determines which fiscal localization package is installed by
 default. This package includes a standard chart of accounts already configured according to the
 country's regulations. You can use it directly or set it according to your company's needs.
 
@@ -178,7 +178,6 @@ account's settings, and :guilabel:`Save`.
    * :doc:`../vendor_bills/assets`
    * :doc:`../vendor_bills/deferred_expenses`
    * :doc:`../customer_invoices/deferred_revenues`
-   * :doc:`../../fiscal_localizations`
    * `Odoo Tutorials: Chart of accounts <https://www.odoo.com/slides/slide/chart-of-accounts-1630>`_
    * `Odoo Tutorials: Update your chart of accounts
      <https://www.odoo.com/slides/slide/update-your-chart-of-accounts-1658>`_

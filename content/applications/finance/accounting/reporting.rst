@@ -7,8 +7,7 @@ Reporting
 Main reports available
 ======================
 
-Odoo includes **generic** and **dynamic** reports available for all countries, regardless of the
-:doc:`localization package <../../finance/fiscal_localizations>` installed:
+Odoo includes **generic** and **dynamic** reports available for all countries, regardless of the localization package installed:
 
 -  **Balance Sheet**
 -  **Profit and Loss**

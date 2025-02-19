@@ -50,8 +50,6 @@ Odoo supports, among others, the following formats.
    * - SG BIS Billing 3.0
      - For Singaporean companies
 
-.. seealso::
-   :ref:`fiscal_localizations/packages`
 
 .. _e-invoicing/configuration:
 

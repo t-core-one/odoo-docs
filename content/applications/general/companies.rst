@@ -90,7 +90,6 @@ First, make sure each one of your companies is properly set in relation to:
 - :doc:`Taxes <../finance/accounting/taxes>`
 - :doc:`Fiscal Positions <../finance/accounting/taxes/fiscal_positions>`
 - :doc:`Journals <../finance/accounting/bank>`
-- :doc:`Fiscal Localizations <../finance/fiscal_localizations>`
 - :doc:`Pricelists <../sales/sales/products_prices/prices/pricing>`
 
 Now, activate the *Inter-Company Transactions* option under *Settings*. With the respective company
@@ -130,7 +129,6 @@ at an invoice/bills level or at a sales/purchase orders level.
    Remember to test all workflows as an user other than the administrator.
 
 .. seealso::
-   - :doc:`Multi-company Guidelines </developer/howtos/company>`
    - :doc:`../finance/accounting/get_started/multi_currency`
 
 .. toctree::

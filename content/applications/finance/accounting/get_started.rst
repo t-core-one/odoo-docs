@@ -14,8 +14,7 @@ The settings visible in the onboarding banner can still be modified later by goi
 .. note::
    Odoo Accounting automatically installs the appropriate **Fiscal Localization Package** for your
    company, according to the country selected at the creation of the database. This way, the right
-   accounts, reports, and taxes are ready-to-go. :ref:`Click here <fiscal_localizations/packages>`
-   for more information about Fiscal Localization Packages.
+   accounts, reports, and taxes are ready-to-go.
 
 Accounting onboarding banner
 ============================
@@ -186,7 +185,6 @@ Send yourself a sample invoice by email to make sure everything is correctly con
    * :doc:`bank`
    * :doc:`get_started/chart_of_accounts`
    * :doc:`bank/bank_synchronization`
-   * :doc:`../fiscal_localizations`
    * `Odoo Tutorials: Accounting and Invoicing - Getting started [video]
      <https://www.odoo.com/slides/slide/getting-started-1692>`_
 

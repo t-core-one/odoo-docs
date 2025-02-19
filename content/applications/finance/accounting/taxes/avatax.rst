@@ -121,9 +121,6 @@ Fiscal country
 To set the :guilabel:`Fiscal Country`, navigate to :menuselection:`Accounting app --> Configuration
 --> Settings`.
 
-.. seealso::
-   :doc:`../../fiscal_localizations`
-
 Under the :guilabel:`Taxes` section, set the :guilabel:`Fiscal Country` feature to :guilabel:`United
 States` or :guilabel:`Canada`. Then, click :guilabel:`Save`.
 

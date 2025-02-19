@@ -145,9 +145,6 @@ template, as listed in the bulleted list above.
    select one, or click :guilabel:`Search More` to select from all of the available fields for the
    model that the email template is created for.
 
-   .. seealso::
-      :doc:`/applications/studio/models_modules_apps`.
-
 .. tip::
    These fields can also be accessed in :ref:`developer mode <developer-mode>`. On a contact form
    (or other relevant form in Odoo), navigate to the information that should be referenced in the
@@ -158,9 +155,6 @@ template, as listed in the bulleted list above.
    .. image:: email_template/information-box.png
       :align: center
       :alt: Backend information box of fields on a model.
-
-.. seealso::
-   :ref:`Views and fields in the developer documentation <developer/fields>`.
 
 .. warning::
    Customizing email templates are out of the scope of Odoo Support.

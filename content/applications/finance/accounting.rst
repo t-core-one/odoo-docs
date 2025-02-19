@@ -102,10 +102,7 @@ International standards
 Odoo Accounting supports more than 70 countries. It provides the central standards and mechanisms
 common to all nations, and thanks to country-specific modules, local requirements are fulfilled.
 Fiscal positions exist to address regional specificities like the chart of accounts, taxes, or any
-other requirements.
-
-.. seealso::
-   :doc:`Fiscal localization packages <fiscal_localizations>`
+other requir
 
 Accounts receivable and payable
 ===============================

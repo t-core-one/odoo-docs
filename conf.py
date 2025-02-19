@@ -243,6 +243,7 @@ versions_names = {
 # The language names that should be shown in the language switcher, if the config option `languages`
 # is populated. If a language is passed to `languages` but is not listed here, it will not be shown.
 languages_names = {
+    'bg': 'BG',
     'de': 'DE',
     'en': 'EN',
     'es': 'ES',

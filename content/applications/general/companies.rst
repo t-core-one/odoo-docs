@@ -204,7 +204,6 @@ companies is properly set in relation to:
 - :doc:`Taxes <../finance/accounting/taxes>`
 - :doc:`Fiscal Positions <../finance/accounting/taxes/fiscal_positions>`
 - :doc:`Journals <../finance/accounting/bank>`
-- :doc:`Fiscal Localizations <../finance/fiscal_localizations>`
 - :doc:`Pricelists <../sales/sales/products_prices/prices/pricing>`
 
 Next, navigate to :menuselection:`Settings app --> Companies section --> Manage Companies`. Then,
@@ -254,7 +253,6 @@ options:
    Remember to test all workflows as a user *other* than the administrator.
 
 .. seealso::
-   - :doc:`Multi-company Guidelines <../../developer/howtos/company>`
    - :doc:`../finance/accounting/get_started/multi_currency`
 
 .. toctree::

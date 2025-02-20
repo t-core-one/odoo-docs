@@ -41,8 +41,7 @@ administrator must make sure that the Odoo source code is up-to-date.
 - If the company uses Odoo on Odoo.com or Odoo.sh platform, the code is already up-to-date, so
   proceed to the next step.
 - If the company uses Odoo with an on-premise setup or through a partner, then the administrator
-  must update the installation as detailed in :doc:`this documentation page
-  </administration/on_premise/update>` or by contacting an integrating partner.
+  must update the installation by contacting an integrating partner.
 
 Update the list of available modules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

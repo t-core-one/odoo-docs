@@ -25,7 +25,7 @@ Then, set a default fiscal position that should be applied to all sales in the s
 .. image:: fiscal_position/flexible-taxes-setting.png
    :align: center
 
-According to the :doc:`fiscal localization package <../../../finance/fiscal_localizations>`
+According to the fiscal localization package
 activated, several fiscal positions are preconfigured and can be set and used in POS. However, you
 can also :ref:`create new fiscal positions <fiscal_positions/mapping>`.
 

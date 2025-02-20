@@ -31,7 +31,7 @@ Create new salary attachment types
 .. danger::
    Upon installation of the **Payroll** application, the pre-configured default salary attachment
    types are linked to a variety of rules that are linked to various salary structures, as well as
-   the installed :ref:`localization package <fiscal_localizations/packages>`.
+   the installed localization package.
 
    It is **not** recommended to alter or modify **any** of the preconfigured salary attachment
    types, especially if they have been previously used on payslips in the database. Doing so may

@@ -11,10 +11,6 @@ send documents and provide support.
    WhatsApp is an Odoo Enterprise-only application that does not work in Odoo Community edition. To
    sign up for Odoo Enterprise edition, click here: `Odoo Free Trial <https://www.odoo.com/trial>`_.
 
-.. seealso::
-   For more information on migrating from Odoo Community version to Odoo Enterprise version see this
-   documentation: :doc:`/administration/on_premise/community_to_enterprise`.
-
 With the **Odoo WhatsApp** app, a company can connect a WhatsApp Business Account (WABA) to an Odoo
 database, which allows for the following:
 

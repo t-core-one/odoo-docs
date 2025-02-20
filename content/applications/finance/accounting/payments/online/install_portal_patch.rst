@@ -25,9 +25,8 @@ Odoo source code is up-to-date.
 If you use Odoo on Odoo.com or Odoo.sh platform, your code is already up-to-date and you can proceed
 to the next step.
 
-If you use Odoo with an on-premise setup or through a partner, you must update your installation as
-detailed in :doc:`this documentation page </administration/on_premise/update>`, or by contacting
-your integrating partner.
+If you use Odoo with an on-premise setup or through a partner, you must update your installation by
+contacting your integrating partner.
 
 Update the list of available modules
 ====================================

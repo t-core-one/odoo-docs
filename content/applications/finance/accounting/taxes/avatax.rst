@@ -121,8 +121,6 @@ Fiscal country
 To set the :guilabel:`Fiscal Country`, navigate to :menuselection:`Accounting app --> Configuration
 --> Settings`.
 
-.. seealso::
-   :doc:`../../fiscal_localizations`
 
 Under the :guilabel:`Taxes` section, set the :guilabel:`Fiscal Country` feature to :guilabel:`United
 States`, :guilabel:`Canada`, or :guilabel:`Brazil`. Then, click :guilabel:`Save`.
@@ -204,13 +202,6 @@ Doing so installs the following modules:
 Should *AvaTax* be needed for geo-localization, or with the *Amazon Connector*, then install those
 modules individually by clicking on :guilabel:`Install` on :guilabel:`Avatax for geo localization`
 and :guilabel:`Amazon/Avatax Bridge`, respectively.
-
-.. seealso::
-   For localization specific *AvaTax* instructions, view the following :doc:`fiscal localization
-   <../../fiscal_localizations>` documentation:
-
-   - :doc:`../../fiscal_localizations/brazil`
-   - :doc:`../../fiscal_localizations/united_states`
 
 .. _avatax/credentials:
 

@@ -217,7 +217,7 @@ Fill out the fields on the :guilabel:`Create Rules` pop-up window as instructed 
 .. note::
    In order to track the geographical location of visitors, *GeoIP* **must** be installed on the
    database. While this feature is installed by default on *Odoo Online* databases, *On-Premise*
-   databases require additional :doc:`setup steps </administration/on_premise/geo_ip>`.
+   databases require additional setup steps.
 
 .. _livechat/widget-tab:
 

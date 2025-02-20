@@ -141,7 +141,7 @@ Discount` checkbox enabled, and select one of the three following options:
      computed according to the :ref:`type of tax reduction <cash-discounts/tax-reductions>` you
      configured.
    - The **type of cash discount tax reduction** may be correctly pre-configured, depending on your
-     :ref:`fiscal localization package <fiscal_localizations/packages>`.
+     fiscal localization package.
 
 .. _cash-discounts/customer-invoice:
 

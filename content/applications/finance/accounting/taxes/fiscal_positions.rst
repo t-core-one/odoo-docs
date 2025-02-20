@@ -13,8 +13,8 @@ They can be applied :ref:`automatically <fiscal_positions/automatic>`, :ref:`man
 <fiscal_positions/manual>`, or :ref:`assigned to a partner <fiscal_positions/partner>`.
 
 .. note::
-   Several default fiscal positions are available as part of your :ref:`fiscal localization
-   package <fiscal_localizations/packages>`.
+   Several default fiscal positions are available as part of your fiscal localization
+   package.
 
 Configuration
 =============

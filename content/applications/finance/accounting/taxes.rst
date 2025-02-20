@@ -29,15 +29,14 @@ tax, and click on :guilabel:`Save`.
 
 .. note::
    **Default taxes** are automatically set up according to the country selected at the creation of
-   your database, or when you set up a :ref:`fiscal localization package
-   <fiscal_localizations/packages>` for your company.
+   your database, or when you set up a fiscal localization package for your company.
 
 .. _taxes/list_activation:
 
 Activate sales taxes from the list view
 =======================================
 
-As part of your :ref:`fiscal localization package <fiscal_localizations/packages>`, most of your
+As part of your fiscal localization package, most of your
 country's sales taxes are already preconfigured on your database. However, only a few taxes are
 activated by default. To activate taxes relevant to your business, go to :menuselection:`Accounting
 --> Configuration --> Taxes` and enable the toggle button under the :guilabel:`Active` column.

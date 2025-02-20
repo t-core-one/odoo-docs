@@ -249,10 +249,6 @@ create errors.
    To edit crons, enable the :ref:`developer mode <developer-mode>` and go to
    :menuselection:`Settings --> Technical --> Automation: Scheduled Actions`.
 
-.. seealso::
-   For more information about crons when using Odoo.sh, check out :doc:`Odoo.sh frequent technical
-   questions <../../../administration/odoo_sh/advanced/frequent_technical_questions>`.
-
 .. _email-issues-outgoing-execution-time-campaigns:
 
 Email Marketing campaigns stuck in the queue

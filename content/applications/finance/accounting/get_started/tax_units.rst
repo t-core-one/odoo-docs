@@ -43,7 +43,7 @@ Do the same for the :guilabel:`Account Mapping` tab if required, and repeat this
 **each** constituent company on your database.
 
 .. Example::
-   Depending on your :doc:`localization package </applications/finance/fiscal_localizations>`, taxes
+   Depending on your localization package, taxes
    may vary from the screenshot displayed.
 
    .. image:: tax_units/fiscal-positions.png

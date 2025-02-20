@@ -31,9 +31,6 @@ You can create Odoo external API keys either :ref:`for a single database <silver
    - You can copy the API key only at its creation. It is not possible to retrieve it later.
    - If you need it again, create a new API key (and delete the old one).
 
-.. seealso::
-   :doc:`/developer/reference/external_api`
-
 .. _silverfin/api-singledb:
 
 Per database

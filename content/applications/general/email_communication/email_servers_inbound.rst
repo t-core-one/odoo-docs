@@ -186,8 +186,8 @@ emails in the Odoo database.
 
 .. important::
    For **on-premise databases**, the redirection and the MX record methods also require configuring
-   the :doc:`mail gateway script <../../../../administration/on_premise/email_gateway>`. Going
-   through this script requires **advanced technical and infrastructure knowledge**.
+   the mail gateway script.
+   Going through this script requires **advanced technical and infrastructure knowledge**.
 
 .. important::
    Refer to your provider’s documentation for more detailed information on how to handle the methods
@@ -285,8 +285,7 @@ Below are presented some specifications depending on the hosting type:
 
    .. group-tab:: Odoo.sh
 
-      The custom subdomain must be added to the :doc:`settings of the project
-      <../../../administration/odoo_sh/getting_started/settings>`:
+      The custom subdomain must be added to the settings of the project:
 
       .. image:: email_servers_inbound/custom-subdomain-sh.png
          :alt: Adding a custom subdomain for mail to Odoo.sh project settings.

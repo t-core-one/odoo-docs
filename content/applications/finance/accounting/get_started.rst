@@ -14,8 +14,7 @@ The settings visible in the onboarding banner can still be modified later by goi
 .. note::
    Odoo Accounting automatically installs the appropriate **Fiscal Localization Package** for your
    company, according to the country selected at the creation of the database. This way, the right
-   accounts, reports, and taxes are ready-to-go. :ref:`Click here <fiscal_localizations/packages>`
-   for more information about Fiscal Localization Packages.
+   accounts, reports, and taxes are ready-to-go.
 
 Accounting onboarding banner
 ============================
@@ -83,7 +82,7 @@ Taxes
 -----
 
 This menu allows you to create new taxes, (de)activate, or modify existing taxes. Depending on the
-:doc:`localization package <../fiscal_localizations>` installed on your database, taxes required for
+localization package installed on your database, taxes required for
 your country are already configured.
 
 .. note::
@@ -144,7 +143,7 @@ and Tax ID or VAT number. These details are then displayed on your documents, su
 Documents Layout
 ----------------
 
-Customize the :ref:`default invoice layout <studio/pdf-reports/default-layout>`.
+Customize the default invoice layout.
 
 .. note::
    You can also change the invoice layout by going to :menuselection:`Settings --> General
@@ -180,7 +179,6 @@ Get started with Stripe and enable secure integrated credit and debit card payme
    * :doc:`bank`
    * :doc:`get_started/chart_of_accounts`
    * :doc:`bank/bank_synchronization`
-   * :doc:`../fiscal_localizations`
    * `Odoo Tutorials: Accounting and Invoicing - Getting started [video]
      <https://www.odoo.com/slides/slide/getting-started-1692>`_
 

@@ -238,7 +238,7 @@ company.
    If multi-company access is not configured correctly, it could lead to inconsistent multi-company
    behaviors. Because of this, only experienced Odoo users should make access rights changes to
    users for databases with a multi-company configuration. For technical explanations, refer to the
-   developer documentation on :doc:`../../../developer/howtos/company`.
+   developer documentation.
 
 .. image:: users/multi-companies.png
    :align: center

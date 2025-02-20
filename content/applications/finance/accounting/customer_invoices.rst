@@ -90,9 +90,8 @@ Invoice sending
 ===============
 
 To send the invoice to the customer, click :guilabel:`Send & Print`. A :guilabel:`Configure your
-document layout` pop-up window will appear if a :ref:`default invoice layout
-<studio/pdf-reports/default-layout>` hasn't been customized. Then, select how to send this invoice
-to the customer in the :guilabel:`Send` window.
+document layout` pop-up window will appear if a default invoice layout hasn't been customized.
+Then, select how to send this invoice to the customer in the :guilabel:`Send` window.
 
 To send and print multiple invoices, go to :menuselection:`Accounting --> Customers --> Invoices`
 and select them. Then click the :icon:`fa-cog` :guilabel:`Actions` menu and select

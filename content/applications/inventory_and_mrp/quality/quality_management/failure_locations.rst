@@ -13,7 +13,7 @@ one of the specified locations.
 .. important::
    The *Failure Location* feature was added in version 17.0 of Odoo, and does **not** appear in any
    previous version. To upgrade an Odoo database to a more recent version, see the documentation on
-   :doc:`database upgrades <../../../../administration/upgrade>`.
+   database upgrades.
 
 Configuration
 =============

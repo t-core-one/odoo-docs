@@ -31,16 +31,15 @@ following to access all available features:
      - Description
    * - | :guilabel:`Data Recycle`
        | `data_recycle`
-     - Base module to enable the recycle feature, available on :ref:`Odoo Community edition
-       <install/editions>`.
+     - Base module to enable the recycle feature, available on Odoo Community edition.
    * - | :guilabel:`Data Cleaning`
        | `data_cleaning`
      - Enables field cleaning feature to format text data across multiple records, available
-       **only** on :ref:`Odoo Enterprise edition <install/editions>`.
+       **only** on Odoo Enterprise edition.
    * - | :guilabel:`Data Cleaning (merge)`
        | `data_merge`
      - Enables the deduplication feature to find similar (or duplicate) records, and merge them,
-       available **only** on :ref:`Odoo Enterprise edition <install/editions>`.
+       available **only** on Odoo Enterprise edition.
 
 .. spoiler:: Additionally, several app-specific modules are available
 

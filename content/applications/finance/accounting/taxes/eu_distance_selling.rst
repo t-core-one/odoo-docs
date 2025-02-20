@@ -35,7 +35,6 @@ enable it, go to :menuselection:`Accounting --> Configuration --> Settings --> T
 
 .. seealso::
    - :doc:`../taxes`
-   - :doc:`../../fiscal_localizations`
    - :doc:`fiscal_positions`
 
 One-Stop Shop (OSS)

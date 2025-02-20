@@ -83,7 +83,7 @@ Taxes
 -----
 
 This menu allows you to create new taxes, (de)activate, or modify existing taxes. Depending on the
-:doc:`localization package <../fiscal_localizations>` installed on your database, taxes required for
+localization package installed on your database, taxes required for
 your country are already configured.
 
 .. note::
@@ -180,7 +180,6 @@ Get started with Stripe and enable secure integrated credit and debit card payme
    * :doc:`bank`
    * :doc:`get_started/chart_of_accounts`
    * :doc:`bank/bank_synchronization`
-   * :doc:`../fiscal_localizations`
    * `Odoo Tutorials: Accounting and Invoicing - Getting started [video]
      <https://www.odoo.com/slides/slide/getting-started-1692>`_
 

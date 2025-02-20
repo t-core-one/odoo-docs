@@ -100,7 +100,7 @@ as:
   Wishlist` option is then enabled by default in the website editor.
 
 .. note::
-   - If a :doc:`fiscal position </applications/finance/fiscal_localizations>` is detected automatically,
+   - If a fiscal position is detected automatically,
      the product tax is determined based on the customer's IP address.
    - If the installed :doc:`payment provider </applications/finance/payment_providers>` supports
      :ref:`express checkout <payment_providers/express_checkout>`, a dedicated button is displayed,

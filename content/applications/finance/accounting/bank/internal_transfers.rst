@@ -12,7 +12,7 @@ Configuration
 =============
 
 An internal transfer account is automatically created on your database based on your company's
-:doc:`localization <../../fiscal_localizations>` and depending on your country’s legislation. To
+localization and depending on your country’s legislation. To
 modify the default :guilabel:`Internal Transfer` account, go to :menuselection:`Accounting -->
 Configuration --> Settings` and scroll down to the :guilabel:`Default Accounts` section.
 

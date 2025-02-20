@@ -46,9 +46,6 @@ Odoo supports e-invoicing in many countries. Refer to the country's page for mor
 - :doc:`Spain - Basque Country <electronic_invoicing/basque_country>`
 - :doc:`Uruguay <electronic_invoicing/uruguay>`
 
-.. seealso::
-   :doc:`Fiscal localizations documentation <../../fiscal_localizations>`
-
 .. _e-invoicing/configuration:
 
 Configuration
@@ -67,9 +64,7 @@ You can define a specific e-invoicing format for each customer. To do so, go to
 National electronic invoicing
 -----------------------------
 
-Depending on your company's country (e.g., :doc:`Italy <../../fiscal_localizations/italy>`,
-:doc:`Spain <../../fiscal_localizations/spain>`, :doc:`Mexico
-<../../fiscal_localizations/mexico>`, etc.), you may be required to issue e-invoicing documents in
+Depending on your company's country, you may be required to issue e-invoicing documents in
 a specific format for all your invoices. In this case, you can define a default e-invoicing format
 for your sales journal.
 

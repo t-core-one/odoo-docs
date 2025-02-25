@@ -1,0 +1,2930 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 08:57+0000\n"
+"PO-Revision-Date: 2025-02-24 20:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../content/applications/essentials.rst:3
+msgid "Odoo essentials"
+msgstr "Основни неща за Odoo"
+
+#: ../../content/applications/essentials/activities.rst:3
+msgid "Activities"
+msgstr "Събития"
+
+#: ../../content/applications/essentials/activities.rst:5
+msgid ""
+"*Activities* are follow-up tasks tied to a record in an Odoo database. "
+"Activities can be scheduled on any page of the database that contains a "
+"chatter thread, kanban view, list view, or activities view of an application."
+msgstr ""
+"*Дейностите* са последващи задачи, свързани със запис в база данни на Odoo. "
+"Дейностите могат да се планират на всяка страница от базата данни, която "
+"съдържа тема за разговори, изглед на kanban, изглед на списък или изглед на "
+"дейностите на приложение."
+
+#: ../../content/applications/essentials/activities.rst:10
+msgid "Schedule activities"
+msgstr "Планиране на дейностите"
+
+#: ../../content/applications/essentials/activities.rst:12
+msgid ""
+"One way that activities are created is by clicking the :guilabel:`Schedule "
+"Activity` button, located at the top of the *chatter* on any record. On the "
+"pop-up window that appears, select an :guilabel:`Activity Type` from the "
+"drop-down menu."
+msgstr ""
+"Един от начините за създаване на дейности е чрез натискане на бутона :"
+"guilabel:`Schedule Activity` (Планиране на дейност), разположен в горната "
+"част на *chatter* на всеки запис. В появилия се изскачащ прозорец изберете :"
+"guilabel:`Тип на дейност` от падащото меню."
+
+#: ../../content/applications/essentials/activities.rst:17
+msgid ""
+"Individual applications have a list of *Activity Types* dedicated to that "
+"application. For example, to view and edit the activities available for the "
+"*CRM* application, go to :menuselection:`CRM app --> Configuration --> "
+"Activity Types`."
+msgstr ""
+"Отделните приложения имат списък с *Типове дейности*, предназначени за това "
+"приложение. Например, за да видите и редактирате дейностите, налични за "
+"приложението *CRM*, отидете на :menuselection:`CRM app --> Configuration --> "
+"Activity Types`."
+
+#: ../../content/applications/essentials/activities.rst:21
+msgid ""
+"Enter a title for the activity in the :guilabel:`Summary` field, located in "
+"the :guilabel:`Schedule Activity` pop-up window."
+msgstr ""
+"Въведете заглавие за дейността в полето :guilabel:`Summary` (Резюме), което "
+"се намира във изскачащия прозорец :guilabel:`Schedule Activity` (Планиране "
+"на дейността)."
+
+#: ../../content/applications/essentials/activities.rst:24
+msgid ""
+"To assign the activity to a different user, select a name from the :guilabel:"
+"`Assigned to` drop-down menu. Otherwise, the user creating the activity is "
+"automatically assigned."
+msgstr ""
+"За да възложите дейността на друг потребител, изберете име от падащото меню :"
+"guilabel:`Assigned to`. В противен случай потребителят, създал дейността, се "
+"назначава автоматично."
+
+#: ../../content/applications/essentials/activities.rst:27
+msgid ""
+"Lastly, feel free to add any additional information in the optional :"
+"guilabel:`Log a note...` field."
+msgstr ""
+"И накрая, можете да добавите допълнителна информация в незадължителното "
+"поле :guilabel:`Log a note...`."
+
+#: ../../content/applications/essentials/activities.rst:30
+msgid ""
+"The :guilabel:`Due Date` field on the :guilabel:`Schedule Activity` pop-up "
+"window auto-populates based on the configuration settings for the selected :"
+"guilabel:`Activity Type`. However, this date can be changed by selecting a "
+"day on the calendar in the :guilabel:`Due Date` field."
+msgstr ""
+"Полето :guilabel:`Due Date` (Дата на изпълнение) на изскачащия прозорец :"
+"guilabel:`Schedule Activity` (Планиране на дейност) се попълва автоматично "
+"въз основа на настройките на конфигурацията за избрания :guilabel:`Activity "
+"Type` (Тип дейност). Тази дата обаче може да бъде променена, като се избере "
+"ден от календара в полето :guilabel:`Due Date` (Дата на изпълнение)."
+
+#: ../../content/applications/essentials/activities.rst:34
+msgid "Lastly, click one of the following buttons:"
+msgstr "Накрая щракнете върху един от следните бутони:"
+
+#: ../../content/applications/essentials/activities.rst:36
+msgid ""
+":guilabel:`Schedule`: adds the activity to the chatter under :guilabel:"
+"`Planned activities`."
+msgstr ""
+":guilabel:`Schedule`: добавя дейността към чатъра под :guilabel:`Planned "
+"activities`."
+
+#: ../../content/applications/essentials/activities.rst:37
+msgid ""
+":guilabel:`Mark as Done`: adds the details of the activity to the chatter "
+"under :guilabel:`Today`. The activity is not scheduled, it is automatically "
+"marked as completed."
+msgstr ""
+":guilabel:`Mark as Done`: добавя подробностите за дейността към чатъра под :"
+"guilabel:`Today`. Дейността не се планира, а автоматично се маркира като "
+"завършена."
+
+#: ../../content/applications/essentials/activities.rst:39
+msgid ""
+":guilabel:`Done \\& Schedule Next`: adds the task under :guilabel:`Today` "
+"marked as done, and opens a new activity window."
+msgstr ""
+":guilabel:`Done \\& Schedule Next`: добавя задачата под :guilabel:`Today`, "
+"отбелязана като свършена, и отваря нов прозорец с дейности."
+
+#: ../../content/applications/essentials/activities.rst:41
+msgid ":guilabel:`Discard`: discards any changes made on the pop-up window."
+msgstr ""
+":guilabel:`Discard`: отхвърля всички промени, направени в изскачащия "
+"прозорец."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid "View of CRM leads and the option to schedule an activity."
+msgstr ""
+"Преглед на потенциални клиенти в CRM и възможност за планиране на дейност."
+
+#: ../../content/applications/essentials/activities.rst:47
+msgid ""
+"Depending on the activity type, the :guilabel:`Schedule` button may be "
+"replaced by a :guilabel:`Save` button, or an :guilabel:`Open Calendar` "
+"button."
+msgstr ""
+"В зависимост от типа дейност бутонът :guilabel:`Schedule` може да бъде "
+"заменен с бутон :guilabel:`Save` или с бутон :guilabel:`Open Calendar`."
+
+#: ../../content/applications/essentials/activities.rst:50
+msgid ""
+"Scheduled activities are added to the chatter for the record under :guilabel:"
+"`Planned activities`."
+msgstr ""
+"Планираните дейности се добавят в чатъра за записа под :guilabel:`Planned "
+"activities` (Планирани дейности)."
+
+#: ../../content/applications/essentials/activities.rst:55
+msgid ""
+"Activities can also be scheduled from the kanban, list, or activities view "
+"of an application."
+msgstr ""
+"Дейностите могат да се планират и от изгледа на приложенията за канали, "
+"списъци или дейности."
+
+#: ../../content/applications/essentials/activities.rst:59
+msgid "Kanban view"
+msgstr "Изглед Kanban"
+
+#: ../../content/applications/essentials/activities.rst:61
+msgid ""
+"Select a record on which to schedule an activity. Click on the :guilabel:`🕘 "
+"(clock)` icon, then :guilabel:`Schedule An Activity`, and proceed to fill "
+"out the pop-up form."
+msgstr ""
+"Изберете запис, за който да планирате дейност. Щракнете върху иконата :"
+"guilabel:`🕘 (часовник)`, след това върху :guilabel:`Насрочване на дейност` и "
+"продължете да попълвате изскачащия формуляр."
+
+#: ../../content/applications/essentials/activities.rst:0
+msgid "Kanban view of the CRM pipeline and the option to schedule an activity."
+msgstr "Изглед Kanban на CRM конвейера и възможност за планиране на дейност."
+
+#: ../../content/applications/essentials/activities.rst:67
+msgid "List view"
+msgstr "Изглед по списък"
+
+#: ../../content/applications/essentials/activities.rst:69
+msgid ""
+"Select a record on which to schedule an activity. Click on the :guilabel:`🕘 "
+"(clock)` icon, then :guilabel:`Schedule An Activity`. If the record already "
+"has an activity scheduled, the clock icon may be replaced by a :guilabel:`📞 "
+"(phone)` or an :guilabel:`✉️ (envelope)` icon."
+msgstr ""
+"Изберете запис, за който да планирате дейност. Щракнете върху иконата :"
+"guilabel:`🕘 (часовник)`, след което върху :guilabel:`Насрочване на дейност`. "
+"Ако записът вече има планирана дейност, иконата на часовника може да бъде "
+"заменена от икона :guilabel:`📞 (телефон)` или :guilabel:`✉️ (плик)`."
+
+#: ../../content/applications/essentials/activities.rst:0
+msgid "List view of the CRM pipeline and the option to schedule an activity."
+msgstr ""
+"Изглед на списъка на конвейера на CRM и възможност за планиране на дейност."
+
+#: ../../content/applications/essentials/activities.rst:76
+msgid "Activity view"
+msgstr "Изглед за действия"
+
+#: ../../content/applications/essentials/activities.rst:78
+msgid ""
+"To open the activity view for an application, select the :guilabel:`🕘 "
+"(clock)` icon from the menu bar anywhere in the database. Select any "
+"application from the drop-down menu, and click the :guilabel:`🕘 (clock)` "
+"icon for the desired app."
+msgstr ""
+"За да отворите изгледа на дейността за дадено приложение, изберете иконата :"
+"guilabel:`🕘 (часовник)` от лентата с менюта навсякъде в базата данни. "
+"Изберете някое приложение от падащото меню и щракнете върху иконата :"
+"guilabel:`🕘 (часовник)` за желаното приложение."
+
+#: ../../content/applications/essentials/activities.rst:0
+msgid ""
+"Activity menu drop down with focus on where to open activity view for CRM."
+msgstr ""
+"Падащо меню Дейности с фокус върху мястото за отваряне на изглед на "
+"дейностите за CRM."
+
+#: ../../content/applications/essentials/activities.rst:85
+msgid ""
+"Select a record on which to schedule an activity. Move across the row to "
+"find the desired activity type, then click the :guilabel:`＋ (plus sign)`."
+msgstr ""
+"Изберете запис, за който да планирате дейност. Преместете се по реда, за да "
+"намерите желания тип дейност, след което щракнете върху :guilabel:`＋ (знак "
+"плюс)`."
+
+#: ../../content/applications/essentials/activities.rst:0
+msgid ""
+"Activity view of the CRM pipeline and the option to schedule an activity."
+msgstr ""
+"Преглед на дейностите в CRM конвейера и възможност за планиране на дейност."
+
+#: ../../content/applications/essentials/activities.rst:92
+msgid ""
+"Activity colors, and their relation to an activity's due date, is consistent "
+"throughout Odoo, regardless of the activity type, or the view."
+msgstr ""
+"Цветовете на дейностите и връзката им с крайния срок за изпълнение на дадена "
+"дейност са последователни в цялата система Odoo, независимо от типа дейност "
+"или изгледа."
+
+#: ../../content/applications/essentials/activities.rst:95
+msgid ""
+"Activities that appear in **green** indicate a due date sometime in the "
+"future."
+msgstr ""
+"Дейностите, които се появяват в **зелено**, означават, че срокът за "
+"изпълнение ще настъпи в бъдеще."
+
+#: ../../content/applications/essentials/activities.rst:96
+msgid "**Yellow** indicates that the activity's due date is today."
+msgstr "**Жълтото** означава, че срокът за изпълнение на дейността е днес."
+
+#: ../../content/applications/essentials/activities.rst:97
+msgid ""
+"**Red** indicates that the activity is overdue and the due date has passed."
+msgstr "**Червено** означава, че дейността е просрочена и срокът е изтекъл."
+
+#: ../../content/applications/essentials/activities.rst:99
+msgid ""
+"For example, if an activity is created for a phone call, and the due date "
+"passes, the activity appears with a red phone in list view, and a red clock "
+"on the kanban view."
+msgstr ""
+"Например, ако е създадена дейност за телефонно обаждане и срокът за "
+"изпълнение изтече, дейността се показва с червен телефон в изгледа на "
+"списъка и с червен часовник в изгледа на каналите."
+
+#: ../../content/applications/essentials/activities.rst:103
+msgid "View scheduled activities"
+msgstr "Преглед на планираните дейности"
+
+#: ../../content/applications/essentials/activities.rst:105
+msgid ""
+"To view scheduled activities, open either the :menuselection:`Sales app` or :"
+"menuselection:`CRM app` and click the :guilabel:`🕘 (clock)` icon, located to "
+"the far-right side of the other view options."
+msgstr ""
+"За да видите планираните дейности, отворете приложението :menuselection:"
+"`Sales` или :menuselection:`CRM` и щракнете върху иконата :guilabel:`🕘 "
+"(часовник)`, разположена вдясно от другите опции за изглед."
+
+#: ../../content/applications/essentials/activities.rst:108
+msgid ""
+"Doing so opens the activities menu, showcasing all the scheduled activities "
+"for the user, by default. To show all activities for every user, remove the :"
+"guilabel:`My Pipeline` filter from the :guilabel:`Search...` bar."
+msgstr ""
+"По този начин се отваря менюто с дейности, в което по подразбиране са "
+"показани всички планирани дейности за потребителя. За да покажете всички "
+"дейности за всеки потребител, премахнете филтъра :guilabel:`My Pipeline` "
+"(Моят тръбопровод) от лентата :guilabel:`Search...` (Търсене...`)."
+
+#: ../../content/applications/essentials/activities.rst:112
+msgid ""
+"To view a consolidated list of activities separated by the application where "
+"they were created, and by deadline, click the :guilabel:`🕘 (clock)` icon on "
+"the header menu to see the activities for that specific application in a "
+"drop-down menu."
+msgstr ""
+"За да видите консолидиран списък на дейностите, разделени по приложението, в "
+"което са създадени, и по крайния срок, щракнете върху иконата :guilabel:`🕘 "
+"(часовник)` в заглавното меню, за да видите дейностите за конкретното "
+"приложение в падащо меню."
+
+#: ../../content/applications/essentials/activities.rst:116
+msgid ""
+"The possibility to :guilabel:`Add new note` and :guilabel:`Request a "
+"Document` appear at the bottom of this drop-down menu, when the :guilabel:`🕘 "
+"(clock)` icon on the header menu is clicked."
+msgstr ""
+"Възможността за :guilabel:`Add new note` (Добавяне на нова бележка) и :"
+"guilabel:`Request a Document` (Искане на документ) се появява в долната част "
+"на това падащо меню, когато се щракне върху иконата :guilabel:`🕘 (часовник)` "
+"в заглавното меню."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid "View of CRM leads page emphasizing the activities menu."
+msgstr ""
+"Изглед на страницата с водещи клиенти на CRM, в която се набляга на менюто с "
+"дейности."
+
+#: ../../content/applications/essentials/activities.rst:123
+msgid "Configure activity types"
+msgstr "Конфигуриране на видовете дейности"
+
+#: ../../content/applications/essentials/activities.rst:125
+msgid ""
+"To configure the types of activities in the database, go to :menuselection:"
+"`Settings app --> Discuss --> Activities --> Activity Types`."
+msgstr ""
+"За да конфигурирате типовете дейности в базата данни, отидете в :"
+"menuselection:`Приложение за настройки --> Обсъждане --> Дейности --> Типове "
+"дейности`."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid "View of the settings page emphasizing the menu activity types."
+msgstr ""
+"Изглед на страницата с настройки, в който се набляга на видовете дейности в "
+"менюто."
+
+#: ../../content/applications/essentials/activities.rst:131
+msgid ""
+"Doing so reveals the :guilabel:`Activity Types` page, where the existing "
+"activity types are found."
+msgstr ""
+"По този начин се показва страницата :guilabel:`Activity Types` (Видове "
+"дейности), където се намират съществуващите видове дейности."
+
+#: ../../content/applications/essentials/activities.rst:133
+msgid ""
+"To edit an existing activity type, select it from the list, then click :"
+"guilabel:`Edit`. To create a new activity type, click :guilabel:`Create`."
+msgstr ""
+"За да редактирате съществуващ тип дейност, изберете го от списъка, след "
+"което щракнете върху :guilabel:`Edit`. За да създадете нов тип дейност, "
+"щракнете върху :guilabel:`Create`."
+
+#: ../../content/applications/essentials/activities.rst:136
+msgid ""
+"At the top of a blank activity type form, start by choosing a :guilabel:"
+"`Name` for the new activity type."
+msgstr ""
+"В горната част на празния формуляр за тип дейност започнете с избора на :"
+"guilabel:`Name` за новия тип дейност."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid "New activity type form."
+msgstr "Нов формуляр за тип дейност."
+
+#: ../../content/applications/essentials/activities.rst:143
+msgid "Activity settings"
+msgstr "Настройки на дейността"
+
+#: ../../content/applications/essentials/activities.rst:146
+msgid "Action"
+msgstr "Действие"
+
+#: ../../content/applications/essentials/activities.rst:148
+msgid ""
+"The *Action* field specifies the intent of the activity. Some actions "
+"trigger specific behaviors after an activity is scheduled."
+msgstr ""
+"Полето *Действие* определя намерението на дейността. Някои действия "
+"предизвикват специфично поведение, след като дейността е планирана."
+
+#: ../../content/applications/essentials/activities.rst:151
+msgid ""
+"If :guilabel:`Upload Document` is selected, a link to upload a document is "
+"added directly to the planned activity in the chatter."
+msgstr ""
+"Ако е избрана опцията :guilabel:`Upload Document` (Качване на документ), "
+"директно към планираната дейност в чатъра се добавя връзка за качване на "
+"документ."
+
+#: ../../content/applications/essentials/activities.rst:153
+msgid ""
+"If either :guilabel:`Phonecall` or :guilabel:`Meeting` are selected, users "
+"have the option to open their calendar to schedule a time for this activity."
+msgstr ""
+"Ако са избрани :guilabel:`Phonecall` (Телефонно обаждане) или :guilabel:"
+"`Meeting` (Среща), потребителите имат възможност да отворят календара си, за "
+"да насрочат час за тази дейност."
+
+#: ../../content/applications/essentials/activities.rst:155
+msgid ""
+"If :guilabel:`Request Signature` is selected, a link is added to the planned "
+"activity in the chatter that opens a signature request pop-up window."
+msgstr ""
+"Ако е избрано :guilabel:`Поискай подпис`, към планираната дейност в чатъра "
+"се добавя връзка, която отваря изскачащ прозорец за искане на подпис."
+
+#: ../../content/applications/essentials/activities.rst:159
+msgid ""
+"The actions available to select on an activity type vary, depending on the "
+"applications currently installed in the database."
+msgstr ""
+"Действията, които могат да се изберат за даден тип дейност, се различават в "
+"зависимост от приложенията, инсталирани в момента в базата данни."
+
+#: ../../content/applications/essentials/activities.rst:163
+msgid "Default user"
+msgstr "Потребител по подразбиране"
+
+#: ../../content/applications/essentials/activities.rst:165
+msgid ""
+"To automatically assign this activity to a specific user when this activity "
+"type is scheduled, choose a name from the :guilabel:`Default User` drop-down "
+"menu. If this field is left blank, the activity is assigned to the user who "
+"creates the activity."
+msgstr ""
+"За да възложите автоматично тази дейност на конкретен потребител, когато се "
+"планира този тип дейност, изберете име от падащото меню :guilabel:`Default "
+"User` (Потребител по подразбиране). Ако това поле е оставено празно, "
+"дейността се назначава на потребителя, който създава дейността."
+
+#: ../../content/applications/essentials/activities.rst:170
+msgid "Default summary"
+msgstr "Обобщение по подразбиране"
+
+#: ../../content/applications/essentials/activities.rst:172
+msgid ""
+"To include notes whenever this activity type is created, enter them into "
+"the :guilabel:`Default Summary` field."
+msgstr ""
+"За да включите бележки винаги, когато се създава този тип дейност, въведете "
+"ги в полето :guilabel:`Default Summary`."
+
+#: ../../content/applications/essentials/activities.rst:176
+msgid ""
+"The information in the :guilabel:`Default User` and :guilabel:`Default "
+"Summary` fields are included when an activity is created. However, they can "
+"be altered before the activity is scheduled or saved."
+msgstr ""
+"Информацията в полетата :guilabel:`Default User` (Потребител по "
+"подразбиране) и :guilabel:`Default Summary` (Обобщение по подразбиране) се "
+"включва при създаването на дейност. Те обаче могат да бъдат променяни преди "
+"планирането или запазването на дейността."
+
+#: ../../content/applications/essentials/activities.rst:181
+msgid "Next activity"
+msgstr "Следваща дейност"
+
+#: ../../content/applications/essentials/activities.rst:183
+msgid ""
+"To automatically suggest, or trigger, a new activity after an activity has "
+"been marked complete, the :guilabel:`Chaining Type` must be set."
+msgstr ""
+"За да се предложи автоматично или да се задейства нова дейност, след като "
+"дадена дейност е била отбелязана като завършена, трябва да се зададе :"
+"guilabel:`Chaining Type`."
+
+#: ../../content/applications/essentials/activities.rst:187
+msgid "Suggest next activity"
+msgstr "Предложете следващата дейност"
+
+#: ../../content/applications/essentials/activities.rst:189
+msgid ""
+"In the :guilabel:`Chaining Type` field, select :guilabel:`Suggest Next "
+"Activity`. Upon doing so, the field underneath changes to: :guilabel:"
+"`Suggest`. Click the :guilabel:`Suggest` field drop-down menu to select any "
+"activities to recommend as follow-up tasks to this activity type."
+msgstr ""
+"В полето :guilabel:`Chaining Type` (Тип на веригата) изберете :guilabel:"
+"`Suggest Next Activity` (Предлагане на следваща дейност). След като "
+"направите това, полето отдолу се променя на: :guilabel:`Suggest` (Предлагане "
+"на дейност). Щракнете върху падащото меню на полето :guilabel:`Suggest`, за "
+"да изберете всички дейности, които да препоръчате като последващи задачи към "
+"този тип дейност."
+
+#: ../../content/applications/essentials/activities.rst:193
+#: ../../content/applications/essentials/activities.rst:220
+msgid ""
+"In the :guilabel:`Schedule` field, choose a default deadline for these "
+"activities. To do so, configure a desired number of :guilabel:`Days`, :"
+"guilabel:`Weeks`, or :guilabel:`Months`. Then, decide if it should occur :"
+"guilabel:`after completion date` or :guilabel:`after previous activity "
+"deadline`."
+msgstr ""
+"В полето :guilabel:`Schedule` (График) изберете краен срок по подразбиране "
+"за тези дейности. За целта конфигурирайте желания брой :guilabel:`Days` "
+"(Дни), :guilabel:`Weeks` (Седмици) или :guilabel:`Months` (Месеци). След "
+"това решете дали това трябва да се случи :guilabel:`след датата на "
+"завършване` или :guilabel:`след крайния срок на предишната дейност`."
+
+#: ../../content/applications/essentials/activities.rst:198
+#: ../../content/applications/essentials/activities.rst:225
+msgid ""
+"This :guilabel:`Schedule` field information can be altered before the "
+"activity is scheduled."
+msgstr ""
+"Тази информация в полето :guilabel:`Schedule` може да бъде променена, преди "
+"дейността да бъде планирана."
+
+#: ../../content/applications/essentials/activities.rst:200
+#: ../../content/applications/essentials/activities.rst:227
+msgid "When all configurations are complete, click :guilabel:`Save`."
+msgstr ""
+"Когато всички конфигурации са завършени, щракнете върху :guilabel:`Save`."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid "Schedule activity popup with emphasis on recommended activities."
+msgstr ""
+"Изскачащ прозорец за планиране на дейностите с акцент върху препоръчаните "
+"дейности."
+
+#: ../../content/applications/essentials/activities.rst:206
+msgid ""
+"If an activity has the :guilabel:`Chaining Type` set to :guilabel:`Suggest "
+"Next Activity`, and has activities listed in the :guilabel:`Suggest` field, "
+"users are presented with recommendations for activities as next steps."
+msgstr ""
+"Ако за дадена дейност в полето :guilabel:`Chaining Type` (Тип на свързване) "
+"е зададено :guilabel:`Suggest Next Activity` (Предлагане на следваща "
+"дейност) и има дейности, изброени в полето :guilabel:`Suggest` (Предлагане), "
+"на потребителите се представят препоръки за дейности като следващи стъпки."
+
+#: ../../content/applications/essentials/activities.rst:211
+msgid "Trigger next activity"
+msgstr "Стартиране на следващата дейност"
+
+#: ../../content/applications/essentials/activities.rst:213
+msgid ""
+"Setting the :guilabel:`Chaining Type` to :guilabel:`Trigger Next Activity` "
+"immediately launches the next activity once the previous one is completed."
+msgstr ""
+"Задаването на :guilabel:`Chaining Type` на :guilabel:`Trigger Next Activity` "
+"незабавно стартира следващата дейност, след като предишната е завършена."
+
+#: ../../content/applications/essentials/activities.rst:216
+msgid ""
+"If :guilabel:`Trigger Next Activity` is selected in the :guilabel:`Chaining "
+"Type` field, the field beneath changes to: :guilabel:`Trigger`. From the :"
+"guilabel:`Trigger` field drop-down menu, select the activity that should be "
+"launched once this activity is completed."
+msgstr ""
+"Ако в полето :guilabel:`Trigger Next Activity` е избрано :guilabel:`Chaining "
+"Type`, полето отдолу се променя на: :guilabel:`Trigger`. От падащото меню на "
+"полето :guilabel:`Trigger` (Двигател) изберете дейността, която трябва да "
+"бъде стартирана след приключване на тази дейност."
+
+#: ../../content/applications/essentials/activities.rst:-1
+msgid ""
+"Schedule new activity popup with emphasis on Done and launch next button."
+msgstr ""
+"Изскачащ прозорец за планиране на нова дейност с акцент върху бутона \"Готово"
+"\" и \"Стартирай следващия\"."
+
+#: ../../content/applications/essentials/activities.rst:233
+msgid ""
+"When an activity has the :guilabel:`Chaining Type` set to :guilabel:`Trigger "
+"Next Activity`, marking the activity as `Done` immediately launches the next "
+"activity listed in the :guilabel:`Trigger` field."
+msgstr ""
+"Когато дадена дейност има :guilabel:`Chaining Type` (Тип на свързване), "
+"зададен на :guilabel:`Trigger Next Activity` (Задействай следващата "
+"дейност), маркирането на дейността като `Done` (Приключена) незабавно "
+"стартира следващата дейност, посочена в полето :guilabel:`Trigger` "
+"(Задействай)."
+
+#: ../../content/applications/essentials/activities.rst:238
+msgid ":doc:`/applications/productivity/discuss`"
+msgstr ":doc:`/applications/productivity/discuss`"
+
+#: ../../content/applications/essentials/activities.rst:239
+msgid ":doc:`/applications/productivity/discuss/team_communication`"
+msgstr ":doc:`/applications/productivity/discuss/team_communication`"
+
+#: ../../content/applications/essentials/contacts.rst:3
+msgid "Contacts"
+msgstr "Контакти"
+
+#: ../../content/applications/essentials/contacts.rst:5
+msgid ""
+"The *Contacts* application comes installed on all Odoo databases. Contacts "
+"are created for customers the company does business with through Odoo. A "
+"contact is a repository of vital business information, facilitating "
+"communication and business transactions."
+msgstr ""
+"Приложението *Контакти* е инсталирано във всички бази данни на Odoo. "
+"Контактите се създават за клиентите, с които компанията работи чрез Odoo. "
+"Контактът е хранилище на важна бизнес информация, която улеснява "
+"комуникацията и бизнес транзакциите."
+
+#: ../../content/applications/essentials/contacts.rst:10
+msgid "Contact form"
+msgstr "Форма за контакт"
+
+#: ../../content/applications/essentials/contacts.rst:12
+msgid ""
+"To create a new contact, navigate to the :menuselection:`Contacts app`, and "
+"click :guilabel:`Create`. A new form appears where various contact "
+"information can be added."
+msgstr ""
+"За да създадете нов контакт, преминете към приложението :menuselection:"
+"`Contacts` и щракнете върху :guilabel:`Create`. Появява се нов формуляр, в "
+"който може да се добави различна информация за контакта."
+
+#: ../../content/applications/essentials/contacts.rst:16
+msgid "Contact type"
+msgstr "Вид на контакта"
+
+#: ../../content/applications/essentials/contacts.rst:18
+msgid ""
+"Odoo allows for both :guilabel:`Individual` and :guilabel:`Company` "
+"contacts. Select either :guilabel:`Individual` or :guilabel:`Company`, "
+"depending on the type of contact that is being added."
+msgstr ""
+"Odoo позволява както :guilabel:`Individual`, така и :guilabel:`Company` "
+"контакти. Изберете или :guilabel:`Individual` (Индивидуален), или :guilabel:"
+"`Company` (Фирма), в зависимост от вида на контакта, който се добавя."
+
+#: ../../content/applications/essentials/contacts.rst:22
+msgid "Name"
+msgstr "Име"
+
+#: ../../content/applications/essentials/contacts.rst:24
+msgid ""
+"First, fill in the name of the :guilabel:`Individual` or :guilabel:"
+"`Company`. This is how the name appears throughout the database. This field "
+"is **mandatory**."
+msgstr ""
+"Първо, попълнете името на :guilabel:`Individual` (Физическо лице) или :"
+"guilabel:`Company` (Фирма). По този начин името се появява в цялата база "
+"данни. Това поле е **задължително**."
+
+#: ../../content/applications/essentials/contacts.rst:28
+msgid ""
+":guilabel:`Individual` contacts can have a :guilabel:`Company` contact "
+"linked to it. After selecting :guilabel:`Individual`, a new :guilabel:"
+"`Company Name...` field appears below the first name field."
+msgstr ""
+":guilabel:`Individual` контактите могат да имат :guilabel:`Company` контакт, "
+"свързан с тях. След като изберете :guilabel:`Individual` (Индивидуален), под "
+"полето за първо име се появява ново поле :guilabel:`Company Name...` (Име на "
+"фирмата...`)."
+
+#: ../../content/applications/essentials/contacts.rst:33
+msgid "Address"
+msgstr "Адрес"
+
+#: ../../content/applications/essentials/contacts.rst:35
+msgid ""
+"Next, enter the :guilabel:`Address` of the :guilabel:`Company` or :guilabel:"
+"`Individual`."
+msgstr ""
+"След това въведете :guilabel:`Address` (адрес) на :guilabel:`Company` "
+"(фирма) или :guilabel:`Individual` (физическо лице)."
+
+#: ../../content/applications/essentials/contacts.rst:38
+msgid ""
+"If the :guilabel:`Individual` option is chosen, then the *type of address* "
+"can be chosen from a drop-down menu. Options for this drop-down menu "
+"include: :guilabel:`Contact`, :guilabel:`Invoice Address`, :guilabel:"
+"`Delivery Address`, :guilabel:`Other Address`, and :guilabel:`Private "
+"Address`."
+msgstr ""
+"Ако е избрана опцията :guilabel:`Individual` (Индивидуален), тогава *типът "
+"на адреса* може да бъде избран от падащо меню. Опциите за това падащо меню "
+"включват: :guilabel:`Контакт`, :guilabel:`Адрес на фактура`, :guilabel:"
+"`Адрес на доставка`, :guilabel:`Друг адрес` и :guilabel:`Частен адрес`."
+
+#: ../../content/applications/essentials/contacts.rst:44
+msgid "Additional fields"
+msgstr "Допълниетелни Полета"
+
+#: ../../content/applications/essentials/contacts.rst:46
+msgid ""
+"Additional details are included on the initial form. The following fields "
+"are available:"
+msgstr ""
+"В първоначалния формуляр са включени допълнителни данни. Налични са следните "
+"полета:"
+
+#: ../../content/applications/essentials/contacts.rst:48
+msgid ":guilabel:`VAT`: Value Added Tax number."
+msgstr ":guilabel:`VAT`: Номер на данъка върху добавената стойност."
+
+#: ../../content/applications/essentials/contacts.rst:49
+msgid ""
+":guilabel:`Citizen Identification`: citizen or government identification "
+"number (only available on :guilabel:`Individual`)."
+msgstr ""
+":guilabel:`Citizen Identification`: идентификационен номер на гражданина или "
+"правителството (наличен само за :guilabel:`Individual`)."
+
+#: ../../content/applications/essentials/contacts.rst:51
+msgid ""
+":guilabel:`Job Position`: list the job position of the :guilabel:"
+"`Individual` (only available on :guilabel:`Individual`)."
+msgstr ""
+":guilabel:`Job Position`: изброяване на длъжността на :guilabel:`Individual` "
+"(налично само за :guilabel:`Individual`)."
+
+#: ../../content/applications/essentials/contacts.rst:53
+msgid ""
+":guilabel:`Phone`: list phone number (with country code). Make a call, send "
+"an SMS, or WhatsApp message by hovering over the field on the saved form, "
+"and clicking the desired option."
+msgstr ""
+":guilabel:`Phone`: изписване на телефонния номер (с кода на страната). "
+"Направете обаждане, изпратете SMS или съобщение в WhatsApp, като наведете "
+"мишката върху полето в запазения формуляр и щракнете върху желаната опция."
+
+#: ../../content/applications/essentials/contacts.rst:55
+msgid ""
+":guilabel:`Mobile`: list mobile phone number (with country code). Make a "
+"call, send an SMS, or WhatsApp message by hovering over the field on the "
+"saved form, and clicking on the desired option."
+msgstr ""
+":guilabel:`Mobile`: посочете номера на мобилния телефон (с кода на "
+"страната). Направете обаждане, изпратете SMS или съобщение в WhatsApp, като "
+"наведете мишката върху полето в запазения формуляр и щракнете върху желаната "
+"опция."
+
+#: ../../content/applications/essentials/contacts.rst:57
+msgid ":guilabel:`Email`: enter the email address with the domain."
+msgstr ":guilabel:`Email`: въведете имейл адреса с домейна."
+
+#: ../../content/applications/essentials/contacts.rst:58
+msgid ""
+":guilabel:`Website`: enter the full website address, starting with `http` or "
+"`https`."
+msgstr ""
+":guilabel:`Website`: въведете пълния адрес на уебсайта, започващ с `http` "
+"или `https`."
+
+#: ../../content/applications/essentials/contacts.rst:59
+msgid ""
+":guilabel:`Title`: select :guilabel:`Doctor`, :guilabel:`Madam`, :guilabel:"
+"`Miss`, :guilabel:`Mister`, :guilabel:`Professor`, or create a new one "
+"directly from this field."
+msgstr ""
+":guilabel:`Title`: изберете :guilabel:`Doctor` (доктор), :guilabel:`Madam` "
+"(госпожа), :guilabel:`Miss` (госпожа), :guilabel:`Mister` (господин), :"
+"guilabel:`Professor` (професор) или създайте нов директно от това поле."
+
+#: ../../content/applications/essentials/contacts.rst:61
+msgid ""
+":guilabel:`Tags`: enter preconfigured tags by typing them in the field, or "
+"clicking the drop-down menu, and selecting one. To create a new one, type "
+"the new tag in the field, and click :guilabel:`Create` from the resulting "
+"drop-down menu."
+msgstr ""
+":guilabel:`Tags`: въведете предварително конфигурирани тагове, като ги "
+"въведете в полето или щракнете върху падащото меню и изберете един от тях. "
+"За да създадете нов такъв, въведете новия таг в полето и щракнете върху :"
+"guilabel:`Създай` от полученото падащо меню."
+
+#: ../../content/applications/essentials/contacts.rst:66
+msgid "Contacts & Addresses tab"
+msgstr "Таб Контакти и адреси"
+
+#: ../../content/applications/essentials/contacts.rst:68
+msgid ""
+"At the bottom of the contact form are several tabs. On the :guilabel:"
+"`Contacts & Addresses` tab, contacts can be added that are associated with "
+"a :guilabel:`Company` and related addresses. For example, a specific contact "
+"person for the company can be listed here."
+msgstr ""
+"В долната част на формуляра за контакт има няколко раздела. В раздела :"
+"guilabel:`Контакти и адреси` могат да се добавят контакти, които са свързани "
+"с :guilabel:`Фирма` и свързаните с нея адреси. Например тук може да се "
+"посочи конкретно лице за контакт за компанията."
+
+#: ../../content/applications/essentials/contacts.rst:72
+msgid ""
+"Multiple addresses can be added on both :guilabel:`Individual` and :guilabel:"
+"`Company` contacts. To do so, click :guilabel:`Add` in the :guilabel:"
+"`Contacts & Addresses` tab. Doing so reveals a :guilabel:`Create Contact` "
+"pop-up form, in which additional addresses can be configured."
+msgstr ""
+"Няколко адреса могат да бъдат добавени както за :guilabel:`Individual`, така "
+"и за :guilabel:`Company` контакти. За да направите това, щракнете върху :"
+"guilabel:`Add` (Добавяне) в раздела :guilabel:`Contacts & Addresses` "
+"(Контакти и адреси). По този начин се разкрива изскачащ формуляр :guilabel:"
+"`Създаване на контакт`, в който могат да се конфигурират допълнителни адреси."
+
+#: ../../content/applications/essentials/contacts.rst:-1
+msgid "Add a contact/address to the contact form."
+msgstr "Добавяне на контакт/адрес към формата за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:80
+msgid ""
+"On the :guilabel:`Create Contact` pop-up form, start by clicking the "
+"default :guilabel:`Other Address` field at the top to reveal a drop-down "
+"menu of address-related options."
+msgstr ""
+"В изскачащия формуляр :guilabel:`Създаване на контакт` започнете, като "
+"щракнете върху полето по подразбиране :guilabel:`Друг адрес` в горната част, "
+"за да се покаже падащо меню с опции, свързани с адреса."
+
+#: ../../content/applications/essentials/contacts.rst:83
+msgid "Select any of the following options:"
+msgstr "Изберете някоя от следните опции:"
+
+#: ../../content/applications/essentials/contacts.rst:85
+msgid ":guilabel:`Contact`: adds another contact to the existing contact form."
+msgstr ""
+":guilabel:`Contact`: добавя още един контакт към съществуващата форма за "
+"контакт."
+
+#: ../../content/applications/essentials/contacts.rst:86
+msgid ""
+":guilabel:`Invoice Address`: adds a specific invoice address to the existing "
+"contact form."
+msgstr ""
+":guilabel:`Invoice Address`: добавя конкретен адрес на фактура към "
+"съществуващата форма за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:87
+msgid ""
+":guilabel:`Delivery Address`: adds a specific delivery address to the "
+"existing contact form."
+msgstr ""
+":guilabel:`Delivery Address`: добавя конкретен адрес за доставка към "
+"съществуващата форма за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:88
+msgid ""
+":guilabel:`Other Address`: adds an alternate address to the existing contact "
+"form."
+msgstr ""
+":guilabel:`Other Address`: добавя алтернативен адрес към съществуващата "
+"форма за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:89
+msgid ""
+":guilabel:`Private Address`: adds a private address to the existing contact "
+"form."
+msgstr ""
+":guilabel:`Private Address`: добавя частен адрес към съществуващата форма за "
+"контакт."
+
+#: ../../content/applications/essentials/contacts.rst:-1
+msgid "Create a new contact/address on a contact form."
+msgstr "Създаване на нов контакт/адрес във формуляр за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:95
+msgid ""
+"Once an option is selected, enter the corresponding contact information that "
+"should be used for the specified address type."
+msgstr ""
+"След като изберете опцията, въведете съответната информация за контакт, "
+"която трябва да се използва за определения тип адрес."
+
+#: ../../content/applications/essentials/contacts.rst:98
+msgid ""
+"Add the :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
+"along with the :guilabel:`Phone` and/or :guilabel:`Mobile` numbers below."
+msgstr ""
+"Добавете :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
+"заедно с :guilabel:`Phone` и/или :guilabel:`Mobile` номера по-долу."
+
+#: ../../content/applications/essentials/contacts.rst:101
+msgid ""
+"Set the :guilabel:`Job Position`, which appears if the :guilabel:`Contact` "
+"address type has been selected. This is similar to the :guilabel:"
+"`Individual` contact."
+msgstr ""
+"Задайте :guilabel:`Job Position` (Позиция на работа), която се появява, ако "
+"е избран типът на адреса :guilabel:`Contact` (Контакт). Това е подобно на :"
+"guilabel:`Individual` (Индивидуален контакт)."
+
+#: ../../content/applications/essentials/contacts.rst:104
+msgid ""
+"To add a note, click on the text field next to :guilabel:`Notes`, and write "
+"anything that is applicable to the customer or contact."
+msgstr ""
+"За да добавите бележка, щракнете върху текстовото поле до :guilabel:`Notes` "
+"и напишете всичко, което се отнася за клиента или контакта."
+
+#: ../../content/applications/essentials/contacts.rst:107
+msgid ""
+"Then, click :guilabel:`Save & Close` to save the address, and close the :"
+"guilabel:`Create Contact` window. Or, click :guilabel:`Save & New` to save "
+"the address, and immediately input another one."
+msgstr ""
+"След това щракнете върху :guilabel:`Save & Close`, за да запазите адреса и "
+"да затворите прозореца :guilabel:`Create Contact`. Или щракнете върху :"
+"guilabel:`Save & New`, за да запазите адреса и веднага да въведете друг."
+
+#: ../../content/applications/essentials/contacts.rst:111
+msgid "Sales & Purchase tab"
+msgstr "Раздел Продажби и покупки"
+
+#: ../../content/applications/essentials/contacts.rst:113
+msgid ""
+"Next, is the :guilabel:`Sales & Purchases` tab, which only appears when the "
+"*Sales*, *Purchase*, **or** *Point of Sale* applications are installed."
+msgstr ""
+"След това се намира разделът :guilabel:`Sales & Purchases` (Продажби и "
+"покупки), който се появява само когато са инсталирани приложенията *Sales* "
+"(Продажби), *Purchase* (Покупки) или ** *Point of Sale* (Място на продажба)."
+
+#: ../../content/applications/essentials/contacts.rst:116
+msgid ""
+"The :guilabel:`Fiscal Position` can be set on the :guilabel:`Sales & "
+"Purchases` tab. Select a :guilabel:`Fiscal Position` from the drop-down menu."
+msgstr ""
+":guilabel:`Фискална позиция` може да се зададе в раздела :guilabel:`Продажби "
+"и покупки`. Изберете :guilabel:`Fiscal Position` (Фискална позиция) от "
+"падащото меню."
+
+#: ../../content/applications/essentials/contacts.rst:120
+msgid "Sales section"
+msgstr "Раздел \"Продажби"
+
+#: ../../content/applications/essentials/contacts.rst:122
+msgid ""
+"Under the :guilabel:`Sales` heading, a specific :guilabel:`Salesperson` can "
+"be assigned to a contact. To do that, click the :guilabel:`Salesperson` drop-"
+"down field, and select one. Create a new :guilabel:`Salesperson` by typing "
+"the user's name, and making the appropriate selection."
+msgstr ""
+"В рубриката :guilabel:`Sales` (Продажби) на даден контакт може да бъде "
+"назначен конкретен :guilabel:`Salesperson` (Продавач). За да направите това, "
+"щракнете върху падащото поле :guilabel:`Salesperson` и изберете един от тях. "
+"Създайте нов :guilabel:`Salesperson`, като въведете името на потребителя и "
+"направите съответния избор."
+
+#: ../../content/applications/essentials/contacts.rst:126
+msgid ""
+"Certain :guilabel:`Payment Terms`, or a certain :guilabel:`Pricelist`, can "
+"also be set, if needed. Click the drop-down menu next to :guilabel:`Payment "
+"Terms`, and change it to one of the preselected :guilabel:`Payment Terms`, "
+"or :guilabel:`Create` a new one. Select the :guilabel:`Pricelist` drop-down "
+"menu to choose the appropriate :guilabel:`Pricelist`."
+msgstr ""
+"Ако е необходимо, могат да бъдат зададени и определени :guilabel:`Payment "
+"Terms` (Условия за плащане) или определен :guilabel:`Pricelist` "
+"(Ценоразпис). Щракнете върху падащото меню до :guilabel:`Payment Terms` "
+"(Условия за плащане) и го променете на един от предварително избраните :"
+"guilabel:`Payment Terms` (Условия за плащане) или :guilabel:`Create` "
+"(Създайте нов). Изберете падащото меню :guilabel:`Pricelist` (Ценоразпис), "
+"за да изберете подходящия :guilabel:`Pricelist` (Ценоразпис)."
+
+#: ../../content/applications/essentials/contacts.rst:131
+msgid ""
+"Click into the :guilabel:`Delivery Method` field to select an option from "
+"the drop-down menu."
+msgstr ""
+"Щракнете върху полето :guilabel:`Delivery Method` (Метод на доставка), за да "
+"изберете опция от падащото меню."
+
+#: ../../content/applications/essentials/contacts.rst:134
+msgid "Point Of Sale section"
+msgstr "Раздел Point Of Sale"
+
+#: ../../content/applications/essentials/contacts.rst:136
+msgid ""
+"Under the :guilabel:`Point Of Sale` heading, enter a :guilabel:`Barcode` "
+"that can be used to identify the contact. Use the :guilabel:`Loyalty Points` "
+"field to track points the user won as part of a *Loyalty Program*."
+msgstr ""
+"Под заглавието :guilabel:`Point Of Sale` (Място на продажба) въведете :"
+"guilabel:`Barcode` (Баркод), който може да се използва за идентифициране на "
+"контакта. Използвайте полето :guilabel:`Loyalty Points` (Точки за лоялност), "
+"за да проследите точките, които потребителят е спечелил като част от "
+"програма *Loyalty Program* (Програма за лоялност)."
+
+#: ../../content/applications/essentials/contacts.rst:141
+msgid "Purchase section"
+msgstr "Раздел за закупуване"
+
+#: ../../content/applications/essentials/contacts.rst:143
+msgid ""
+"Specify :guilabel:`Payment Terms`, :guilabel:`1099 Box` information, and a "
+"preferred :guilabel:`Payment Method` here. A :guilabel:`Receipt Reminder` "
+"can be set here, as well."
+msgstr ""
+"Тук посочете :guilabel:`Payment Terms` (Условия за плащане), :guilabel:`1099 "
+"Box` (Информация за кутията 1099) и предпочитан :guilabel:`Payment Method` "
+"(Метод за плащане). Тук може да се зададе и :guilabel:`Receipt Reminder`."
+
+#: ../../content/applications/essentials/contacts.rst:147
+msgid "Misc section"
+msgstr "Раздел \"Разни"
+
+#: ../../content/applications/essentials/contacts.rst:149
+msgid ""
+"Under the :guilabel:`Misc.` heading, use :guilabel:`Reference` field to add "
+"any additional information for this contact. If this contact should only be "
+"accessible for one company in a multi-company database, select it from the :"
+"guilabel:`Company` field drop-down list. Use the :guilabel:`Website` drop-"
+"down menu to restrict the publishing of this contact to one website (if "
+"working on a database with multiple websites). Select one or more :guilabel:"
+"`Website Tags` to assist in filtering published customers on the `/"
+"customers` website page. Select an :guilabel:`Industry` for this contact "
+"from the drop-down menu. Use the :guilabel:`SLA Policies` field to assign a "
+"*Helpdesk* SLA policy to this contact."
+msgstr ""
+"Под заглавието :guilabel:`Misc.` използвайте полето :guilabel:`Reference`, "
+"за да добавите допълнителна информация за този контакт. Ако този контакт "
+"трябва да бъде достъпен само за една компания в база данни с няколко "
+"компании, изберете я от падащия списък на полето :guilabel:`Company`. "
+"Използвайте :guilabel:`Website` (Сайт) падащото меню, за да ограничите "
+"публикуването на този контакт до един сайт (ако работите с база данни с "
+"множество сайтове). Изберете един или повече :guilabel:`Website Tags`, за да "
+"подпомогнете филтрирането на публикуваните клиенти на страницата на уебсайта "
+"`/customers`. Изберете :guilabel:`Industry` (Отрасъл) за този контакт от "
+"падащото меню. Използвайте полето :guilabel:`SLA Policies`, за да зададете "
+"*Helpdesk* SLA политика на този контакт."
+
+#: ../../content/applications/essentials/contacts.rst:159
+msgid "Accounting tab"
+msgstr "Раздел Счетоводство"
+
+#: ../../content/applications/essentials/contacts.rst:161
+msgid ""
+"The :guilabel:`Accounting` tab appears when the *Accounting* application is "
+"installed. Here, a user can add any related :guilabel:`Bank Accounts`, or "
+"set default :guilabel:`Accounting entries`."
+msgstr ""
+"Табът :guilabel:`Accounting` се появява, когато е инсталирано приложението "
+"*Accounting*. Тук потребителят може да добави всякакви свързани :guilabel:"
+"`Банкови сметки` или да зададе :guilabel:`Счетоводни записи` по подразбиране."
+
+#: ../../content/applications/essentials/contacts.rst:164
+msgid ""
+"Under the :guilabel:`Miscellaneous` heading, use the :guilabel:`LEI` field "
+"to enter a Legal Entity Identifier, if necessary."
+msgstr ""
+"В рубриката :guilabel:`Miscellaneous` (Разни) използвайте полето :guilabel:"
+"`LEI` (Идентификатор на юридическото лице), за да въведете идентификатор на "
+"юридическото лице, ако е необходимо."
+
+#: ../../content/applications/essentials/contacts.rst:168
+msgid "Internal Notes tab"
+msgstr "Таб Вътрешни бележки"
+
+#: ../../content/applications/essentials/contacts.rst:170
+msgid ""
+"Following the :guilabel:`Accounting` tab is the :guilabel:`Internal Notes` "
+"tab, where notes can be left on this contact form, just like on the contact "
+"form noted above."
+msgstr ""
+"След раздела :guilabel:`Accounting` (Счетоводство) се намира разделът :"
+"guilabel:`Internal Notes` (Вътрешни бележки), в който могат да се оставят "
+"бележки за този формуляр за контакт, точно както за формуляра за контакт, "
+"отбелязан по-горе."
+
+#: ../../content/applications/essentials/contacts.rst:174
+msgid "Partner Assignment tab"
+msgstr "Таб Партньорско назначение"
+
+#: ../../content/applications/essentials/contacts.rst:176
+msgid ""
+"Next is the :guilabel:`Partner Assignment` tab, which by default, includes "
+"a :guilabel:`Geolocation` section, and other partner options, including :"
+"guilabel:`Partner Activation` and :guilabel:`Partner Review` configurations. "
+"These are **only** present when the *Enterprise Resellers* module is "
+"installed."
+msgstr ""
+"Следва табът :guilabel:`Partner Assignment` (Присвояване на партньор), който "
+"по подразбиране включва раздел :guilabel:`Geolocation` (Геолокация) и други "
+"партньорски опции, включително конфигурации :guilabel:`Partner Activation` "
+"(Активиране на партньор) и :guilabel:`Partner Review` (Преглед на партньор). "
+"Те присъстват **само** когато е инсталиран модулът *Enterprise Resellers*."
+
+#: ../../content/applications/essentials/contacts.rst:182
+msgid "Membership tab"
+msgstr "Раздел Членство"
+
+#: ../../content/applications/essentials/contacts.rst:184
+msgid ""
+"Finally, there is the :guilabel:`Membership` tab, which can help users "
+"manage any memberships that are being offered to this specific contact. It "
+"should be noted that this tab only appears when the *Members* applications "
+"is installed."
+msgstr ""
+"И накрая, има раздел :guilabel:`Membership`, който може да помогне на "
+"потребителите да управляват всички членства, които се предлагат на този "
+"конкретен контакт. Трябва да се отбележи, че този раздел се появява само "
+"когато са инсталирани приложенията *Members*."
+
+#: ../../content/applications/essentials/contacts.rst:189
+msgid "Smart buttons"
+msgstr "Интелигентни бутони"
+
+#: ../../content/applications/essentials/contacts.rst:191
+msgid ""
+"At the top of the contact form, there are some additional options available, "
+"known as *smart buttons*."
+msgstr ""
+"В горната част на формуляра за контакт има някои допълнителни опции, "
+"известни като *умни бутони*."
+
+#: ../../content/applications/essentials/contacts.rst:194
+msgid ""
+"Here, Odoo displays a variety of records, related to this contact, that were "
+"created on other apps. Odoo integrates information from every single app, so "
+"there are many smart buttons."
+msgstr ""
+"Тук Odoo показва различни записи, свързани с този контакт, които са "
+"създадени в други приложения. Odoo интегрира информация от всяко едно "
+"приложение, така че има много интелигентни бутони."
+
+#: ../../content/applications/essentials/contacts.rst:198
+msgid ""
+"For example, there is an :guilabel:`Opportunities` smart button, where all "
+"the opportunities related to this customer from the *CRM* app are accessible."
+msgstr ""
+"Например, има интелигентен бутон :guilabel:`Opportunities`, от който са "
+"достъпни всички възможности, свързани с този клиент, от приложението *CRM*."
+
+#: ../../content/applications/essentials/contacts.rst:202
+msgid ""
+"If the corresponding applications are installed, their related smart buttons "
+"appear automatically on a contact form."
+msgstr ""
+"Ако съответните приложения са инсталирани, свързаните с тях интелигентни "
+"бутони се появяват автоматично във формуляра за контакт."
+
+#: ../../content/applications/essentials/contacts.rst:205
+msgid ""
+"A user can see any :guilabel:`Meetings`, :guilabel:`Sales`, :guilabel:`POS "
+"Orders`, :guilabel:`Subscriptions`, project :guilabel:`Tasks`, and the :"
+"guilabel:`More` smart button reveals additional options, via a drop-down "
+"menu. A user can even quickly access :guilabel:`Purchases`, :guilabel:"
+"`Helpdesk` tasks, :guilabel:`On-time Rate` for deliveries, :guilabel:"
+"`Invoiced` information, :guilabel:`Vendor Bills`, and the :guilabel:`Partner "
+"Ledger` connected to this contact."
+msgstr ""
+"Потребителят може да види всички :guilabel:`Meetings` (Срещи), :guilabel:"
+"`Sales` (Продажби), :guilabel:`POS Orders` (Поръчки), :guilabel:"
+"`Subscriptions` (Абонаменти), проектни :guilabel:`Tasks` (Задачи), а "
+"интелигентният бутон :guilabel:`More` (Повече) разкрива допълнителни опции "
+"чрез падащо меню. Потребителят може дори да получи бърз достъп до :guilabel:"
+"`Покупки`, :guilabel:`Задачи от помощния отдел`, :guilabel:`Коефициент на "
+"навременност` за доставките, :guilabel:`Информация за фактурите`, :guilabel:"
+"`Сметка на доставчика` и :guilabel:`Книга на партньора`, свързана с този "
+"контакт."
+
+#: ../../content/applications/essentials/contacts.rst:211
+msgid ""
+"Deliveries, documents, loyalty cards, and direct debits are *also* linked to "
+"smart buttons, like this, should there be any outstanding/on-file for this "
+"contact."
+msgstr ""
+"Доставките, документите, картите за лоялност и директните дебити също са "
+"*свързани* със смарт бутони, като този, ако за този контакт има някакви "
+"неиздадени/записани документи."
+
+#: ../../content/applications/essentials/contacts.rst:214
+msgid ""
+"If the contact is a partner, the user can visit their partner page on the "
+"Odoo-built website by clicking the :guilabel:`Go to Website` smart button."
+msgstr ""
+"Ако контактът е партньор, потребителят може да посети страницата на "
+"партньора в изградения от Odoo уебсайт, като кликне върху интелигентния "
+"бутон :guilabel:`Go to Website`."
+
+#: ../../content/applications/essentials/contacts.rst:218
+msgid "Archive contacts"
+msgstr "Контакти в архива"
+
+#: ../../content/applications/essentials/contacts.rst:220
+msgid ""
+"If a user decides they no longer want to have this contact active, the "
+"record can be archived. To do that, go to the :icon:`fa-cog` :guilabel:"
+"`Action` menu at the top of the contact form, and click :guilabel:`Archive`."
+msgstr ""
+"Ако потребителят реши, че не желае повече да има активен контакт, записът "
+"може да бъде архивиран. За да направите това, отидете в менюто :icon:`fa-"
+"cog` :guilabel:`Action` в горната част на формата за контакт и щракнете "
+"върху :guilabel:`Archive`."
+
+#: ../../content/applications/essentials/contacts.rst:224
+msgid ""
+"Then, click :guilabel:`OK` from the resulting :guilabel:`Confirmation` pop-"
+"up window."
+msgstr ""
+"След това щракнете върху :guilabel:`OK` в появилия се :guilabel:"
+"`Confirmation` изскачащ прозорец."
+
+#: ../../content/applications/essentials/contacts.rst:226
+msgid ""
+"With this contact successfully archived, as indicated by a banner at the "
+"top, they do not show up in the main contacts page, but they can still be "
+"searched for with the :guilabel:`Archived` filter."
+msgstr ""
+"Ако този контакт е успешно архивиран, както е посочено с банер в горната "
+"част, той не се показва в главната страница с контакти, но все още може да "
+"бъде търсен с филтъра :guilabel:`Archived`."
+
+#: ../../content/applications/essentials/contacts.rst:230
+msgid ""
+"A contact can be *unarchived*, if the user decides to work with them again. "
+"To do that, just click the :icon:`fa-cog` :guilabel:`Action` menu again at "
+"the top of the archived contact form, and click :guilabel:`Unarchive`. Upon "
+"doing so, the :guilabel:`Archived` banner is removed, and the contact is "
+"restored."
+msgstr ""
+"Контактът може да бъде *отстранен от архива*, ако потребителят реши да "
+"работи с него отново. За да направите това, просто щракнете отново върху "
+"менюто :icon:`fa-cog` :guilabel:`Action` в горната част на формата за "
+"архивиран контакт и щракнете върху :guilabel:`Unarchive`. След като "
+"направите това, банерът :guilabel:`Archived` се премахва и контактът се "
+"възстановява."
+
+#: ../../content/applications/essentials/contacts.rst:236
+msgid ""
+":doc:`Add different addresses in CRM <../sales/sales/send_quotations/"
+"different_addresses>`"
+msgstr ""
+":doc:`Добавяне на различни адреси в CRM <../sales/sales/send_quotations/"
+"different_addresses>`"
+
+#: ../../content/applications/essentials/contacts.rst:237
+msgid ""
+"`Odoo's eLearning Contacts tutorial <https://www.odoo.com/slides/slide/"
+"contacts-2527?fullscreen=1>`_"
+msgstr ""
+"`Учебник за електронно обучение на Odoo Контакти <https://www.odoo.com/"
+"slides/slide/contacts-2527?fullscreen=1>`_"
+
+#: ../../content/applications/essentials/export_import_data.rst:3
+msgid "Export and import data"
+msgstr "Експортиране и импортиране на данни"
+
+#: ../../content/applications/essentials/export_import_data.rst:5
+msgid ""
+"In Odoo, it is sometimes necessary to export or import data for running "
+"reports, or for data modification. This document covers the export and "
+"import of data into and out of Odoo."
+msgstr ""
+"В Odoo понякога е необходимо да се експортират или импортират данни за "
+"изготвяне на отчети или за промяна на данни. Този документ разглежда "
+"експортирането и импортирането на данни във и от Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:9
+msgid ""
+"Sometimes, users run into a 'time out' error, or a record does not process, "
+"due to its size. This can occur with large exports, or in cases where the "
+"import file is too large. To circumvent this limitation surrounding the size "
+"of the records, process exports or imports in smaller batches."
+msgstr ""
+"Понякога потребителите се сблъскват с грешка \"time out\" или даден запис не "
+"се обработва поради размера си. Това може да се случи при големи експорти "
+"или в случаите, когато файлът за импортиране е твърде голям. За да "
+"заобиколите това ограничение, свързано с размера на записите, обработвайте "
+"експорта или импорта на по-малки партиди."
+
+#: ../../content/applications/essentials/export_import_data.rst:16
+msgid "Export data from Odoo"
+msgstr "Експортиране на данни от Odoo"
+
+#: ../../content/applications/essentials/export_import_data.rst:18
+msgid ""
+"When working with a database, it is sometimes necessary to export data in a "
+"distinct file. Doing so can aid in reporting on activities, although, Odoo "
+"provides a precise and easy reporting tool with each available application."
+msgstr ""
+"Когато работите с база данни, понякога е необходимо да експортирате данни в "
+"отделен файл. Това може да помогне при отчитането на дейностите, въпреки че "
+"Odoo предоставя точен и лесен инструмент за отчитане с всяко налично "
+"приложение."
+
+#: ../../content/applications/essentials/export_import_data.rst:22
+msgid ""
+"With Odoo, the values can be exported from any field in any record. To do "
+"so, activate the list view (:guilabel:`☰ (three horizontal lines)` icon), on "
+"the items that need to be exported, and then select the records that should "
+"be exported. To select a record, tick the checkbox next to the corresponding "
+"record. Finally, click on :guilabel:`⚙️ Action`, and then :guilabel:`Export`."
+msgstr ""
+"В Odoo стойностите могат да бъдат експортирани от всяко поле във всеки "
+"запис. За да направите това, активирайте изгледа на списъка (:guilabel:`☰ "
+"(три хоризонтални линии)` икона), на елементите, които трябва да бъдат "
+"експортирани, и след това изберете записите, които трябва да бъдат "
+"експортирани. За да изберете даден запис, поставете отметка в квадратчето за "
+"отметка до съответния запис. Накрая щракнете върху :guilabel:`⚙️ Action` "
+"(Действие), а след това върху :guilabel:`Export` (Експортиране)."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "View of the different things to enable/click to export data."
+msgstr ""
+"Преглед на различните неща, които трябва да се активират/кликнат, за да се "
+"експортират данни."
+
+#: ../../content/applications/essentials/export_import_data.rst:31
+msgid ""
+"When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
+"window appears, with several options for the data to export:"
+msgstr ""
+"Когато щракнете върху :guilabel:`Export` (Експортиране), се появява изскачащ "
+"прозорец :guilabel:`Export Data` (Експортиране на данни) с няколко опции за "
+"експортиране на данните:"
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "Overview of options to consider when exporting data in Odoo.."
+msgstr ""
+"Преглед на опциите, които трябва да се вземат предвид при експортиране на "
+"данни в Odoo.."
+
+#: ../../content/applications/essentials/export_import_data.rst:38
+msgid ""
+"With the :guilabel:`I want to update data (import-compatable export)` option "
+"ticked, the system only shows the fields that can be imported. This is "
+"helpful in the case where the existing records need to be updated. This "
+"works like a filter. Leaving the box unticked, gives many more field options "
+"because it shows all the fields, not just the ones that can be imported."
+msgstr ""
+"Когато е маркирана опцията :guilabel:`I want to update data (import-"
+"compatable export)` (Искам да актуализирам данни (импортируем експорт)), "
+"системата показва само полетата, които могат да бъдат импортирани. Това е "
+"полезно в случаите, когато трябва да се актуализират съществуващите записи. "
+"Това работи като филтър. Ако оставите полето без отметка, получавате много "
+"повече опции за полетата, защото се показват всички полета, а не само тези, "
+"които могат да бъдат импортирани."
+
+#: ../../content/applications/essentials/export_import_data.rst:42
+msgid ""
+"When exporting, there is the option to export in two formats: `.csv` and `."
+"xls`. With `.csv`, items are separated by a comma, while `.xls` holds "
+"information about all the worksheets in a file, including both content and "
+"formatting."
+msgstr ""
+"При експортиране има възможност за експортиране в два формата: `.csv` и `."
+"xls`. При `.csv` елементите се разделят със запетая, докато `.xls` съдържа "
+"информация за всички работни листове във файла, включително съдържанието и "
+"форматирането."
+
+#: ../../content/applications/essentials/export_import_data.rst:45
+msgid ""
+"These are the items that can be exported. Use the :guilabel:`> (right "
+"arrow)` icon to display more sub-field options. Use the :guilabel:`Search` "
+"bar to find specific fields. To use the :guilabel:`Search` option more "
+"efficiently, click on all the :guilabel:`> (right arrows)` to display all "
+"fields."
+msgstr ""
+"Това са елементите, които могат да бъдат експортирани. Използвайте иконата :"
+"guilabel:`> (дясна стрелка)`, за да покажете повече опции за подполета. "
+"Използвайте лентата :guilabel:``Издирване``, за да намерите конкретни "
+"полета. За да използвате по-ефективно опцията :guilabel:`Search` (Търсене), "
+"щракнете върху всички :guilabel:`> (десни стрелки)`, за да се покажат всички "
+"полета."
+
+#: ../../content/applications/essentials/export_import_data.rst:49
+msgid ""
+"The :guilabel:`+ (plus sign)` icon button is present to add fields to the :"
+"guilabel:`Fields to export` list."
+msgstr ""
+"Бутонът с икона :guilabel:`+ (знак плюс)` присъства, за да добавяте полета "
+"към списъка :guilabel:`Полета за експортиране`."
+
+#: ../../content/applications/essentials/export_import_data.rst:51
+msgid ""
+"The :guilabel:`↕️ (up-down arrow)` to the left of the selected fields can be "
+"used to move the fields up and down, to change the order in which they are "
+"displayed in the exported file. Drag-and-drop using the :guilabel:`↕️ (up-"
+"down arrow)` icon."
+msgstr ""
+"Стрелката :guilabel:`↕️ (стрелка нагоре-надолу)` вляво от избраните полета "
+"може да се използва за преместване на полетата нагоре и надолу, за да се "
+"промени редът, в който те се показват в експортирания файл. Плъзгане и "
+"пускане с помощта на иконата :guilabel:`↕️ (стрелка нагоре-надолу)`."
+
+#: ../../content/applications/essentials/export_import_data.rst:54
+msgid ""
+"The :guilabel:`🗑️ (trash can)` icon is used to remove fields. Click on the :"
+"guilabel:`🗑️ (trash can)` icon to remove the field."
+msgstr ""
+"Иконата :guilabel:`🗑️ (кошче за боклук)` се използва за премахване на полета. "
+"Щракнете върху иконата :guilabel:`🗑️ (кошче за боклук)`, за да премахнете "
+"полето."
+
+#: ../../content/applications/essentials/export_import_data.rst:56
+msgid ""
+"For recurring reports, it is helpful to save export presets. Select all the "
+"needed fields, and click on the template drop-down menu. Once there, click "
+"on :guilabel:`New template`, and give a unique name to the export just "
+"created. The next time the same list needs to be exported, select the "
+"related template that was previously saved from the drop-down menu."
+msgstr ""
+"За повтарящи се отчети е полезно да запазвате предварителни настройки за "
+"експортиране. Изберете всички необходими полета и щракнете върху падащото "
+"меню на шаблона. След като се озовете там, щракнете върху :guilabel:`New "
+"template` (Нов шаблон) и дайте уникално име на току-що създадения експорт. "
+"Следващият път, когато трябва да се експортира същият списък, изберете "
+"съответния шаблон, който е бил запазен преди това, от падащото меню."
+
+#: ../../content/applications/essentials/export_import_data.rst:62
+msgid ""
+"It is helpful to know the field's external identifier. For example, :"
+"guilabel:`Related Company` in the export user interface is equal to "
+"*parent_id* (external identifier). This is helpful because then, the only "
+"data exported is what should be modified and re-imported."
+msgstr ""
+"Полезно е да се знае външният идентификатор на полето. Например :guilabel:"
+"`Related Company` (Свързана компания) в потребителския интерфейс за експорт "
+"е равно на *parent_id* (външен идентификатор). Това е полезно, защото тогава "
+"се експортират само данните, които трябва да бъдат променени и отново "
+"импортирани."
+
+#: ../../content/applications/essentials/export_import_data.rst:69
+msgid "Import data into Odoo"
+msgstr "Импортиране на данни в Odoo"
+
+#: ../../content/applications/essentials/export_import_data.rst:71
+msgid ""
+"Importing data into Odoo is extremely helpful during implementation, or in "
+"times where data needs to be updated in bulk. The following documentation "
+"covers how to import data into an Odoo database."
+msgstr ""
+"Импортирането на данни в Odoo е изключително полезно по време на внедряване "
+"или когато е необходимо да се актуализират данни в големи количества. "
+"Следващата документация обхваща начините за импортиране на данни в база "
+"данни на Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:75
+msgid ""
+"Imports are permanent and **cannot** be undone. However, it is possible to "
+"use filters (`created on` or `last modified`) to identify records changed or "
+"created by the import."
+msgstr ""
+"Вносът е постоянен и не може да бъде отменен. Въпреки това е възможно да се "
+"използват филтри (`създадено на` или `последно променено`), за да се "
+"идентифицират записи, променени или създадени от импорта."
+
+#: ../../content/applications/essentials/export_import_data.rst:79
+msgid ""
+"Activating :ref:`developer mode <developer-mode>` changes the visible import "
+"settings in the left menu. Doing so reveals an :menuselection:`Advanced` "
+"menu. Included in this advanced menu are two options: :guilabel:`Track "
+"history during import` and :guilabel:`Allow matching with subfields`."
+msgstr ""
+"Активирането на :ref:`режим за разработчици <developer-mode>` променя "
+"видимите настройки за импортиране в лявото меню. По този начин се разкрива "
+"менюто :menuselection:`Advanced`. В това разширено меню са включени две "
+"опции: :guilabel:`Проследяване на историята по време на импортирането` и :"
+"guilabel:`Позволяване на съвпадение с подполета`."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "Advanced import options when developer mode is activated."
+msgstr ""
+"Разширени опции за импортиране, когато е активиран режимът за разработчици."
+
+#: ../../content/applications/essentials/export_import_data.rst:87
+msgid ""
+"If the model uses openchatter, the :guilabel:`Track history during import` "
+"option sets up subscriptions and sends notifications during the import, but "
+"leads to a slower import."
+msgstr ""
+"Ако моделът използва openchatter, опцията :guilabel:`Track history during "
+"import` (Проследяване на историята по време на импортирането) създава "
+"абонаменти и изпраща известия по време на импортирането, но води до по-бавно "
+"импортиране."
+
+#: ../../content/applications/essentials/export_import_data.rst:90
+msgid ""
+"Should the :guilabel:`Allow matching with subfields` option be selected, "
+"then all subfields within a field are used to match under the :guilabel:"
+"`Odoo Field` while importing."
+msgstr ""
+"Ако е избрана опцията :guilabel:`Allow matching with subfields` (Позволяване "
+"на съвпадение с подполета), тогава всички подполета в рамките на дадено поле "
+"се използват за съвпадение под :guilabel:`Odoo Field` (Поле на Odoo) по "
+"време на импортирането."
+
+#: ../../content/applications/essentials/export_import_data.rst:94
+msgid "Get started"
+msgstr "Започни"
+
+#: ../../content/applications/essentials/export_import_data.rst:96
+msgid ""
+"Data can be imported on any Odoo business object using either Excel (`."
+"xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
+"includes: contacts, products, bank statements, journal entries, and orders."
+msgstr ""
+"Данните могат да се импортират във всеки бизнес обект на Odoo, като се "
+"използват форматите Excel (`.xlsx`) или :abbr:`CSV (Comma-separated Values)` "
+"(`.csv`). Това включва: контакти, продукти, банкови извлечения, записи в "
+"дневника и поръчки."
+
+#: ../../content/applications/essentials/export_import_data.rst:100
+msgid ""
+"Open the view of the object to which the data should be imported/populated, "
+"and click on :menuselection:`⭐ Favorites --> Import records`."
+msgstr ""
+"Отворете изгледа на обекта, в който трябва да се импортират/попълнят "
+"данните, и щракнете върху :menuselection:`⭐ Favorites --> Import records`."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "Favorites menu revealed with the import records option highlighted."
+msgstr "Менюто \"Любими\" се разкрива с подчертана опция за внос на записи."
+
+#: ../../content/applications/essentials/export_import_data.rst:107
+msgid ""
+"After clicking :guilabel:`Import records`, Odoo reveals a separate page with "
+"templates that can be downloaded and populated with the company's own data. "
+"Such templates can be imported in one click, since the data mapping is "
+"already done. To download a template click :guilabel:`Import Template for "
+"Customers` at the center of the page."
+msgstr ""
+"След като щракнете върху :guilabel:`Import records`, Odoo разкрива отделна "
+"страница с шаблони, които могат да бъдат изтеглени и попълнени със "
+"собствените данни на компанията. Такива шаблони могат да се импортират с "
+"едно щракване, тъй като картографирането на данните вече е направено. За да "
+"изтеглите шаблон, щракнете върху :guilabel:`Импортиране на шаблон за "
+"клиенти` в центъра на страницата."
+
+#: ../../content/applications/essentials/export_import_data.rst:113
+msgid ""
+"When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides :"
+"guilabel:`Formatting` options. These options do **not** appear when "
+"importing the proprietary Excel file type (`.xls`, `.xlsx`)."
+msgstr ""
+"Когато импортирате :abbr:`CSV (Comma-separated Values)` файл, Odoo "
+"предоставя :guilabel:`Formatting` опции. Тези опции не се появяват при "
+"импортиране на патентован тип Excel файл (`.xls`, `.xlsx`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:0
+msgid "Formatting options presented when a CVS file is imported in Odoo."
+msgstr "Опции за форматиране, представени при импортиране на CVS файл в Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:121
+msgid ""
+"Make necessary adjustments to the *Formatting* options, and ensure all "
+"columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
+"of errors. Finally, click :guilabel:`Import` to import the data."
+msgstr ""
+"Направете необходимите корекции в опциите *Formatting* (Форматиране) и се "
+"уверете, че всички колони в :guilabel:`Odoo field` (Поле на Одо) и :guilabel:"
+"`File Column` (Колона на файла) са без грешки. Накрая щракнете върху :"
+"guilabel:`Import` (Импортиране), за да импортирате данните."
+
+#: ../../content/applications/essentials/export_import_data.rst:126
+msgid "Adapt a template"
+msgstr "Адаптиране на шаблон"
+
+#: ../../content/applications/essentials/export_import_data.rst:128
+msgid ""
+"Import templates are provided in the import tool of the most common data to "
+"import (contacts, products, bank statements, etc.). Open them with any "
+"spreadsheet software (*Microsoft Office*, *OpenOffice*, *Google Drive*, "
+"etc.)."
+msgstr ""
+"В инструмента за импортиране са предоставени шаблони за импортиране на най-"
+"често срещаните данни (контакти, продукти, банкови извлечения и др.). "
+"Отворете ги с всеки софтуер за електронни таблици (*Microsoft Office*, "
+"*OpenOffice*, *Google Drive* и др.)."
+
+#: ../../content/applications/essentials/export_import_data.rst:132
+msgid "Once the template is downloaded, proceed to follow these steps:"
+msgstr "След като шаблонът бъде изтеглен, следвайте следните стъпки:"
+
+#: ../../content/applications/essentials/export_import_data.rst:134
+msgid "Add, remove, and sort columns to best fit the data structure."
+msgstr ""
+"Добавяйте, премахвайте и подреждайте колони, за да отговарят най-добре на "
+"структурата на данните."
+
+#: ../../content/applications/essentials/export_import_data.rst:135
+msgid ""
+"It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
+"column (see why in the next section)."
+msgstr ""
+"Силно препоръчително е да не премахвате колоната :guilabel:`External ID` "
+"(ID) (вижте защо в следващия раздел)."
+
+#: ../../content/applications/essentials/export_import_data.rst:137
+msgid ""
+"Set a unique ID to every record by dragging down the ID sequencing in the :"
+"guilabel:`External ID` (ID) column."
+msgstr ""
+"Задайте уникален идентификатор на всеки запис, като плъзнете надолу "
+"последователността на идентификаторите в колоната :guilabel:`External ID` "
+"(ID)."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid ""
+"An animation of the mouse dragging down the ID column, so each record has a "
+"unique ID."
+msgstr ""
+"Анимация на плъзгането на мишката надолу по колоната ID, така че всеки запис "
+"да има уникален ID."
+
+#: ../../content/applications/essentials/export_import_data.rst:145
+msgid ""
+"When a new column is added, Odoo may not be able to map it automatically, if "
+"its label does not fit any field within Odoo. However, new columns can be "
+"mapped manually when the import is tested. Search the drop-down menu for the "
+"corresponding field."
+msgstr ""
+"Когато се добави нова колона, Odoo може да не успее да я съпостави "
+"автоматично, ако етикетът ѝ не отговаря на никое поле в Odoo. Въпреки това "
+"новите колони могат да бъдат съпоставени ръчно, когато импортирането е "
+"тествано. Потърсете в падащото меню съответното поле."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "Drop-down menu expanded in the initial import screen on Odoo."
+msgstr "Разширяване на падащото меню в екрана за първоначален внос в Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:153
+msgid ""
+"Then, use this field's label in the import file to ensure future imports are "
+"successful."
+msgstr ""
+"След това използвайте етикета на това поле във файла за импортиране, за да "
+"гарантирате, че бъдещите импорти са успешни."
+
+#: ../../content/applications/essentials/export_import_data.rst:156
+msgid ""
+"Another useful way to find out the proper column names to import is to "
+"export a sample file using the fields that should be imported. This way, if "
+"there is not a sample import template, the names are accurate."
+msgstr ""
+"Друг полезен начин да откриете правилните имена на колони за импортиране е "
+"да експортирате примерен файл, като използвате полетата, които трябва да "
+"бъдат импортирани. По този начин, ако няма примерен шаблон за импортиране, "
+"имената са точни."
+
+#: ../../content/applications/essentials/export_import_data.rst:161
+msgid "Import from another application"
+msgstr "Импортиране от друго приложение"
+
+#: ../../content/applications/essentials/export_import_data.rst:163
+msgid ""
+"The :guilabel:`External ID` (ID) is a unique identifier for the line item. "
+"Feel free to use one from previous software to facilitate the transition to "
+"Odoo."
+msgstr ""
+":guilabel:`Външен идентификатор` (ID) е уникален идентификатор за елемента "
+"на реда. Чувствайте се свободни да използвате такъв от предишен софтуер, за "
+"да улесните прехода към Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:166
+msgid ""
+"Setting an ID is not mandatory when importing, but it helps in many cases:"
+msgstr ""
+"Задаването на идентификатор не е задължително при импортиране, но в много "
+"случаи е полезно:"
+
+#: ../../content/applications/essentials/export_import_data.rst:168
+msgid ""
+"Update imports: import the same file several times without creating "
+"duplicates."
+msgstr ""
+"Актуализиране на вноса: импортирайте един и същ файл няколко пъти, без да "
+"създавате дубликати."
+
+#: ../../content/applications/essentials/export_import_data.rst:169
+msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
+msgstr ":ref:`Import relation fields <export_import_data/relation-fields>`."
+
+#: ../../content/applications/essentials/export_import_data.rst:171
+msgid ""
+"To recreate relationships between different records, the unique identifier "
+"from the original application should be used to map it to the :guilabel:"
+"`External ID` (ID) column in Odoo."
+msgstr ""
+"За да се пресъздадат връзките между различни записи, трябва да се използва "
+"уникалният идентификатор от оригиналното приложение, за да се съпостави с "
+"колоната :guilabel:`External ID` (ID) в Odoo."
+
+#: ../../content/applications/essentials/export_import_data.rst:174
+msgid ""
+"When another record is imported that links to the first one, use **XXX/ID** "
+"(XXX/External ID) for the original unique identifier. This record can also "
+"be found using its name."
+msgstr ""
+"Когато се импортира друг запис, който се свързва с първия, използвайте **XXX/"
+"ID** (XXX/External ID) за първоначалния уникален идентификатор. Този запис "
+"може да бъде намерен и чрез неговото име."
+
+#: ../../content/applications/essentials/export_import_data.rst:178
+msgid ""
+"It should be noted that there will be a conflict if two or more records have "
+"the same name."
+msgstr ""
+"Трябва да се отбележи, че ако два или повече записа имат едно и също име, ще "
+"възникне конфликт."
+
+#: ../../content/applications/essentials/export_import_data.rst:180
+msgid ""
+"The :guilabel:`External ID` (ID) can also be used to update the original "
+"import, if modified data needs to be re-imported later, therefore, it is a "
+"good practice to specify it whenever possible."
+msgstr ""
+"Идентификаторът :guilabel:`External ID` (ID) може да се използва и за "
+"актуализиране на първоначалния импорт, ако модифицираните данни трябва да "
+"бъдат импортирани отново по-късно, затова е добра практика да го посочвате "
+"винаги, когато е възможно."
+
+#: ../../content/applications/essentials/export_import_data.rst:184
+msgid "Field missing to map column"
+msgstr "Липсващо поле в колоната на картата"
+
+#: ../../content/applications/essentials/export_import_data.rst:186
+msgid ""
+"Odoo heuristically tries to find the type of field for each column inside "
+"the imported file, based on the first ten lines of the files."
+msgstr ""
+"Odoo евристично се опитва да намери типа на полето за всяка колона в "
+"импортирания файл въз основа на първите десет реда на файловете."
+
+#: ../../content/applications/essentials/export_import_data.rst:189
+msgid ""
+"For example, if there is a column only containing numbers, only the fields "
+"with the *integer* type are presented as options."
+msgstr ""
+"Например, ако има колона, съдържаща само числа, като опции се представят "
+"само полетата с тип *целочислено*."
+
+#: ../../content/applications/essentials/export_import_data.rst:192
+msgid ""
+"While this behavior might be beneficial in most cases, it is also possible "
+"that it could fail, or the column may be mapped to a field that is not "
+"proposed by default."
+msgstr ""
+"Въпреки че това поведение може да е полезно в повечето случаи, възможно е то "
+"да не успее или колоната да бъде съпоставена с поле, което не е предложено "
+"по подразбиране."
+
+#: ../../content/applications/essentials/export_import_data.rst:195
+msgid ""
+"If this happens, check the :guilabel:`Show fields of relation fields "
+"(advanced) option`, then a complete list of fields becomes available for "
+"each column."
+msgstr ""
+"Ако това се случи, поставете отметка в опцията :guilabel:`Показване на "
+"полетата на полетата на релацията (разширено)`, след което за всяка колона "
+"ще бъде достъпен пълен списък с полета."
+
+#: ../../content/applications/essentials/export_import_data.rst:-1
+msgid "Searching for the field to match the tax column."
+msgstr "Търсене на поле, което да съответства на колоната за данъци."
+
+#: ../../content/applications/essentials/export_import_data.rst:203
+msgid "Change data import format"
+msgstr "Промяна на формата за импортиране на данни"
+
+#: ../../content/applications/essentials/export_import_data.rst:206
+msgid ""
+"Odoo can automatically detect if a column is a date, and tries to guess the "
+"date format from a set of most commonly used date formats. While this "
+"process can work for many date formats, some date formats are not "
+"recognizable. This can cause confusion, due to day-month inversions; it is "
+"difficult to guess which part of a date format is the day, and which part is "
+"the month, in a date, such as `01-03-2016`."
+msgstr ""
+"Odoo може автоматично да открие дали дадена колона е дата и се опитва да "
+"познае формата на датата от набор от най-често използвани формати на датата. "
+"Въпреки че този процес може да работи за много формати на дати, някои "
+"формати на дати не могат да бъдат разпознати. Това може да доведе до "
+"объркване поради инверсия на ден и месец; трудно е да се познае коя част от "
+"формата на датата е денят и коя част е месецът в дата, като например "
+"`01-03-2016`."
+
+#: ../../content/applications/essentials/export_import_data.rst:212
+msgid ""
+"When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides :"
+"guilabel:`Formatting` options."
+msgstr ""
+"Когато импортирате :abbr:`CSV (Comma-separated Values)` файл, Odoo "
+"предоставя :guilabel:`Formatting` опции."
+
+#: ../../content/applications/essentials/export_import_data.rst:215
+msgid ""
+"To view which date format Odoo has found from the file, check the :guilabel:"
+"`Date Format` that is shown when clicking on options under the file "
+"selector. If this format is incorrect, change it to the preferred format "
+"using *ISO 8601* to define the format."
+msgstr ""
+"За да видите какъв формат на датата е намерил Odoo от файла, проверете :"
+"guilabel:`Date Format` (Формат на датата), който се показва, когато щракнете "
+"върху опциите в селектора на файлове. Ако този формат е неправилен, "
+"променете го на предпочитания формат, като използвате *ISO 8601*, за да "
+"определите формата."
+
+#: ../../content/applications/essentials/export_import_data.rst:220
+msgid ""
+"*ISO 8601* is an international standard, covering the worldwide exchange, "
+"along with the communication of date and time-related data. For example, the "
+"date format should be `YYYY-MM-DD`. So, in the case of July 24th 1981, it "
+"should be written as `1981-07-24`."
+msgstr ""
+"*ISO 8601* е международен стандарт, който обхваща световния обмен и "
+"комуникацията на данни, свързани с датата и времето. Например, форматът на "
+"датата трябва да бъде `YYYY-MM-DD`. Така че в случая с 24 юли 1981 г. тя "
+"трябва да се запише като `1981-07-24`."
+
+#: ../../content/applications/essentials/export_import_data.rst:225
+msgid ""
+"When importing Excel files (`.xls`, `.xlsx`), consider using *date cells* to "
+"store dates. This maintains locale date formats for display, regardless of "
+"how the date is formatted in Odoo. When importing a :abbr:`CSV (Comma-"
+"separated Values)` file, use Odoo's :guilabel:`Formatting` section to select "
+"the date format columns to import."
+msgstr ""
+"Когато импортирате файлове на Excel (`.xls`, `.xlsx`), използвайте *клетки с "
+"дати* за съхраняване на дати. По този начин се запазват локалните формати на "
+"датите за показване, независимо от това как датата е форматирана в Odoo. "
+"Когато импортирате :abbr:`CSV (Comma-separated Values)` файл, използвайте "
+"раздела :guilabel:`Formatting` на Odoo, за да изберете колоните с формат на "
+"датата, които да импортирате."
+
+#: ../../content/applications/essentials/export_import_data.rst:231
+msgid "Import numbers with currency signs"
+msgstr "Внасяне на числа с валутни знаци"
+
+#: ../../content/applications/essentials/export_import_data.rst:233
+msgid ""
+"Odoo fully supports numbers with parenthesis to represent negative signs, as "
+"well as numbers with currency signs attached to them. Odoo also "
+"automatically detects which thousand/decimal separator is used. If a "
+"currency symbol unknown to Odoo is used, it might not be recognized as a "
+"number, and the import crashes."
+msgstr ""
+"Odoo напълно поддържа числа със скоби за представяне на отрицателни знаци, "
+"както и числа с прикрепени към тях валутни знаци. Odoo също така автоматично "
+"разпознава кой разделител за хиляди/десетични дроби е използван. Ако се "
+"използва непознат за Odoo валутен символ, той може да не бъде разпознат като "
+"число и импортът да се срине."
+
+#: ../../content/applications/essentials/export_import_data.rst:239
+msgid ""
+"When importing a :abbr:`CSV (Comma-separated Values)` file, the :guilabel:"
+"`Formatting` menu appears on the left-hand column. Under these options, the :"
+"guilabel:`Thousands Separator` can be changed."
+msgstr ""
+"Когато импортирате :abbr:`CSV (Comma-separated Values)` файл, в лявата "
+"колона се появява менюто :guilabel:`Formatting`. В рамките на тези опции "
+"може да се промени :guilabel:`Thousands Separator` (разделител на хиляди)."
+
+#: ../../content/applications/essentials/export_import_data.rst:243
+msgid ""
+"Examples of supported numbers (using 'thirty-two thousand' as the figure):"
+msgstr ""
+"Примери за подкрепени числа (като се използва числото \"тридесет и две хиляди"
+"\"):"
+
+#: ../../content/applications/essentials/export_import_data.rst:245
+msgid "32.000,00"
+msgstr "32.000,00"
+
+#: ../../content/applications/essentials/export_import_data.rst:246
+msgid "32000,00"
+msgstr "32000,00"
+
+#: ../../content/applications/essentials/export_import_data.rst:247
+msgid "32,000.00"
+msgstr "32,000.00"
+
+#: ../../content/applications/essentials/export_import_data.rst:248
+msgid "-32000.00"
+msgstr "-32000.00"
+
+#: ../../content/applications/essentials/export_import_data.rst:249
+msgid "(32000.00)"
+msgstr "(32000.00)"
+
+#: ../../content/applications/essentials/export_import_data.rst:250
+msgid "$ 32.000,00"
+msgstr "$ 32.000,00"
+
+#: ../../content/applications/essentials/export_import_data.rst:251
+msgid "(32000.00 €)"
+msgstr "(32000.00 €)"
+
+#: ../../content/applications/essentials/export_import_data.rst:253
+msgid "Example that will not work:"
+msgstr "Пример, който няма да работи:"
+
+#: ../../content/applications/essentials/export_import_data.rst:255
+msgid "ABC 32.000,00"
+msgstr "ABC 32.000,00"
+
+#: ../../content/applications/essentials/export_import_data.rst:256
+msgid "$ (32.000,00)"
+msgstr "$ (32.000,00)"
+
+#: ../../content/applications/essentials/export_import_data.rst:259
+msgid ""
+"A :guilabel:`() (parenthesis)` around the number indicates that the number "
+"is a negative value. The currency symbol **must** be placed within the "
+"parenthesis for Odoo to recognize it as a negative currency value."
+msgstr ""
+"А :guilabel:`() (скоби)` около числото показва, че числото е отрицателна "
+"стойност. Символът на валутата **трябва** да бъде поставен в скобата, за да "
+"може Odoo да го разпознае като отрицателна стойност на валутата."
+
+#: ../../content/applications/essentials/export_import_data.rst:264
+msgid "Import preview table not displayed correctly"
+msgstr "Таблицата за предварителен преглед на импорта не се показва правилно"
+
+#: ../../content/applications/essentials/export_import_data.rst:266
+msgid ""
+"By default, the import preview is set on commas as field separators, and "
+"quotation marks as text delimiters. If the :abbr:`CSV (Comma-separated "
+"Values)` file does not have these settings, modify the :guilabel:"
+"`Formatting` options (displayed under the :guilabel:`Import` :abbr:`CSV "
+"(Comma-separated Values)` file bar after selecting the :abbr:`CSV (Comma-"
+"separated Values)` file)."
+msgstr ""
+"По подразбиране визуализацията на вноса е настроена на запетаи като "
+"разделители на полета и кавички като разделители на текст. Ако файлът :abbr:"
+"`CSV (Comma-separated Values)` няма тези настройки, променете опциите на :"
+"guilabel:`Formatting` (показани в лентата :guilabel:`Import` :abbr:`CSV "
+"(Comma-separated Values)` след избиране на файла :abbr:`CSV (Comma-separated "
+"Values)`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:272
+msgid ""
+"If the :abbr:`CSV (Comma-separated Values)` file has a tabulation as a "
+"separator, Odoo does **not** detect the separations. The file format options "
+"need to be modified in the spreadsheet application. See the following :ref:"
+"`Change CSV file format <export_import_data/change-csv>` section."
+msgstr ""
+"Ако във файла :abbr:`CSV (Comma-separated Values)` има табулация като "
+"разделител, Odoo не открива разделителите. Опциите на формата на файла "
+"трябва да бъдат променени в приложението за електронни таблици. Вижте "
+"следния :ref:`Промяна на CSV файловия формат <export_import_data/change-"
+"csv>` раздел."
+
+#: ../../content/applications/essentials/export_import_data.rst:280
+msgid "Change CSV file format in spreadsheet application"
+msgstr "Промяна на формата на CSV файла в приложението за електронни таблици"
+
+#: ../../content/applications/essentials/export_import_data.rst:282
+msgid ""
+"When editing and saving :abbr:`CSV (Comma-separated Values)` files in "
+"spreadsheet applications, the computer's regional settings are applied for "
+"the separator and delimiter. Odoo suggests using *OpenOffice* or "
+"*LibreOffice*, as both applications allow modifications of all three options "
+"(from *LibreOffice* application, go to :menuselection:`'Save As' dialog box "
+"--> Check the box 'Edit filter settings' --> Save`)."
+msgstr ""
+"При редактиране и записване на :abbr:`CSV (Comma-separated Values)` файлове "
+"в приложения за електронни таблици се прилагат регионалните настройки на "
+"компютъра за разделителя и разделителя. Odoo предлага да използвате "
+"*OpenOffice* или *LibreOffice*, тъй като и двете приложения позволяват "
+"модификации и на трите опции (от приложението *LibreOffice* отидете в :"
+"menuselection:`Диалогът \"Запазване като\" --> Отбележете квадратчето "
+"\"Редактиране на настройките на филтъра\" --> Запазване`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:288
+msgid ""
+"Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
+"As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
+msgstr ""
+"Microsoft Excel може да променя кодирането при записването (:menuselection:"
+"`'Save As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:292
+msgid "Difference between Database ID and External ID"
+msgstr "Разлика между идентификатор на база данни и външен идентификатор"
+
+#: ../../content/applications/essentials/export_import_data.rst:294
+msgid ""
+"Some fields define a relationship with another object. For example, the "
+"country of a contact is a link to a record of the 'Country' object. When "
+"such fields are imported, Odoo has to recreate links between the different "
+"records. To help import such fields, Odoo provides three mechanisms."
+msgstr ""
+"Някои полета определят връзка с друг обект. Например държавата на даден "
+"контакт е връзка към запис на обект \"Държава\". Когато се импортират такива "
+"полета, Odoo трябва да пресъздаде връзките между различните записи. За да "
+"подпомогне импортирането на такива полета, Odoo предоставя три механизма."
+
+#: ../../content/applications/essentials/export_import_data.rst:299
+msgid "**Only one** mechanism should be used per field that is imported."
+msgstr ""
+"**За всяко импортирано поле трябва да се използва само един** механизъм."
+
+#: ../../content/applications/essentials/export_import_data.rst:301
+msgid ""
+"For example, to reference the country of a contact, Odoo proposes three "
+"different fields to import:"
+msgstr ""
+"Например за справка за страната на даден контакт Odoo предлага три различни "
+"полета за импортиране:"
+
+#: ../../content/applications/essentials/export_import_data.rst:303
+msgid ":guilabel:`Country`: the name or code of the country"
+msgstr ":guilabel:`Country`: името или кодът на страната"
+
+#: ../../content/applications/essentials/export_import_data.rst:304
+msgid ""
+":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by "
+"the ID PostgreSQL column"
+msgstr ""
+":guilabel:`Country/Database ID`: уникалният идентификатор на Odoo за даден "
+"запис, определен от колоната ID PostgreSQL"
+
+#: ../../content/applications/essentials/export_import_data.rst:306
+msgid ""
+":guilabel:`Country/External ID`: the ID of this record referenced in another "
+"application (or the `.XML` file that imported it)"
+msgstr ""
+":guilabel:`Country/External ID`: идентификаторът на този запис, посочен в "
+"друго приложение (или във файла `.XML`, който го е импортирал)"
+
+#: ../../content/applications/essentials/export_import_data.rst:309
+msgid ""
+"For the country of Belgium, for example, use one of these three ways to "
+"import:"
+msgstr ""
+"За страната Белгия например използвайте един от тези три начина за внос:"
+
+#: ../../content/applications/essentials/export_import_data.rst:311
+msgid ":guilabel:`Country`: `Belgium`"
+msgstr ":guilabel:`Country`: `Belgium`"
+
+#: ../../content/applications/essentials/export_import_data.rst:312
+msgid ":guilabel:`Country/Database ID`: `21`"
+msgstr ":guilabel:`Country/Database ID`: `21`"
+
+#: ../../content/applications/essentials/export_import_data.rst:313
+msgid ":guilabel:`Country/External ID`: `base.be`"
+msgstr ":guilabel:`Country/External ID`: `base.be`"
+
+#: ../../content/applications/essentials/export_import_data.rst:315
+msgid ""
+"According to the company's need, use one of these three ways to reference "
+"records in relations. Here is an example when one or the other should be "
+"used, according to the need:"
+msgstr ""
+"Според нуждите на компанията използвайте един от тези три начина за "
+"позоваване на записи в релации. Ето един пример, когато трябва да се "
+"използва единият или другият, в зависимост от необходимостта:"
+
+#: ../../content/applications/essentials/export_import_data.rst:318
+msgid ""
+"Use :guilabel:`Country`: this is the easiest way when data comes from :abbr:"
+"`CSV (Comma-separated Values)` files that have been created manually."
+msgstr ""
+"Използвайте :guilabel:`Country`: това е най-лесният начин, когато данните "
+"идват от :abbr:`CSV (Comma-separated Values)` файлове, които са създадени "
+"ръчно."
+
+#: ../../content/applications/essentials/export_import_data.rst:320
+msgid ""
+"Use :guilabel:`Country/Database ID`: this should rarely be used. It is "
+"mostly used by developers as the main advantage is to never have conflicts "
+"(there may be several records with the same name, but they always have a "
+"unique Database ID)"
+msgstr ""
+"Използвайте :guilabel:`Country/Database ID`: това трябва да се използва "
+"рядко. Използва се предимно от разработчиците, тъй като основното предимство "
+"е никога да няма конфликти (може да има няколко записа с едно и също име, но "
+"те винаги имат уникален Database ID)"
+
+#: ../../content/applications/essentials/export_import_data.rst:323
+msgid ""
+"Use :guilabel:`Country/External ID`: use *External ID* when importing data "
+"from a third-party application."
+msgstr ""
+"Използвайте :guilabel:`Country/External ID`: използвайте *External ID*, "
+"когато импортирате данни от приложение на трета страна."
+
+#: ../../content/applications/essentials/export_import_data.rst:326
+msgid ""
+"When *External IDs* are used, import :abbr:`CSV (Comma-separated Values)` "
+"files with the :guilabel:`External ID` (ID) column defining the *External "
+"ID* of each record that is imported. Then, a reference can be made to that "
+"record with columns, like `Field/External ID`. The following two :abbr:`CSV "
+"(Comma-separated Values)` files provide an example for products and their "
+"categories."
+msgstr ""
+"Когато се използват *Външни идентификатори*, импортирайте :abbr:`CSV (Comma-"
+"separated Values)` файлове с :guilabel:`External ID` (ID) колона, определяща "
+"*Външния идентификатор* на всеки импортиран запис. След това може да се "
+"направи препратка към този запис с колони, като например `Field/External "
+"ID`. Следващите два :abbr:`CSV (Comma-separated Values)` файла дават пример "
+"за продукти и техните категории."
+
+#: ../../content/applications/essentials/export_import_data.rst:331
+msgid ""
+":download:`CSV file for categories <export_import_data/"
+"External_id_3rd_party_application_product_categories.csv>`"
+msgstr ""
+":download:`CSV файл за категории <export_import_data/"
+"External_id_3rd_party_application_product_categories.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:333
+msgid ""
+":download:`CSV file for Products <export_import_data/"
+"External_id_3rd_party_application_products.csv>`"
+msgstr ""
+":download:`CSV файл за продукти <export_import_data/"
+"External_id_3rd_party_application_products.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:339
+msgid "Import relation fields"
+msgstr "Импортиране на полета за връзка"
+
+#: ../../content/applications/essentials/export_import_data.rst:341
+msgid ""
+"An Odoo object is always related to many other objects (e.g. a product is "
+"linked to product categories, attributes, vendors, etc.). To import those "
+"relations, the records of the related object need to be imported first, from "
+"their own list menu."
+msgstr ""
+"Един обект на Odoo винаги е свързан с много други обекти (например продукт е "
+"свързан с продуктови категории, атрибути, доставчици и т.н.). За да се "
+"импортират тези връзки, първо трябва да се импортират записите на свързания "
+"обект, от собственото им меню със списъци."
+
+#: ../../content/applications/essentials/export_import_data.rst:345
+msgid ""
+"This can be achieved by using either the name of the related record, or its "
+"ID, depending on the circumstances. The ID is expected when two records have "
+"the same name. In such a case add `/ ID` at the end of the column title (e."
+"g. for product attributes: `Product Attributes / Attribute / ID`)."
+msgstr ""
+"Това може да се постигне чрез използване на името на свързания запис или на "
+"неговия идентификатор в зависимост от обстоятелствата. ID се очаква, когато "
+"два записа имат едно и също име. В такъв случай добавете `/ ID` в края на "
+"заглавието на колоната (напр. за атрибути на продукти: `Атрибути на "
+"продукти / Атрибут / ID`)."
+
+#: ../../content/applications/essentials/export_import_data.rst:350
+msgid "Options for multiple matches on fields"
+msgstr "Опции за множество мачове в полетата"
+
+#: ../../content/applications/essentials/export_import_data.rst:352
+msgid ""
+"If, for example, there are two product categories with the child name "
+"`Sellable` (e.g. `Misc. Products/Sellable` & `Other Products/Sellable`), the "
+"validation is halted, but the data may still be imported. However, Odoo "
+"recommends that the data is not imported because it will all be linked to "
+"the first `Sellable` category found in the *Product Category* list (`Misc. "
+"Products/Sellable`). Odoo, instead, recommends modifying one of the "
+"duplicate's values, or the product category hierarchy."
+msgstr ""
+"Ако например има две продуктови категории с дъщерно име `Продаваеми` "
+"(например `Различни продукти/Продаваеми` и `Други продукти/Продаваеми`), "
+"валидирането се прекратява, но данните все още могат да бъдат импортирани. "
+"Въпреки това Odoo препоръчва данните да не се импортират, тъй като всички те "
+"ще бъдат свързани с първата категория `Sellable`, открита в списъка *Product "
+"Category* (`Misc. Products/Sellable`). Вместо това Odoo препоръчва да се "
+"промени една от стойностите на дубликата или йерархията на продуктовите "
+"категории."
+
+#: ../../content/applications/essentials/export_import_data.rst:359
+msgid ""
+"However, if the company does not wish to change the configuration of product "
+"categories, Odoo recommends making use of the *External ID* for this field, "
+"'Category'."
+msgstr ""
+"Въпреки това, ако компанията не желае да променя конфигурацията на "
+"продуктовите категории, Odoo препоръчва да се използва *Външен "
+"идентификатор* за това поле, \"Категория\"."
+
+#: ../../content/applications/essentials/export_import_data.rst:363
+msgid "Import many2many relationship fields"
+msgstr "Импортиране на полета за връзка many2many"
+
+#: ../../content/applications/essentials/export_import_data.rst:365
+msgid ""
+"The tags should be separated by a comma, without any spacing. For example, "
+"if a customer needs to be linked to both tags: `Manufacturer` and `Retailer` "
+"then 'Manufacturer,Retailer' needs to be encoded in the same column of the :"
+"abbr:`CSV (Comma-separated Values)` file."
+msgstr ""
+"Таговете трябва да бъдат разделени със запетая, без никакви интервали. "
+"Например, ако един клиент трябва да бъде свързан и с двата тага: производител"
+"\" и \"Търговец на дребно\", тогава \"Производител,Търговец на дребно\" "
+"трябва да бъде кодирано в една и съща колона на файла :abbr:`CSV (Comma-"
+"separated Values)`."
+
+#: ../../content/applications/essentials/export_import_data.rst:369
+msgid ""
+":download:`CSV file for Manufacturer, Retailer <export_import_data/"
+"m2m_customers_tags.csv>`"
+msgstr ""
+":download:`CSV файл за производител, търговец на дребно <export_import_data/"
+"m2m_customers_tags.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:372
+msgid "Import one2many relationships"
+msgstr "Импортиране на взаимоотношения one2many"
+
+#: ../../content/applications/essentials/export_import_data.rst:374
+msgid ""
+"If a company wants to import a sales order with several order lines, a "
+"specific row **must** be reserved in the :abbr:`CSV (Comma-separated "
+"Values)` file for each order line. The first order line is imported on the "
+"same row as the information relative to order. Any additional lines need an "
+"additional row that does not have any information in the fields relative to "
+"the order."
+msgstr ""
+"Ако дадено дружество иска да импортира поръчка за продажба с няколко реда на "
+"поръчката, за всеки ред на поръчката трябва да бъде запазен специален ред в :"
+"abbr:`CSV (Comma-separated Values)` файла. Първият ред на поръчката се "
+"импортира на същия ред, на който е информацията, отнасяща се до поръчката. "
+"Всички допълнителни редове се нуждаят от допълнителен ред, който не съдържа "
+"никаква информация в полетата, отнасящи се до поръчката."
+
+#: ../../content/applications/essentials/export_import_data.rst:379
+msgid ""
+"As an example, here is a :abbr:`CSV (Comma-separated Values)` file of some "
+"quotations that can be imported, based on demo data:"
+msgstr ""
+"Като пример, тук е представен :abbr:`CSV (Comma-separated Values)` файл с "
+"някои цитати, които могат да бъдат импортирани въз основа на демо данни:"
+
+#: ../../content/applications/essentials/export_import_data.rst:382
+msgid ""
+":download:`File for some Quotations <export_import_data/purchase."
+"order_functional_error_line_cant_adpat.csv>`"
+msgstr ""
+":download:`Файл за някои оферти <export_import_data/purchase."
+"order_functional_error_line_cant_adpat.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:385
+msgid ""
+"The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
+"purchase orders with their respective purchase order lines:"
+msgstr ""
+"Следващият :abbr:`CSV (Comma-separated Values)` файл показва как да "
+"импортирате поръчки за покупка със съответните им редове за поръчка за "
+"покупка:"
+
+#: ../../content/applications/essentials/export_import_data.rst:388
+msgid ""
+":download:`Purchase orders with their respective purchase order lines "
+"<export_import_data/o2m_purchase_order_lines.csv>`"
+msgstr ""
+":download:`Поръчки за покупка със съответните им редове за поръчка за "
+"покупка <export_import_data/o2m_purchase_order_lines.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:391
+msgid ""
+"The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
+"customers and their respective contacts:"
+msgstr ""
+"Следният :abbr:`CSV (Comma-separated Values)` файл показва как да "
+"импортирате клиенти и съответните им контакти:"
+
+#: ../../content/applications/essentials/export_import_data.rst:394
+msgid ""
+":download:`Customers and their respective contacts <export_import_data/"
+"o2m_customers_contacts.csv>`"
+msgstr ""
+":download:`Клиенти и съответните им контакти <export_import_data/"
+"o2m_customers_contacts.csv>`"
+
+#: ../../content/applications/essentials/export_import_data.rst:398
+msgid "Import records several times"
+msgstr "Импортиране на записи няколко пъти"
+
+#: ../../content/applications/essentials/export_import_data.rst:400
+msgid ""
+"If an imported file contains one of the columns: :guilabel:`External ID` or :"
+"guilabel:`Database ID`, records that have already been imported are "
+"modified, instead of being created. This is extremely useful as it allows "
+"users to import the same :abbr:`CSV (Comma-separated Values)` file several "
+"times, while having made some changes in between two imports."
+msgstr ""
+"Ако импортиран файл съдържа една от колоните: :guilabel:`External ID` или :"
+"guilabel:`Database ID`, вече импортираните записи се модифицират, вместо да "
+"се създават. Това е изключително полезно, тъй като позволява на "
+"потребителите да импортират един и същ :abbr:`CSV (Comma-separated Values)` "
+"файл няколко пъти, като между двата импорта са направили някои промени."
+
+#: ../../content/applications/essentials/export_import_data.rst:405
+msgid ""
+"Odoo takes care of creating or modifying each record, depending if it is new "
+"or not."
+msgstr ""
+"Odoo се грижи за създаването или модифицирането на всеки запис в зависимост "
+"от това дали е нов, или не."
+
+#: ../../content/applications/essentials/export_import_data.rst:407
+msgid ""
+"This feature allows a company to use the *Import/Export tool* in Odoo to "
+"modify a batch of records in a spreadsheet application."
+msgstr ""
+"Тази функция позволява на фирмата да използва инструмента *Импорт/Експорт* в "
+"Odoo, за да модифицира партида от записи в приложение за електронни таблици."
+
+#: ../../content/applications/essentials/export_import_data.rst:411
+msgid "Value not provided for a specific field"
+msgstr "Не е предоставена стойност за определено поле"
+
+#: ../../content/applications/essentials/export_import_data.rst:413
+msgid ""
+"If all fields are not set in the CSV file, Odoo assigns the default value "
+"for every non-defined field. But, if fields are set with empty values in "
+"the :abbr:`CSV (Comma-separated Values)` file, Odoo sets the empty value in "
+"the field, instead of assigning the default value."
+msgstr ""
+"Ако всички полета не са зададени в CSV файла, Odoo присвоява стойност по "
+"подразбиране за всяко недефинирано поле. Но ако полетата са зададени с "
+"празни стойности в :abbr:`CSV (Comma-separated Values)` файла, Odoo задава "
+"празната стойност в полето, вместо да зададе стойност по подразбиране."
+
+#: ../../content/applications/essentials/export_import_data.rst:418
+msgid "Export/import different tables from an SQL application to Odoo"
+msgstr "Експортиране/импортиране на различни таблици от SQL приложение в Odoo"
+
+#: ../../content/applications/essentials/export_import_data.rst:420
+msgid ""
+"If data needs to be imported from different tables, relations need to be "
+"recreated between records belonging to different tables. For instance, if "
+"companies and people are imported, the link between each person and the "
+"company they work for needs to be recreated."
+msgstr ""
+"Ако е необходимо да се импортират данни от различни таблици, трябва да се "
+"пресъздадат връзки между записи, принадлежащи на различни таблици. Например, "
+"ако се импортират фирми и хора, трябва да се пресъздаде връзката между всяко "
+"лице и фирмата, за която работи."
+
+#: ../../content/applications/essentials/export_import_data.rst:424
+msgid ""
+"To manage relations between tables, use the `External ID` facilities of "
+"Odoo. The `External ID` of a record is the unique identifier of this record "
+"in another application. The `External ID` must be unique across all records "
+"of all objects. It is a good practice to prefix this `External ID` with the "
+"name of the application or table. (like, 'company_1', 'person_1' - instead "
+"of '1')"
+msgstr ""
+"За да управлявате връзките между таблиците, използвайте функциите `Външен "
+"идентификатор` на Odoo. Външният идентификатор на запис е уникалният "
+"идентификатор на този запис в друго приложение. Външният идентификатор "
+"трябва да е уникален за всички записи на всички обекти. Добра практика е "
+"този `Външен идентификатор` да се предхожда от името на приложението или "
+"таблицата. (например, \"company_1\", \"person_1\" - вместо \"1\")"
+
+#: ../../content/applications/essentials/export_import_data.rst:429
+msgid ""
+"As an example, suppose there is an SQL database with two tables that are to "
+"be imported: companies and people. Each person belongs to one company, so "
+"the link between a person and the company they work for must be recreated."
+msgstr ""
+"Като пример, да предположим, че има SQL база данни с две таблици, които "
+"трябва да бъдат импортирани: компании и хора. Всяко лице принадлежи на една "
+"компания, така че връзката между лицето и компанията, за която работи, "
+"трябва да бъде пресъздадена."
+
+#: ../../content/applications/essentials/export_import_data.rst:433
+msgid ""
+"Test this example, with a :download:`sample of a PostgreSQL database "
+"<export_import_data/database_import_test.sql>`."
+msgstr ""
+"Тествайте този пример с :download:`образци на база данни PostgreSQL "
+"<export_import_data/database_import_test.sql>`."
+
+#: ../../content/applications/essentials/export_import_data.rst:436
+msgid ""
+"First, export all companies and their *External ID*. In PSQL, write the "
+"following command:"
+msgstr ""
+"Първо експортирайте всички компании и техния *Външен идентификатор*. В PSQL "
+"напишете следната команда:"
+
+#: ../../content/applications/essentials/export_import_data.rst:442
+msgid ""
+"This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
+"file:"
+msgstr ""
+"Тази SQL команда създава следния :abbr:`CSV (Comma-separated Values)` файл:"
+
+#: ../../content/applications/essentials/export_import_data.rst:451
+msgid ""
+"To create the :abbr:`CSV (Comma-separated Values)` file for people linked to "
+"companies, use the following SQL command in PSQL:"
+msgstr ""
+"За да създадете файла :abbr:`CSV (Comma-separated Values)` за хора, свързани "
+"с компании, използвайте следната SQL команда в PSQL:"
+
+#: ../../content/applications/essentials/export_import_data.rst:458
+msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
+msgstr "Той създава следния :abbr:`CSV (Comma-separated Values)` файл:"
+
+#: ../../content/applications/essentials/export_import_data.rst:468
+msgid ""
+"In this file, Fabien and Laurence are working for the Bigees company "
+"(`company_1`), and Eric is working for the Organi company. The relation "
+"between people and companies is done using the *External ID* of the "
+"companies. The *External ID* is prefixed by the name of the table to avoid a "
+"conflict of ID between people and companies (`person_1` and `company_1`, who "
+"shared the same ID 1 in the original database)."
+msgstr ""
+"В този файл Фабиен и Лоранс работят за компанията Bigees (`company_1`), а "
+"Ерик работи за компанията Organi. Връзката между хората и фирмите се "
+"осъществява чрез използване на *Външен идентификатор* на фирмите. *Външният "
+"идентификатор* е предхождан от името на таблицата, за да се избегне конфликт "
+"на идентификатори между хора и компании (`човек_1` и `компания_1`, които "
+"имат един и същ идентификатор 1 в оригиналната база данни)."
+
+#: ../../content/applications/essentials/export_import_data.rst:474
+msgid ""
+"The two files produced are ready to be imported in Odoo without any "
+"modifications. After having imported these two :abbr:`CSV (Comma-separated "
+"Values)` files, there are four contacts and three companies (the first two "
+"contacts are linked to the first company). Keep in mind to first import the "
+"companies, and then the people."
+msgstr ""
+"Двата създадени файла са готови за импортиране в Odoo без никакви промени. "
+"След като импортирахте тези два :abbr:`CSV (Comma-separated Values)` файла, "
+"има четири контакта и три компании (първите два контакта са свързани с "
+"първата компания). Имайте предвид, че първо трябва да импортирате "
+"компаниите, а след това хората."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:3
+msgid "In-app purchases (IAP)"
+msgstr "Покупки в приложението (IAP)"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:7
+msgid ""
+"In-app purchases (IAP) are optional services that enhance Odoo databases. "
+"Each service provides its own specific features and functionality. A full "
+"list of services is available on the `Odoo IAP Catalog <https://iap.odoo.com/"
+"iap/all-in-app-services>`_."
+msgstr ""
+"Покупките в приложението (IAP) са допълнителни услуги, които подобряват "
+"базите данни на Odoo. Всяка услуга предоставя свои специфични характеристики "
+"и функционалност. Пълният списък на услугите е наличен в `Odoo IAP Catalog "
+"<https://iap.odoo.com/iap/all-in-app-services>`_."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:-1
+msgid "The IAP catalog with various services available on IAP.Odoo.com."
+msgstr "Каталогът на IAP с различни услуги, налични в IAP.Odoo.com."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:16
+msgid ""
+"The :guilabel:`SMS` service sends text messages to contacts directly from "
+"the database, and the :guilabel:`Documents Digitization` service digitizes "
+"scanned or PDF vendor bills, expenses, and resumes with optical character "
+"recognition (OCR) and artificial intelligence (AI)."
+msgstr ""
+"Услугата :guilabel:`SMS` изпраща текстови съобщения до контактите директно "
+"от базата данни, а услугата :guilabel:`Documents Digitization` "
+"(Цифровизиране на документи) цифровизира сканирани или PDF сметки на "
+"доставчици, разходи и автобиографии с помощта на оптично разпознаване на "
+"символи (OCR) и изкуствен интелект (AI)."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:20
+msgid ""
+"|IAP| services do **not** need to be configured or set up before use. Odoo "
+"users can simply click on the service in the app to activate it. However, "
+"each service requires its own prepaid credits, and when they run out, users "
+"**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
+msgstr ""
+"|IAP| услугите не е необходимо да се конфигурират или настройват преди "
+"употреба. Потребителите на Odoo могат просто да кликнат върху услугата в "
+"приложението, за да я активират. Всяка услуга обаче изисква свои предплатени "
+"кредити и когато те свършат, потребителите **трябва** :ref:`да закупят още "
+"<iap/buying_credits>`, за да продължат да я използват."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:25
+msgid ""
+"Enterprise Odoo users with a valid subscription get free credits to test IAP "
+"features before deciding to purchase more credits for the database. This "
+"includes demo/training databases, educational databases, and one-app-free "
+"databases."
+msgstr ""
+"Корпоративните потребители на Odoo с валиден абонамент получават безплатни "
+"кредити, за да тестват функциите на IAP, преди да решат да закупят повече "
+"кредити за базата данни. Това включва демо/обучителни бази данни, "
+"образователни бази данни и бази данни без едно приложение."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:32
+msgid "IAP services"
+msgstr "Услуги на IAP"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:34
+msgid ""
+"|IAP| services are provided by Odoo, as well as third-parties, and have a "
+"wide range of uses."
+msgstr ""
+"|IAP| Услугите се предоставят от Odoo, както и от трети страни, и имат широк "
+"спектър от приложения."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:36
+msgid "The following |IAP| services are offered by Odoo:"
+msgstr "Следните |IAP| услуги се предлагат от Odoo:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:38
+msgid ""
+":guilabel:`Documents Digitization`: digitizes scanned or PDF vendor bills, "
+"expenses, and resumes with OCR and AI."
+msgstr ""
+":guilabel:`Дигитализация на документи`: дигитализира сканирани или PDF "
+"сметки на доставчици, разходи и автобиографии с OCR и AI."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:40
+msgid ""
+":guilabel:`Partner Autocomplete`: automatically populates contact records "
+"with corporate data."
+msgstr ""
+":guilabel:`Partner Autocomplete`: автоматично попълва записите за контакти с "
+"корпоративни данни."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:41
+msgid ""
+":guilabel:`SMS`: sends SMS text messages to contacts directly from the "
+"database."
+msgstr ""
+":guilabel:`SMS`: изпраща SMS съобщения до контакти директно от базата данни."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:42
+msgid ""
+":guilabel:`Lead Generation`: generates leads based on a set of criteria, and "
+"converts web visitors into quality leads and opportunities."
+msgstr ""
+":guilabel:`Lead Generation`: генерира потенциални клиенти въз основа на "
+"набор от критерии и превръща уеб посетителите в качествени потенциални "
+"клиенти и възможности."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:44
+msgid ""
+":guilabel:`Snailmail`: sends customer invoices and follow-up reports by "
+"post, worldwide."
+msgstr ""
+":guilabel:`Snailmail`: изпраща фактури на клиенти и доклади за последващи "
+"действия по пощата в цял свят."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:45
+msgid ""
+":guilabel:`Signer identification with itsme®️`: ask document signatories in "
+"Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
+"which is available in Belgium and the Netherlands."
+msgstr ""
+":guilabel:`Идентификация на подписвача с itsme®️`: поискайте от подписвачите "
+"на документи в Odoo *Sign* да предоставят своята идентичност, като използват "
+"платформата за идентификация *itsme®*, която е налична в Белгия и "
+"Нидерландия."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:49
+msgid ""
+"For more information on every service currently available (offered from "
+"developers other than Odoo), visit the `Odoo IAP Catalog <https://iap.odoo."
+"com/iap/all-in-app-services>`_."
+msgstr ""
+"За повече информация за всяка налична услуга (предлагана от разработчици, "
+"различни от Odoo), посетете `Odoo IAP Catalog <https://iap.odoo.com/iap/all-"
+"in-app-services>`_."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:53
+msgid "Use IAP services"
+msgstr "Използване на услуги на IAP"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:55
+msgid ""
+"|IAP| services are automatically integrated with Odoo, and do **not** "
+"require users to configure any settings. To use a service, simply interact "
+"with it wherever it appears in the database."
+msgstr ""
+"|IAP| услугите са автоматично интегрирани с Odoo и не изискват от "
+"потребителите да конфигурират каквито и да било настройки. За да използвате "
+"дадена услуга, просто взаимодействайте с нея, където и да се появи в базата "
+"данни."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:59
+msgid ""
+"The following flow focuses on the *SMS* |IAP| service being used from a "
+"contact's record."
+msgstr ""
+"Следващият поток се фокусира върху услугата *SMS* |IAP|, която се използва "
+"от записа на даден контакт."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:61
+msgid ""
+"This can be done by clicking the :guilabel:`📱 SMS` icon within the database."
+msgstr ""
+"Това може да стане, като кликнете върху иконата :guilabel:`📱 SMS` в базата "
+"данни."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:-1
+msgid ""
+"The SMS icon on a typical contact information form located within an Odoo "
+"database."
+msgstr ""
+"Иконата за SMS в типичен формуляр за информация за контакт, разположен в "
+"базата данни на Odoo."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:67
+msgid ""
+"One way to utilize the *SMS* |IAP| service with Odoo is showcased in the "
+"following steps:"
+msgstr ""
+"Един от начините за използване на услугата *SMS* |IAP| с Odoo е показан в "
+"следните стъпки:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:69
+msgid ""
+"First, navigate to the :menuselection:`Contacts application`, and click on a "
+"contact with a mobile phone number entered in either the :guilabel:`Phone` "
+"or :guilabel:`Mobile` field of the contact form."
+msgstr ""
+"Първо, преминете към приложението :menuselection:`Contacts` и щракнете върху "
+"контакт с мобилен телефонен номер, въведен в полето :guilabel:`Phone` или :"
+"guilabel:`Mobile` на формата за контакт."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:73
+msgid ""
+"Next, find the :guilabel:`📱 SMS` icon that appears to the right of the :"
+"guilabel:`Phone` or :guilabel:`Mobile` fields. Click the :guilabel:`📱 SMS` "
+"icon, and a :guilabel:`Send SMS Text Message` pop-up window appears."
+msgstr ""
+"След това намерете иконата :guilabel:`📱 SMS`, която се появява вдясно от "
+"полетата :guilabel:`Phone` или :guilabel:`Mobile`. Щракнете върху иконата :"
+"guilabel:`📱 SMS` и ще се появи изскачащ прозорец :guilabel:`Send SMS Text "
+"Message`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:77
+msgid ""
+"Type a message in the :guilabel:`Message` field of the pop-up window. Then, "
+"click the :guilabel:`Send SMS` button. Odoo then sends the message, via SMS, "
+"to the contact, and logs what was sent in the *chatter* of the contact's "
+"form."
+msgstr ""
+"Въведете съобщение в полето :guilabel:`Message` на изскачащия прозорец. След "
+"това щракнете върху бутона :guilabel:`Send SMS` (Изпращане на SMS). След "
+"това Odoo изпраща съобщението, чрез SMS, на контакта и записва изпратеното в "
+"*chatter* на формата на контакта."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:81
+msgid ""
+"Upon sending the SMS message, the prepaid credits for the *SMS* |IAP| "
+"service are automatically deducted from the existing credits. If there are "
+"not enough credits to send the message, Odoo prompts the user to purchase "
+"more."
+msgstr ""
+"При изпращане на SMS съобщението предплатените кредити за услугата *SMS* |"
+"IAP| се приспадат автоматично от съществуващите кредити. Ако няма достатъчно "
+"кредити за изпращане на съобщението, Odoo подканва потребителя да закупи още."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:86
+msgid ""
+"For more information on how to use various |IAP| services, and for more in-"
+"depth instructions related to SMS functionality in Odoo, review the "
+"documentation below:"
+msgstr ""
+"За повече информация как да използвате различните |IAP| услуги и за по-"
+"задълбочени инструкции, свързани с функционалността на SMS в Odoo, "
+"прегледайте документацията по-долу:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:89
+msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
+msgstr ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:90
+msgid ""
+":doc:`Enrich your contacts base with Partner Autocomplete <../sales/crm/"
+"optimize/partner_autocomplete>`"
+msgstr ""
+":doc:`Обогатете базата си от контакти с функцията за автоматично попълване "
+"на партньори <../sales/crm/optimize/partner_autocomplete>`"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:92
+msgid ""
+":doc:`SMS essentials <../marketing/sms_marketing/essentials/sms_essentials>`"
+msgstr ""
+":doc:`SMS essentials <../marketing/sms_marketing/essentials/sms_essentials>`"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:97
+msgid "IAP credits"
+msgstr "Кредити на IAP"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:99
+msgid ""
+"Every time an |IAP| service is used, the prepaid credits for that service "
+"are spent. Odoo prompts the purchase of more credits when there are not "
+"enough credits left to continue using a service. Email alerts can also be "
+"set up for when :ref:`credits are low <in_app_purchase/low-credits>`."
+msgstr ""
+"При всяко използване на услуга |IAP| се изразходват предплатените кредити за "
+"тази услуга. Odoo подканва за закупуване на още кредити, когато не са "
+"останали достатъчно кредити, за да продължите да използвате дадена услуга. "
+"Могат да се настроят и предупреждения по имейл, когато :ref:`кредитите са "
+"малко <in_app_purchase/low-credits>`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:103
+msgid ""
+"Credits are purchased in *Packs* from the `Odoo IAP Catalog <https://iap."
+"odoo.com/iap/all-in-app-services>`_, and pricing is specific to each service."
+msgstr ""
+"Кредитите се закупуват на *пакети* от каталога на `Odoo IAP <https://iap."
+"odoo.com/iap/all-in-app-services>`_, а цените са специфични за всяка услуга."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:107
+msgid ""
+"The `SMS service <https://iap.odoo.com/iap/in-app-services/1>`_ has four "
+"packs available, in denominations of:"
+msgstr ""
+"Услугата `SMS <https://iap.odoo.com/iap/in-app-services/1>`_ разполага с "
+"четири пакета с номинал от:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:110
+msgid ":guilabel:`Starter Pack`: 10 credits"
+msgstr ":guilabel:`Starter Pack`: 10 кредита"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:111
+msgid ":guilabel:`Standard Pack`: 100 credits"
+msgstr ":guilabel:`Стандартна опаковка`: 100 кредита"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:112
+msgid ":guilabel:`Advanced Pack`: 500 credits"
+msgstr ":guilabel:`Advanced Pack`: 500 кредита"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:113
+msgid ":guilabel:`Expert Pack`: 1,000 credits"
+msgstr ":guilabel:`Expert Pack`: 1,000 кредита"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:-1
+msgid "Four different packs of credits for the SMS IAP service."
+msgstr "Четири различни пакета с кредити за услугата SMS IAP."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:119
+msgid ""
+"The number of credits consumed depends on the length of the SMS and the "
+"country of destination."
+msgstr ""
+"Броят на изразходваните кредити зависи от дължината на SMS-а и страната на "
+"получаване."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:121
+msgid ""
+"For more information, refer to the :doc:`SMS Pricing and FAQ <../marketing/"
+"sms_marketing/pricing/pricing_and_faq>` documentation."
+msgstr ""
+"За повече информация вижте документацията :doc:`SMS Pricing and FAQ <../"
+"marketing/sms_marketing/pricing/pricing_and_faq>`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:127
+msgid "Buy credits"
+msgstr "Закупуване на кредити"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:129
+msgid ""
+"If there are not enough credits to perform a task, the database "
+"automatically prompts the purchase of more credits."
+msgstr ""
+"Ако няма достатъчно кредити за изпълнение на дадена задача, базата данни "
+"автоматично предлага закупуването на още кредити."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:132
+msgid ""
+"Users can check the current balance of credits for each service, and "
+"manually purchase more credits, by navigating to the :menuselection:"
+"`Settings app --> Contacts section`, and beneath the :guilabel:`Odoo IAP` "
+"setting, click :guilabel:`View My Services`."
+msgstr ""
+"Потребителите могат да проверят текущия баланс на кредитите за всяка услуга "
+"и ръчно да закупят още кредити, като отидат в приложението :menuselection:"
+"`Settings --> Contacts section` и под настройката :guilabel:`Odoo IAP` "
+"кликнат върху :guilabel:`View My Services`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:136
+msgid ""
+"Doing so reveals a :guilabel:`My Services` page, listing the various |IAP| "
+"services in the database. From here, click an |IAP| service to open its :"
+"guilabel:`Account Information` page, where additional credits can be "
+"purchased."
+msgstr ""
+"По този начин се появява страница :guilabel:`My Services` (Моите услуги), в "
+"която са изброени различните |IAP| услуги в базата данни. Оттук щракнете "
+"върху |IAP| услуга, за да отворите нейната страница :guilabel:`Account "
+"Information` (Информация за сметката), където могат да бъдат закупени "
+"допълнителни кредити."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:141
+msgid "Manually buy credits"
+msgstr "Ръчно закупуване на кредити"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:143
+msgid "To manually buy credits in Odoo, follow these steps:"
+msgstr "За да закупите ръчно кредити в Odoo, следвайте следните стъпки:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:145
+msgid ""
+"First, go to the :menuselection:`Settings application` and type `IAP` in "
+"the :guilabel:`Search...` bar. Alternatively users can scroll down to the :"
+"guilabel:`Contacts` section. Under the :guilabel:`Contacts` section, where "
+"it says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
+msgstr ""
+"Първо, отидете в приложението :menuselection:`Settings` и въведете `IAP` в "
+"лентата :guilabel:`Search...`. Алтернативно потребителите могат да превъртят "
+"надолу до раздела :guilabel:`Контакти`. В раздела :guilabel:`Contacts`, "
+"където е написано :guilabel:`Odoo IAP`, щракнете върху :guilabel:`View My "
+"Services`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:-1
+msgid ""
+"The Settings app showing the Odoo IAP heading and View My Services button."
+msgstr ""
+"Приложението Настройки показва заглавието Odoo IAP и бутона Преглед на моите "
+"услуги."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:154
+msgid ""
+"Doing so reveals an :guilabel:`IAP Account` page, listing the various |IAP| "
+"services in the database. From here, click an |IAP| service to open details "
+"about it; additional credits can be purchased from here."
+msgstr ""
+"По този начин се появява страница :guilabel:`IAP Account`, в която са "
+"изброени различните |IAP| услуги в базата данни. Оттук щракнете върху |IAP| "
+"услуга, за да отворите подробна информация за нея; оттук можете да закупите "
+"допълнителни кредити."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:158
+msgid ""
+"On the following page, click the :guilabel:`Buy Credit` button. Doing so "
+"loads a :guilabel:`Buy Credits for (IAP Account)` page in a new tab. From "
+"here, click :guilabel:`Buy` on the desired pack of credits. Then, follow the "
+"prompts to enter payment details, and confirm the order."
+msgstr ""
+"На следващата страница кликнете върху бутона :guilabel:`Buy Credit`. По този "
+"начин се зарежда страницата :guilabel:`Buy Credits for (IAP Account)` в нов "
+"раздел. Оттук щракнете върху :guilabel:`Buy` (Купи) на желания пакет "
+"кредити. След това следвайте указанията за въвеждане на данни за плащане и "
+"потвърдете поръчката."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:-1
+msgid ""
+"The SMS service page on IAP.Odoo.com with four packs of credits available "
+"for purchase."
+msgstr ""
+"Страницата на SMS услугата в IAP.Odoo.com с четири пакета от кредити, "
+"достъпни за закупуване."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:166
+msgid ""
+"Once the transaction is complete, the credits are available for use in the "
+"database."
+msgstr ""
+"След приключване на транзакцията кредитите са на разположение за използване "
+"в базата данни."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:171
+msgid "Low-credit notification"
+msgstr "Уведомление за нисък кредит"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:173
+msgid ""
+"It is possible to be notified when credits are low, in order to avoid "
+"running out of credits, while using an |IAP| service. To do that, follow "
+"this process:"
+msgstr ""
+"Възможно е да получавате известия за изчерпване на кредитите, за да "
+"избегнете изчерпването им, докато използвате услуга |IAP|. За да направите "
+"това, следвайте следния процес:"
+
+#: ../../content/applications/essentials/in_app_purchase.rst:176
+msgid ""
+"Go to the :menuselection:`Settings application`, and type `IAP` in the :"
+"guilabel:`Search...` bar. Under the :guilabel:`Contacts` section, where it "
+"says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
+msgstr ""
+"Отидете в приложението :menuselection:`Settings` и въведете `IAP` в лентата :"
+"guilabel:`Search...`. В раздела :guilabel:`Контакти`, където е написано :"
+"guilabel:`Odoo IAP`, щракнете върху :guilabel:`Преглед на моите услуги`."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:180
+msgid ""
+"The available |IAP| accounts appear in a list view on the :guilabel:`IAP "
+"Account` page. From here, click on the desired |IAP| account to view that "
+"service's details."
+msgstr ""
+"Наличните |IAP| акаунти се показват в списъчен вид на страницата :guilabel:"
+"`IAP Account`. Оттук щракнете върху желания |IAP| акаунт, за да видите "
+"подробностите за тази услуга."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:183
+msgid ""
+"On the details page, tick the :guilabel:`Receive threshold warning` "
+"checkbox. Doing so reveals two fields on the form: :guilabel:`Warning "
+"Threshold` and :guilabel:`Contact Email`."
+msgstr ""
+"На страницата с подробности поставете отметка в квадратчето :guilabel:"
+"`Receive threshold warning` (Получаване на предупреждение за праг). По този "
+"начин се разкриват две полета във формуляра: :guilabel:`Warning Threshold` "
+"(Праг на предупреждение) и :guilabel:`Contact Email` (Имейл за контакт)."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:186
+msgid ""
+"In the :guilabel:`Warning Threshold` field, enter an amount of credits Odoo "
+"should use as the minimum threshold for this service. In the :guilabel:"
+"`Contact Email` field, enter the email address that receives the "
+"notification."
+msgstr ""
+"В полето :guilabel:`Warning Threshold` (Праг на предупреждение) въведете "
+"сума от кредити, която Odoo трябва да използва като минимален праг за тази "
+"услуга. В полето :guilabel:`Contact Email` (Имейл за контакт) въведете имейл "
+"адреса, който ще получава известието."
+
+#: ../../content/applications/essentials/in_app_purchase.rst:190
+msgid ""
+"Odoo sends a low-credit alert to the :guilabel:`Contact Email` when the "
+"balance of credits falls below the amount listed as the :guilabel:`Warning "
+"Threshold`."
+msgstr ""
+"Odoo изпраща предупреждение за нисък кредит на :guilabel:`Contact Email`, "
+"когато балансът на кредитите падне под сумата, посочена като :guilabel:"
+"`Warning Threshold`."

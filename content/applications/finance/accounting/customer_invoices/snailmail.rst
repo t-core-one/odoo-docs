@@ -46,10 +46,3 @@ Pricing
 
 Snailmail is an :doc:`/applications/essentials/in_app_purchase` service that requires prepaid stamps
 (=credits) to work. Sending one document consumes one stamp.
-
-To buy stamps, go to :menuselection:`Accounting --> Configuration --> Settings --> Customer
-invoices: Snailmail`, click on :guilabel:`Buy credits`, or go to :menuselection:`Settings --> In-App
-Purchases: Odoo IAP`, and click on :guilabel:`View my Services`.
-
-.. seealso::
-   `Odoo's IAP Privacy Policy <https://iap.odoo.com/privacy#header_4>`_

@@ -60,19 +60,3 @@ According to your settings, the document is either processed automatically, or y
 
 Once the data is extracted from the PDF, you can correct it if necessary by clicking on the
 respective tags (available in Edit mode) and selecting the proper information instead.
-
-Pricing
-=======
-
-| The **invoice digitization** is an In-App Purchase (IAP) service that requires prepaid credits to
-  work. Digitizing one document consumes one credit.
-| To buy credits, go to :menuselection:`Accounting --> Configuration --> Settings --> Digitization`
-  and click on :guilabel:`Buy credits`, or go to :menuselection:`Settings --> Odoo IAP` and click on
-  :guilabel:`View My Services`.
-
-.. important::
-   - If you are on Odoo Online and have the Enterprise version, you benefit from free trial credits
-     to test the feature.
-
-.. seealso::
-   - `Our Privacy Policy <https://iap.odoo.com/privacy#header_6>`_.

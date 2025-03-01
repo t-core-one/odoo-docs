@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 07:11+0000\n"
-"PO-Revision-Date: 2025-02-28 22:23+0200\n"
+"PO-Revision-Date: 2025-03-02 01:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: bg_BG\n"
@@ -1633,9 +1633,8 @@ msgstr ""
 "приложенията, инсталирани в момента в базата данни."
 
 #: ../../content/applications/sales/crm/optimize/utilize_activities.rst:75
-#, fuzzy
 msgid "Default user"
-msgstr "Сесии"
+msgstr "Потребител по подразбиране"
 
 #: ../../content/applications/sales/crm/optimize/utilize_activities.rst:77
 msgid ""
@@ -1881,9 +1880,8 @@ msgstr ""
 "фактори. Вижте по - долу за някои предложени последователности:"
 
 #: ../../content/applications/sales/crm/optimize/utilize_activities.rst:189
-#, fuzzy
 msgid "Sample #1"
-msgstr "Проба 1"
+msgstr "Пример 1"
 
 #: ../../content/applications/sales/crm/optimize/utilize_activities.rst:191
 msgid ""
@@ -12390,6 +12388,11 @@ msgid ""
 "the quantities if necessary. Click on the trash icon next to a line item to "
 "remove it from the return."
 msgstr ""
+"На валидираната поръчка за доставка щракнете върху :guilabel:„Връщане “, за "
+"да отворите изскачащия прозорец:guilabel:„ Обратно прехвърляне “. По "
+"подразбиране:guilabel:„Количество“ съответства на валидираните количества от "
+"поръчката за доставка. Актуализирайте количествата, ако е необходимо. "
+"Кликнете върху иконата на кошчето до ред, за да го премахнете от връщането."
 
 #: ../../content/applications/sales/sales/products_prices/returns.rst:-1
 msgid ""
@@ -12437,6 +12440,11 @@ msgid ""
 "*Reverse Transfers* can be used in conjunction with *Credit Notes* to "
 "complete the customer's return."
 msgstr ""
+"Понякога клиентите връщат артикул, след като получат и/или платят за "
+"фактурата си. В тези случаи връщането само с *Обратни прехвърляния* е "
+"недостатъчно, тъй като валидираните или изпратените фактури не могат да бъдат "
+"променени. Въпреки това, *Обратните преводи* могат да се използват заедно с "
+"*Кредитни известия* за завършване на връщането на клиента."
 
 #: ../../content/applications/sales/sales/products_prices/returns.rst:49
 msgid ""
@@ -12469,6 +12477,9 @@ msgid ""
 "click on the :guilabel:`Invoices` smart button). Click :guilabel:`Add Credit "
 "Note` from the validated invoice."
 msgstr ""
+"За да обработите възстановяване, отидете до съответната фактура (от поръчката "
+"за продажба щракнете върху бутона :guilabel:„Фактури “). Щракнете върху :"
+"guilabel:„ Добавяне на кредитно известие “от валидираната фактура."
 
 #: ../../content/applications/sales/sales/products_prices/returns.rst:-1
 msgid ""
@@ -12495,6 +12506,9 @@ msgid ""
 "guilabel:`Edit` the draft as needed, and finally, click :guilabel:`Confirm` "
 "to confirm the credit note."
 msgstr ""
+"След като информацията бъде попълнена, кликнете върху :guilabel:`Reverse '. "
+"След това:guilabel:„Редактирайте“ черновата, ако е необходимо, и накрая "
+"щракнете върху :guilabel:„Потвърдете “, за да потвърдите кредитното известие."
 
 #: ../../content/applications/sales/sales/send_quotations.rst:5
 msgid "Send Quotations"
@@ -12543,6 +12557,10 @@ msgid ""
 "drop-down calendar, in which the month and date can be designated as the "
 "expiration date of the quotation."
 msgstr ""
+"Във формуляра за оферта щракнете върху :guilabel:„Редактиране“ (ако променяте "
+"вече съществуваща оферта) и щракнете върху полето :guilabel:„Срок на "
+"валидност “. Това разкрива падащ календар, в който месецът и датата могат да "
+"бъдат посочени като дата на изтичане на офертата."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:-1
 msgid "How to configure deadlines on Odoo Sales."
@@ -12566,6 +12584,10 @@ msgid ""
 "every quotation template. Whenever a specific quotation template is used in a "
 "quote, its associated deadline is automatically applied."
 msgstr ""
+"Приложението Odoo *Sales* също така дава възможност за добавяне на краен срок "
+"към всеки шаблон за оферта. Всеки път, когато в дадена оферта се използва "
+"конкретен шаблон за оферта, автоматично се прилага свързаният с него краен "
+"срок."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:36
 msgid ""
@@ -12574,6 +12596,11 @@ msgid ""
 "quotation template to which a deadline should be added, or click :guilabel:"
 "`Create` to build a new quotation template from scratch."
 msgstr ""
+"За да добавите краен срок към шаблон за оферта, отидете на: menuselection:"
+"„Шаблони за конфигурация на оферти в приложението за продажби--> -->“ и или "
+"изберете желания шаблон за оферта, към който трябва да се добави краен срок, "
+"или щракнете върху :guilabel:„Създаване “, за да създадете нов шаблон за "
+"оферта от нулата."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:40
 msgid ""
@@ -12590,10 +12617,14 @@ msgid ""
 "represents how long the quotation will be valid for, before it expires. When "
 "done, click :guilabel:`Save`."
 msgstr ""
+"След това добавете конкретен брой дни към полето :guilabel:„Офертата изтича "
+"след “, намиращо се под името на шаблона за оферта. Броят дни представлява "
+"колко дълго ще бъде валидна офертата, преди да изтече. Когато сте готови, "
+"кликнете върху :guilabel:„ Save “."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:-1
 msgid "How to use deadline in a quotation template on Odoo Sales."
-msgstr ""
+msgstr "Как да използвате крайния срок в шаблон за оферти на Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:51
 msgid ""
@@ -12602,10 +12633,14 @@ msgid ""
 "of days is the same as those mentioned in the quotation template (if a "
 "quotation template was used for the initial quotation)."
 msgstr ""
+"Като щракнете върху бутона :guilabel:„Преглед на клиента“ на оферта, Odoo "
+"ясно показва кога изтича тази конкретна оферта. Напомняме ви, че броят на "
+"дните е същият като споменатите в шаблона за оферта (ако за първоначалната "
+"оферта е използван шаблон за оферта)."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:0
 msgid "How customers will see deadlines on Odoo Sales."
-msgstr ""
+msgstr "Как клиентите ще виждат крайните срокове за продажбите на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:60
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:52
@@ -12613,11 +12648,11 @@ msgstr ""
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:68
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:149
 msgid ":doc:`/applications/sales/sales/send_quotations/quote_template`"
-msgstr ""
+msgstr ":doc:'/ applications/sales/sales/send_quotes/quote_template '"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:3
 msgid "Deliveries and invoices to different addresses"
-msgstr ""
+msgstr "Доставки и фактури на различни адреси"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:5
 msgid ""
@@ -12625,6 +12660,9 @@ msgid ""
 "and shipping (delivery) purposes. With the Odoo *Sales* app, contacts can "
 "have different specified addresses for delivery and invoicing."
 msgstr ""
+"Хората и фирмите често използват отделни адреси за целите на фактуриране "
+"(фактуриране) и доставка (доставка). С приложението Odoo *Sales* контактите "
+"могат да имат различни посочени адреси за доставка и фактуриране."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:10
 msgid "Settings"
@@ -12637,14 +12675,20 @@ msgid ""
 "`Quotations & Orders` heading. Then, check the box next to :guilabel:"
 "`Customer Addresses`, and click :guilabel:`Save`."
 msgstr ""
+"За да използвате правилно няколко адреса в Odoo, отидете на:menuselection:"
+"„Настройки за конфигуриране на приложението за продажби--> -->“ и превъртете "
+"надолу до заглавието:guilabel:„Оферти и поръчки “. След това поставете "
+"отметка в квадратчето до :guilabel:„ Адреси на клиенти “и кликнете върху :"
+"guilabel:„ Запазване “."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:-1
 msgid "Activate the Customer Addresses setting."
-msgstr ""
+msgstr "Активирайте настройката \"Адреси на клиенти \"."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:21
+#, fuzzy
 msgid "Contact form configuration"
-msgstr ""
+msgstr "Конфигурация на формата за контакт"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:23
 msgid ""
@@ -12652,10 +12696,15 @@ msgid ""
 "Orders --> Customers`, and clear any default filters from the search bar. "
 "Then, click on the desired customer to open their contact form."
 msgstr ""
+"За да добавите няколко адреса към даден контакт, отидете на:menuselection:"
+"„Приложението за продажби --> поръчва --> клиенти“ и изчистете всички филтри "
+"по подразбиране от лентата за търсене. След това кликнете върху желания "
+"клиент, за да отворите формуляра за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:28
 msgid "Contact forms can be accessed in the *Contacts* application, as well."
 msgstr ""
+"Формулярите за контакт могат да бъдат достъпни и в приложението *Контакти*."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:30
 msgid ""
@@ -12664,10 +12713,14 @@ msgid ""
 "so reveals a :guilabel:`Create Contact` pop-up form, in which additional "
 "addresses can be configured."
 msgstr ""
+"От формуляра за контакт кликнете върху :guilabel:`Edit ', след което "
+"изберете :guilabel:` Add ', който се намира в раздела :guilabel:`Contacts & "
+"Addresses '. Това разкрива:guilabel:„Създаване на контакт“ изскачащ формуляр, "
+"в който могат да бъдат конфигурирани допълнителни адреси."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:-1
 msgid "Add a contact/address to the contact form."
-msgstr ""
+msgstr "Добавете контакт/адрес към формуляра за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:38
 msgid ""
@@ -12675,48 +12728,64 @@ msgid ""
 "guilabel:`Other Address` field to reveal a drop-down menu of address-related "
 "options."
 msgstr ""
+"В изскачащия формуляр:guilabel:„Създаване на контакт“ щракнете върху полето "
+"по подразбиране :guilabel:„Друг адрес “, за да разкриете падащо меню с опции, "
+"свързани с адреса."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:41
+#, fuzzy
 msgid "Select any of the following options:"
-msgstr ""
+msgstr "Изберете една от следните опции:"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:43
 msgid ":guilabel:`Contact`: adds another contact to the existing contact form."
 msgstr ""
+":guilabel:„Контакт “: добавя друг контакт към съществуващия формуляр за "
+"контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:44
 msgid ""
 ":guilabel:`Invoice Address`: adds a specific invoice address to the existing "
 "contact form."
 msgstr ""
+":guilabel:„Адрес на фактура “: добавя конкретен адрес на фактура към "
+"съществуващата форма за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:45
 msgid ""
 ":guilabel:`Delivery Address`: adds a specific delivery address to the "
 "existing contact form."
 msgstr ""
+":guilabel:„Адрес за доставка “: добавя конкретен адрес за доставка към "
+"съществуващата форма за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:46
 msgid ""
 ":guilabel:`Other Address`: adds an alternate address to the existing contact "
 "form."
 msgstr ""
+":guilabel:„Друг адрес “: добавя алтернативен адрес към съществуващата форма "
+"за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:47
 msgid ""
 ":guilabel:`Private Address`: adds a private address to the existing contact "
 "form."
 msgstr ""
+":guilabel:„Частен адрес “: добавя частен адрес към съществуващата форма за "
+"контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:49
 msgid ""
 "Once an option is selected, proceed to enter the corresponding contact "
 "information that should be used for the specified address type."
 msgstr ""
+"След като е избрана опция, продължете да въвеждате съответната информация за "
+"контакт, която трябва да се използва за посочения тип адрес."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:-1
 msgid "Create a new contact/address on a contact form."
-msgstr ""
+msgstr "Създайте нов контакт/адрес във формуляр за контакт."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:56
 msgid ""
@@ -12724,10 +12793,13 @@ msgid ""
 "guilabel:`Create Contact` window. Or, click :guilabel:`Save & New` to save "
 "the address and immediately input another one."
 msgstr ""
+"След това кликнете върху :guilabel:„Save & Close “, за да запазите адреса, и "
+"затворете прозореца:guilabel:„ Create Contact “. Или кликнете :guilabel:„Save "
+"& New “, за да запазите адреса и незабавно да въведете друг."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:60
 msgid "Address added to quotations"
-msgstr ""
+msgstr "Адресът е добавен към офертите"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:62
 msgid ""
@@ -12735,10 +12807,13 @@ msgid ""
 "guilabel:`Delivery Address` fields autopopulate with the corresponding "
 "addresses specified on the customer's contact form."
 msgstr ""
+"Когато клиент е добавен към оферта, полетата:guilabel:„Адрес за фактура“ и :"
+"guilabel:„Адрес за доставка“ се попълват автоматично със съответните адреси, "
+"посочени във формуляра за контакт на клиента."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:-1
 msgid "Invoice and Delivery Addresses autopopulate on a quotation."
-msgstr ""
+msgstr "Адресите за фактуриране и доставка се попълват автоматично при оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:70
 msgid ""
@@ -12747,32 +12822,43 @@ msgid ""
 "and then clicking the :guilabel:`➡️ (right arrow)` internal link buttons next "
 "to each address line."
 msgstr ""
+":guilabel:„Адрес за фактура“ и :guilabel:„Адрес за доставка“ също могат да "
+"бъдат редактирани директно от офертата, като щракнете върху бутона:guilabel:"
+"„Редактиране“ и след това щракнете върху бутоните за вътрешна връзка:guilabel:"
+"➡️ „( стрелка надясно )“ до всеки адресен ред."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:74
 msgid ""
 "These addresses can be updated at any time to ensure accurate invoicing and "
 "delivery."
 msgstr ""
+"Тези адреси могат да бъдат актуализирани по всяко време, за да се гарантира "
+"точното фактуриране и доставка."
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:77
 msgid ""
 "If any changes are made on a form in Odoo, include *Contacts* forms, remember "
 "to click :guilabel:`Save` to save the changes to the database."
 msgstr ""
+"Ако са направени промени във формуляр в Odoo, включете *Контакти* формуляри, "
+"не забравяйте да щракнете върху :guilabel:„Запазване “, за да запазите "
+"промените в базата данни."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:3
 msgid "Online payment order confirmation"
-msgstr ""
+msgstr "Потвърждение на онлайн платежно нареждане"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:5
 msgid ""
 "With Odoo *Sales*, online payments can be used to get automatic confirmation "
 "on orders."
 msgstr ""
+"С Odoo *Sales* онлайн плащанията могат да се използват за получаване на "
+"автоматично потвърждение на поръчките."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:8
 msgid "Enable online payment"
-msgstr ""
+msgstr "Активиране на онлайн плащане"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:10
 msgid ""
@@ -12781,10 +12867,14 @@ msgid ""
 "`Online Payment` feature by checking the box next to it, and clicking :"
 "guilabel:`Save`."
 msgstr ""
+"Отидете на:menuselection:„Настройки за конфигуриране на приложението за "
+"продажби --> --> “, превъртете до:guilabel:„Оферти и поръчки “и активирайте "
+"функцията:guilabel:„ Онлайн плащане “, като поставите отметка в квадратчето "
+"до него и щракнете върху :guilabel:„Запазване “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:-1
 msgid "How to enable online payment on Odoo Sales."
-msgstr ""
+msgstr "Как да активирате онлайн плащането в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:18
 msgid ""
@@ -12792,10 +12882,13 @@ msgid ""
 "to the :guilabel:`Payment Acquirers` appears beneath it. Click that link to "
 "reveal the entire :guilabel:`Payment Acquirers` page."
 msgstr ""
+"След като поставите отметка в квадратчето до:guilabel:„Онлайн плащане “, под "
+"него се появява връзка към:guilabel:„ Получатели на плащане “. Щракнете върху "
+"тази връзка, за да разкриете цялата страница:guilabel:`Payment Acquirers '."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:-1
 msgid "Payment acquirers page in the Odoo Sales application."
-msgstr ""
+msgstr "Страница за получатели на плащания в приложението Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:26
 msgid ""
@@ -12804,34 +12897,43 @@ msgid ""
 "review the documentation related to the ways payment acquirers can be used "
 "with Odoo, such as:"
 msgstr ""
+"На страницата :guilabel:„Придобиващи плащания“ могат да бъдат избрани и "
+"конфигурирани придобиващите плащания. Преди да създадете (или промените) "
+"придобиващ плащане, не забравяйте да прегледате документацията, свързана с "
+"начините, по които придобиващите плащания могат да бъдат използвани с Odoo, "
+"като например:"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:30
 msgid ":doc:`../../../finance/payment_acquirers/paypal`"
-msgstr ""
+msgstr ":doc:`../../../finance/payment_quers/paypal`"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:31
 msgid ":doc:`../../../finance/payment_acquirers/authorize`"
-msgstr ""
+msgstr ":doc:`../../../finance/payment_quers/authorize`"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:32
 msgid ":doc:`../../../finance/payment_acquirers`"
-msgstr ""
+msgstr ":doc:`../../../finance/payment_quers`"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:35
 msgid ""
 "On quotation templates, the :guilabel:`Online Payment` feature is located "
 "under the :guilabel:`Confirmation` tab."
 msgstr ""
+"В шаблоните за оферти функцията :guilabel:„Онлайн плащане“ се намира в "
+"раздела :guilabel:„Потвърждение “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:38
 msgid ""
 "On standard quotations, the :guilabel:`Online Payment` feature is located "
 "under the :guilabel:`Other Info` tab."
 msgstr ""
+"На стандартните оферти функцията :guilabel:„Онлайн плащане“ се намира в "
+"раздела :guilabel:„Друга информация “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:42
 msgid "Register a payment"
-msgstr ""
+msgstr "Регистриране на плащане"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:44
 msgid ""
@@ -12839,10 +12941,13 @@ msgid ""
 "with different options to make online payments, in the :guilabel:`Pay with` "
 "section."
 msgstr ""
+"След отваряне на офертите от имейла, който получават, на клиентите се "
+"предоставят различни опции за извършване на онлайн плащания в раздела:"
+"guilabel:„Плащане с “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:-1
 msgid "How to register a payment on Odoo Sales."
-msgstr ""
+msgstr "Как да регистрирате плащане в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:52
 msgid ""
@@ -12850,14 +12955,18 @@ msgid ""
 "provides a preview of the quotation as the customer sees it, along with the "
 "various online payment options they can choose from."
 msgstr ""
+"Щракването върху :guilabel: Интелигентният бутон „Преглед на клиента“ във "
+"формуляра за оферта осигурява предварителен преглед на офертата, както я "
+"вижда клиентът, заедно с различните опции за онлайн плащане, от които може да "
+"избира."
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:57
 msgid ":doc:`quote_template`"
-msgstr ""
+msgstr ":doc:`quote_template'"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:3
 msgid "Online signatures for order confirmations"
-msgstr ""
+msgstr "Онлайн подписи за потвърждения на поръчки"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:5
 msgid ""
@@ -12866,10 +12975,15 @@ msgid ""
 "order is electronically signed by the customer, the salesperson attached to "
 "the sales order is automatically notified that the order is confirmed."
 msgstr ""
+"Приложението Odoo *Sales* предоставя на клиентите възможност да потвърждават "
+"поръчки чрез онлайн подпис директно върху поръчката за продажба. След като "
+"поръчката за продажба бъде подписана по електронен път от клиента, "
+"продавачът, приложен към поръчката за продажба, автоматично се уведомява, че "
+"поръчката е потвърдена."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:11
 msgid "Activate online signatures"
-msgstr ""
+msgstr "Активиране на онлайн подписи"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:13
 msgid ""
@@ -12879,34 +12993,43 @@ msgid ""
 "the box beside it. Then, click the :guilabel:`Save` button in the top-left "
 "corner."
 msgstr ""
+"За да активирате функцията *онлайн подпис*, отидете на: menuselection:"
+"„Настройки за конфигуриране на приложението за продажби --> --> “, превъртете "
+"до заглавието:guilabel:„ Оферти и поръчки “и активирайте функцията:guilabel:"
+"„ Онлайн подпис “, като поставите отметка в квадратчето до него. След това "
+"кликнете върху бутона :guilabel:„Save“ в горния ляв ъгъл."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:-1
 msgid "How to enable online signature in Odoo Sales settings."
-msgstr ""
+msgstr "Как да активирате онлайн подпис в настройките за продажби на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:23
 msgid ""
 "On quotation templates, the :guilabel:`Online Signature` feature is located "
 "under the :guilabel:`Confirmation` tab."
 msgstr ""
+"В шаблоните за оферти функцията :guilabel:„Онлайн подпис“ се намира под "
+"раздела :guilabel:„Потвърждение “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:0
 msgid "How to enable online signature on a quotation template."
-msgstr ""
+msgstr "Как да активирате онлайн подпис в шаблон за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:30
 msgid ""
 "On standard quotations, the :guilabel:`Online Signature` feature is located "
 "under the :guilabel:`Other Info` tab."
 msgstr ""
+"На стандартните цитати функцията :guilabel:„Онлайн подпис“ се намира под "
+"раздела :guilabel:„Друга информация “."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:0
 msgid "How to enable online signature on standard quotations."
-msgstr ""
+msgstr "Как да активирате онлайн подпис върху стандартни оферти."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:38
 msgid "Order confirmations with online signatures"
-msgstr ""
+msgstr "Потвърждения на поръчки с онлайн подписи"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:40
 msgid ""
@@ -12915,10 +13038,14 @@ msgid ""
 "clicked, clients have the option to draw a signature, fill in the field with "
 "an automated signature, or load a file from their computer."
 msgstr ""
+"Когато офертите се изпращат на клиенти, има опция за тях:guilabel:„Sign & "
+"Pay“ директно на офертата в онлайн портала за клиенти. При кликване клиентите "
+"имат възможност да нарисуват подпис, да попълнят полето с автоматичен подпис "
+"или да заредят файл от компютъра си."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:-1
 msgid "How to confirm an order with a signature on Odoo Sales."
-msgstr ""
+msgstr "Как да потвърдите поръчка с подпис на Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:48
 msgid ""
@@ -12926,10 +13053,14 @@ msgid ""
 "the quotation is paid and confirmed, a delivery order is automatically "
 "created (if the Odoo *Inventory* app is installed)."
 msgstr ""
+"След като бъдат подписани, различните опции за начин на плащане стават "
+"достъпни. След това, когато офертата бъде платена и потвърдена, автоматично "
+"се създава поръчка за доставка (ако приложението Odoo *Inventory* е "
+"инсталирано)."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:3
 msgid "Optional products"
-msgstr ""
+msgstr "Продукти по избор"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:5
 msgid ""
@@ -12937,6 +13068,10 @@ msgid ""
 "selling of products along with a core product. The aim is to offer useful and "
 "related products to customers, which may result in an increased sale."
 msgstr ""
+"Използването на незадължителни продукти е маркетингова стратегия, която "
+"включва кръстосана продажба на продукти заедно с основен продукт. Целта е да "
+"се предложат полезни и свързани продукти на клиентите, което може да доведе "
+"до увеличаване на продажбите."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:9
 msgid ""
@@ -12945,10 +13080,14 @@ msgid ""
 "Presenting the choice to purchase optional products enhances the customer "
 "experience."
 msgstr ""
+"Например, ако клиент иска да купи кола, той има избор да поръча и масажни "
+"седалки или да пренебрегне офертата и просто да купи колата. Представянето на "
+"избора за закупуване на допълнителни продукти подобрява клиентското "
+"изживяване."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:14
 msgid "Optional products on quotations"
-msgstr ""
+msgstr "Незадължителни продукти за оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:16
 msgid ""
@@ -12956,10 +13095,13 @@ msgid ""
 "products directly on quotations by navigating to the :guilabel:`Optional "
 "Products` tab on a quotation form."
 msgstr ""
+"С приложението Odoo *Sales* е възможно да добавяте или променяте "
+"незадължителни продукти директно върху офертите, като отидете в раздела:"
+"guilabel:„Незадължителни продукти“ във формуляр за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:-1
 msgid "How to add optional products to your quotations on Odoo Sales."
-msgstr ""
+msgstr "Как да добавите допълнителни продукти към офертите си в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:24
 msgid ""
@@ -12967,10 +13109,14 @@ msgid ""
 "quotation customers would receive via email, along with the optional products "
 "they have a chance of adding to their order."
 msgstr ""
+"Щракнете върху бутона :guilabel:„Преглед на клиентите “, за да разкриете "
+"предварителен преглед на офертата, която клиентите ще получат по имейл, "
+"заедно с незадължителните продукти, които имат шанс да добавят към поръчката "
+"си."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:0
 msgid "Preview your quotations on Odoo Sales."
-msgstr ""
+msgstr "Прегледайте офертите си в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:32
 msgid ""
@@ -12980,10 +13126,15 @@ msgid ""
 "products suggested, these additional items are automatically filled in on the "
 "quotation that is managed by the salesperson."
 msgstr ""
+"На практика клиентите могат да добавят различни незадължителни продукти към "
+"поръчката, като кликнат върху иконата :guilabel:🛒 '( shopping cart )', "
+"разположена вдясно от незадължителната продуктова линия. Ако клиентът избере "
+"всички предложени продукти по избор, тези допълнителни артикули автоматично "
+"се попълват в офертата, която се управлява от продавача."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:-1
 msgid "How to select optional products on Odoo Sales."
-msgstr ""
+msgstr "Как да изберете незадължителни продукти в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:41
 msgid ""
@@ -12992,14 +13143,19 @@ msgid ""
 "makes to an order. This allows salespeople to stay up-to-date with everything "
 "related to an order in the backend of the *Sales* application."
 msgstr ""
+"Когато клиентът добави незадължителен (и) продукт(и) към поръчка, продавачът "
+"незабавно се уведомява за промяната, заедно с всяка друга промяна, която "
+"клиентът прави в поръчка. Това позволява на търговците да бъдат в течение с "
+"всичко, свързано с поръчка в задната част на приложението *Продажби*."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:-1
 msgid "How to follow each movement made by your customers on Odoo Sales."
 msgstr ""
+"Как да следите всяко движение, направено от вашите клиенти в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:51
 msgid "Optional products on quotation templates"
-msgstr ""
+msgstr "Незадължителни продукти в шаблоните за оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:54
 msgid ""
@@ -13007,6 +13163,9 @@ msgid ""
 "send_quotations/quote_template` to better understand how quotation templates "
 "work before reading the following information."
 msgstr ""
+"Не забравяйте да прегледате документацията за това как да :doc:'/ "
+"applications/sales/sales/send_quotes/quote_template ', за да разберете по - "
+"добре как работят шаблоните за оферти, преди да прочетете следната информация."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:58
 msgid ""
@@ -13014,6 +13173,9 @@ msgid ""
 "an :guilabel:`Optional Products` tab, wherein related products or services "
 "can be added to a quotation template."
 msgstr ""
+"За шаблони за оферти, точно като типичен формуляр за оферта, има и:guilabel: "
+"раздел „Незадължителни продукти “, където свързани продукти или услуги могат "
+"да бъдат добавени към шаблон за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:61
 msgid ""
@@ -13022,6 +13184,10 @@ msgid ""
 "existing quotation template to edit, or create a new one by clicking :"
 "guilabel:`New`."
 msgstr ""
+"За да добавите незадължителни продукти към шаблон за оферта, отидете на: "
+"menuselection:„Шаблони за оферти за конфигуриране на приложения за продажби --"
+"> --> “. След това или изберете съществуващ шаблон за оферта, който да "
+"редактирате, или създайте нов, като щракнете върху :guilabel:„ New “."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:65
 msgid ""
@@ -13030,6 +13196,11 @@ msgid ""
 "guilabel:`Add a line`, and select the desired product to add as an optional "
 "product to the quotation template."
 msgstr ""
+"Във формуляра за оферта щракнете върху :guilabel:`Редактиране ', след което "
+"щракнете върху раздела :guilabel:` Незадължителни продукти '. В раздела :"
+"guilabel:„Допълнителни продукти“ кликнете върху :guilabel:„Добавяне на линия“ "
+"и изберете желания продукт, който да добавите като незадължителен продукт към "
+"шаблона за оферти."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:70
 msgid ""
@@ -13037,24 +13208,33 @@ msgid ""
 "additional items to their order, or entice them to purchase a more expensive "
 "version of their initially selected product."
 msgstr ""
+"Най - добре е да предложите продукти по избор, които биха насърчили клиента "
+"да добави допълнителни артикули към поръчката си, или да го примамите да "
+"закупи по - скъпа версия на първоначално избрания от него продукт."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:74
 msgid ""
 "For example, if a customer purchases a wooden chair, some optional products "
 "could be: a warranty on that chair and/or a wooden chair with leather seats."
 msgstr ""
+"Например, ако клиент закупи дървен стол, някои допълнителни продукти могат да "
+"бъдат: гаранция за този стол и/или дървен стол с кожени седалки."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:77
 msgid ""
 "When the desired optional product(s) have been added, click :guilabel:`Save` "
 "to save all changes."
 msgstr ""
+"Когато са добавени желаните незадължителни продукти, щракнете върху :guilabel:"
+"„Запазване “, за да запазите всички промени."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:80
 msgid ""
 "There is no limit to how many optional products can be added to a quotation "
 "template."
 msgstr ""
+"Няма ограничение за това колко незадължителни продукти могат да бъдат "
+"добавени към шаблон за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:82
 msgid ""
@@ -13062,20 +13242,28 @@ msgid ""
 "the quotation, by default, whenever that particular quotation template is "
 "used."
 msgstr ""
+"Продуктите, добавени в раздела :guilabel:„Незадължителни продукти “, "
+"присъстват в офертата по подразбиране, когато се използва този конкретен "
+"шаблон за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:-1
 msgid "How to add optional products to your quotation templates on Odoo Sales."
 msgstr ""
+"Как да добавите незадължителни продукти към шаблоните си за оферти в Odoo "
+"Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:3
 msgid "Product variants on quotations and sales orders"
-msgstr ""
+msgstr "Варианти на продукти за оферти и поръчки за продажба"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:5
 msgid ""
 "Product variants can be added to quotations and sales orders using the "
 "*product configurator*, *variant grid entry*, or both."
 msgstr ""
+"Вариантите на продукта могат да се добавят към оферти и поръчки за продажба с "
+"помощта на *продуктов конфигуратор*, * въвеждане на вариант на мрежата * или "
+"и двете."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:11
 msgid ""
@@ -13085,14 +13273,22 @@ msgid ""
 "`Product Configurator` and :guilabel:`Variant Grid Entry` settings. Finally, "
 "click :guilabel:`Save` to apply the settings."
 msgstr ""
+"За да активирате вариантите на продуктите за оферти и поръчки за продажба, "
+"отидете на: menuselection:„Настройки за конфигуриране на приложението за "
+"продажби--> -->“ и под заглавието:guilabel: „Продуктов каталог“ активирайте "
+"една (или и двете) от настройките:guilabel:„Продуктов конфигуратор“ и :"
+"guilabel:„Вариантна решетка за въвеждане “. Накрая кликнете върху :guilabel:"
+"„ Save “, за да приложите настройките."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Activating entry type settings."
-msgstr ""
+msgstr "Активиране на настройките за тип запис."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:20
 msgid "After saving the settings, it's time to configure the product form."
 msgstr ""
+"След като запазите настройките, е време да конфигурирате формуляра за "
+"продукта."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:22
 msgid ""
@@ -13100,6 +13296,10 @@ msgid ""
 "and select the desired product to configure (or click :guilabel:`Create` to "
 "open a blank product form, and create a new one)."
 msgstr ""
+"За да направите това, отидете на: menuselection:„Продажби на приложения --> "
+"Продукти --> Продукти“ и изберете желания продукт за конфигуриране (или "
+"щракнете върху :guilabel:„Създаване “, за да отворите празен формуляр за "
+"продукт и да създадете нов)."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:26
 msgid ""
@@ -13107,6 +13307,10 @@ msgid ""
 "`Variants` tab. Click :guilabel:`Add a line` to add an attribute in the :"
 "guilabel:`Attribute` column, like `Color` or `Size`, for example."
 msgstr ""
+"Във формуляра за продукт кликнете върху :guilabel:„Редактиране“ и изберете "
+"раздела :guilabel:„Варианти “. Кликнете върху :guilabel:„ Добавяне на ред “, "
+"за да добавите атрибут в колоната:guilabel:„Атрибут “, като например„ Цвят "
+"“или„ Размер “."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:30
 msgid ""
@@ -13114,6 +13318,9 @@ msgid ""
 "attribute in the :guilabel:`Values` column. To select the desired values, "
 "click into the blank field beneath the :guilabel:`Values` column."
 msgstr ""
+"След като атрибутът е избран, изберете желаните стойности, които да приложите "
+"към този атрибут в колоната :guilabel:`Values '. За да изберете желаните "
+"стойности, щракнете в празното поле под колоната :guilabel:` Values '."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:34
 msgid ""
@@ -13121,6 +13328,9 @@ msgid ""
 "value by typing in the new value, and click :guilabel:`Create` from the drop-"
 "down menu that appears beneath the new value."
 msgstr ""
+"След това изберете опция от падащото меню, което се показва. Или създайте "
+"нова стойност, като въведете новата стойност, и кликнете върху :guilabel:"
+"`Create` от падащото меню, което се появява под новата стойност."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:37
 msgid ""
@@ -13129,6 +13339,10 @@ msgid ""
 "guilabel:`Variants` tab. That is the **only** way to make that option appear, "
 "so keep that in mind."
 msgstr ""
+"Когато даден продукт има *поне* два варианта (един атрибут с две стойности), "
+"опцията :guilabel:`Sales Variant Selection` се появява в долната част на "
+"раздела:guilabel:`Variants '. Това е ** единственият** начин тази опция да се "
+"появи, така че имайте това предвид."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:41
 msgid ""
@@ -13136,32 +13350,42 @@ msgid ""
 "Configurator` or :guilabel:`Order Grid Entry`. This selection determines "
 "which method is used to add the product to quotations or sales orders."
 msgstr ""
+"Под :guilabel:„Избор на вариант за продажба “, изберете или :guilabel:"
+"„ Конфигуратор на продукти “или :guilabel:„ Въвеждане на мрежа за поръчки “. "
+"Този избор определя кой метод се използва за добавяне на продукта към оферти "
+"или поръчки за продажба."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:45
 msgid ""
 ":guilabel:`Product Configurator`: choose attribute values to add the matching "
 "product variant to the order."
 msgstr ""
+":guilabel:„Продуктов конфигуратор “: изберете стойности на атрибутите, за да "
+"добавите съответния вариант на продукта към поръчката."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:47
 msgid ""
 ":guilabel:`Order Grid Entry`: add several variants at once from the grid of "
 "attribute values."
 msgstr ""
+":guilabel:\"Въвеждане на мрежа за поръчки \": добавете няколко варианта "
+"наведнъж от мрежата на стойностите на атрибутите."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:49
 msgid ""
 "Once a selection is made, click :guilabel:`Save` on the product form to apply "
 "the setting."
 msgstr ""
+"След като направите избор, кликнете върху :guilabel:„Запазване“ във формуляра "
+"на продукта, за да приложите настройката."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Sales variant selection."
-msgstr ""
+msgstr "Избор на вариант за продажба."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:56
 msgid "Product configurator"
-msgstr ""
+msgstr "Продуктов конфигуратор"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:58
 msgid ""
@@ -13169,6 +13393,10 @@ msgid ""
 "products that have **both** variants configured are added, and the :guilabel:"
 "`Product Configurator` option is selected on the product form."
 msgstr ""
+"*Продуктовият конфигуратор* се появява при оферта или поръчка за продажба, "
+"когато се добавят продукти, които имат ** конфигурирани и двата ** варианта, "
+"и опцията:guilabel:„Продуктов конфигуратор“ е избрана във формуляра за "
+"продукта."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:62
 msgid ""
@@ -13177,6 +13405,10 @@ msgid ""
 "online shopping. Color options display any HTML color codes set up in the :"
 "guilabel:`Color` attribute."
 msgstr ""
+"Продуктовият конфигуратор позволява на търговците да избират точно кой "
+"вариант на продукта да добавят към офертата или поръчката за продажба, като "
+"използват формат, подобен на онлайн пазаруването. Опциите за цвят показват "
+"всички HTML цветови кодове, зададени в атрибута:guilabel:`Color '."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:66
 msgid ""
@@ -13184,10 +13416,14 @@ msgid ""
 "name. Once the desired product variant attributes are selected, click :"
 "guilabel:`Add` to add the product variant to the quotation or sales order."
 msgstr ""
+"Функциите с допълнителни разходи показват допълнителните разходи до името им. "
+"След като бъдат избрани желаните атрибути на варианта на продукта, кликнете "
+"върху :guilabel:`Add ', за да добавите варианта на продукта към офертата или "
+"поръчката за продажба."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Product Configurator and Price Extras."
-msgstr ""
+msgstr "Продуктов конфигуратор и ценови екстри."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:74
 msgid ""
@@ -13200,17 +13436,19 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Product variant column option in order lines tab of quotation."
-msgstr ""
+msgstr "Опция за колона за вариант на продукта в раздела за реда на офертата."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:83
 msgid ""
 "Just click the checkbox next to :guilabel:`Product Variant`, and that column "
 "appears in the :guilabel:`Order Lines` tab."
 msgstr ""
+"Просто кликнете върху квадратчето до :guilabel:`Product Variant` и тази "
+"колона се появява в раздела :guilabel:`Order Lines '."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:87
 msgid "Variant grid entries"
-msgstr ""
+msgstr "Записи в таблицата на вариантите"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:89
 msgid ""
@@ -13218,6 +13456,10 @@ msgid ""
 "that have both variants configured are added, and the :guilabel:`Order Grid "
 "Entry` option is selected on the product form."
 msgstr ""
+"* Записите в таблицата с варианти * се появяват в оферта или поръчка за "
+"продажба, когато се добавят продукти, които имат конфигурирани и двата "
+"варианта, и опцията:guilabel:„Въвеждане на мрежа за поръчки“ е избрана във "
+"формуляра за продукт."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:92
 msgid ""
@@ -13225,12 +13467,17 @@ msgid ""
 "quotations by letting salespeople enter exact quantities of each product "
 "variant all at once."
 msgstr ""
+"Функцията за въвеждане в мрежата рационализира процеса на създаване на "
+"големи, разнообразни оферти, като позволява на търговците да въвеждат точните "
+"количества от всеки вариант на продукта наведнъж."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:95
 msgid ""
 "The :guilabel:`Choose Product Variants` pop-up form that appears, displays a "
 "grid of every variant available for that specific product."
 msgstr ""
+"Изскачащият формуляр:guilabel:`Choose Product Variants ', който се появява, "
+"показва решетка от всеки наличен вариант за този конкретен продукт."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:98
 msgid ""
@@ -13240,6 +13487,11 @@ msgid ""
 "Available` warning is displayed when a particular variant has been "
 "deactivated in the database."
 msgstr ""
+"От изскачащия формуляр:guilabel:„Изберете продуктови варианти “, изберете "
+"точните количества на всеки продуктов вариант за оферта или поръчка за "
+"продажба, като въведете номера или използвате стрелките във всяка колона. "
+"Предупреждението :guilabel:„ Not Available “се показва, когато определен "
+"вариант е деактивиран в базата данни."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:103
 msgid ""
@@ -13247,10 +13499,13 @@ msgid ""
 "up form, click :guilabel:`Confirm` to add them to the quotation or sales "
 "order."
 msgstr ""
+"След като всички варианти на продукта и техните количества са зададени в "
+"изскачащия формуляр, щракнете върху :guilabel:„Confirm “, за да ги добавите "
+"към офертата или поръчката за продажба."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Variant Grid Entry pop-up form."
-msgstr ""
+msgstr "Изскачащ формуляр за въвеждане на променлива."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:110
 msgid ""
@@ -13258,15 +13513,19 @@ msgid ""
 "sales order with the chosen quantity from the :guilabel:`Choose Product "
 "Variants` pop-up form, because each of these items has its own stock."
 msgstr ""
+"Всеки продуктов вариант се появява като отделен артикул в офертата или "
+"поръчката за продажба с избраното количество от:guilabel:`Choose Product "
+"Variants` изскачащ формуляр, защото всеки от тези артикули има собствен запас."
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:-1
 msgid "Line items for grid variants."
-msgstr ""
+msgstr "Елементи на линия за варианти на мрежата."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:3
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:45
+#, fuzzy
 msgid "Quotation templates"
-msgstr ""
+msgstr "Шаблони за оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:5
 msgid ""
@@ -13276,6 +13535,12 @@ msgid ""
 "a much faster pace, without having to create new quotations from scratch "
 "every time a sales negotiation occurs."
 msgstr ""
+"В Odoo *Sales* търговците имат възможност да създават шаблони за оферти за "
+"многократна употреба за общи предложения за продукти или услуги, които "
+"бизнесът предлага. С помощта на тези шаблони офертите могат да бъдат "
+"пригодени и изпратени на клиентите с много по - бързи темпове, без да се "
+"налага да създават нови оферти от нулата всеки път, когато се стигне до "
+"преговори за продажба."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:15
 msgid ""
@@ -13283,6 +13548,9 @@ msgid ""
 "Configuration --> Settings`, and scroll to the :guilabel:`Quotations & "
 "Orders` heading."
 msgstr ""
+"Започнете, като активирате настройката в :menuselection:„Настройки за "
+"конфигуриране на приложението за продажби--> -->“ и превъртете до заглавието :"
+"guilabel:„Оферти и поръчки “."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:18
 msgid ""
@@ -13290,10 +13558,13 @@ msgid ""
 "option. Doing so reveals a new :guilabel:`Default Template` field, in which a "
 "default quotation template can be chosen from a drop-down menu."
 msgstr ""
+"В този раздел поставете отметка в квадратчето до опцията :guilabel:„Шаблони "
+"за оферти “. Това разкрива ново поле:guilabel:„ Шаблон по подразбиране “, в "
+"което шаблон за оферта по подразбиране може да бъде избран от падащо меню."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "How to enable quotation templates on Odoo Sales."
-msgstr ""
+msgstr "Как да активирате шаблоните за оферти в продажбите на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:26
 msgid ""
@@ -13302,6 +13573,11 @@ msgid ""
 "`Default Template` field. Clicking that link reveals the :guilabel:`Quotation "
 "Templates` page, from which templates can be created, viewed, and edited."
 msgstr ""
+"Също така, при активиране на функцията:guilabel:„Шаблон за оферта“ под полето:"
+"guilabel:„Шаблони за➡️ оферта“ се появява вътрешна връзка:guilabel:„Шаблон по "
+"подразбиране “. Щракването върху тази връзка разкрива страницата:guilabel:"
+"„ Шаблони за оферти “, от която могат да се създават, преглеждат и редактират "
+"шаблони."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:32
 msgid ""
@@ -13310,16 +13586,22 @@ msgid ""
 "guilabel:`Quotation Templates` option. This feature aides in the design and "
 "customization of quotation templates."
 msgstr ""
+"Помислете дали да не активирате опцията:guilabel: \"Quotation Builder\" в "
+"опцията: guilabel: \"Settings \", която се намира в дясната колона до "
+"опцията :guilabel:\" Quotation Templates \". Тази функция помага при "
+"проектирането и персонализирането на шаблоните за оферти."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:36
 msgid ""
 "**Note:** enabling this feature also automatically installs the Odoo "
 "*Website* application."
 msgstr ""
+"**Забележка:** активирането на тази функция автоматично инсталира "
+"приложението Odoo *Website*."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "How to enable quotation builder on Odoo Sales."
-msgstr ""
+msgstr "Как да активирате строителя на оферти в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:42
 msgid ""
@@ -13327,10 +13609,13 @@ msgid ""
 "guilabel:`Save` button to activate the feature(s) and save all changes made "
 "during the session."
 msgstr ""
+"Преди да напуснете страницата:guilabel:„Настройки “, не забравяйте да "
+"щракнете върху бутона :guilabel:„ Запазване “, за да активирате "
+"функцията(ите) и да запазите всички промени, направени по време на сесията."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:46
 msgid "Create quotation templates"
-msgstr ""
+msgstr "Създаване на шаблони за оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:48
 msgid ""
@@ -13339,6 +13624,11 @@ msgid ""
 "Quotation Templates`. Both options reveal the :guilabel:`Quotation Templates` "
 "page, where quotation templates can be created, viewed, and edited."
 msgstr ""
+"Щракнете върху връзката:guilabel:„Шаблони за котировки“ на страницата:"
+"guilabel:„Настройки“ или отидете на: menuselection :„Шаблони за котировки за "
+"конфигуриране на приложения за продажби --> --> “. И двете опции разкриват "
+"страницата:guilabel:„ Шаблони за оферти “, където могат да се създават, "
+"преглеждат и редактират шаблони за оферти."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:52
 msgid ""
@@ -13346,10 +13636,13 @@ msgid ""
 "located in the upper-left corner. Doing so reveals a blank quotation template "
 "form that can be customized in a number of ways."
 msgstr ""
+"За да създадете нов шаблон за оферта, щракнете върху бутона :guilabel:„Create "
+"“, разположен в горния ляв ъгъл. Това разкрива празен формуляр за шаблон за "
+"оферта, който може да бъде персонализиран по няколко начина."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "Create a new quotation template on Odoo Sales."
-msgstr ""
+msgstr "Създайте нов шаблон за оферти в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:59
 msgid ""
@@ -13358,18 +13651,26 @@ msgid ""
 "designate how many days the quotation template will remain valid for, or "
 "leave the field on the default `0` to keep the template valid indefinitely."
 msgstr ""
+"Започнете, като въведете име за шаблона в полето :guilabel:„Шаблон за оферта "
+"“. След това в полето :guilabel:„ Офертата изтича след “посочете колко дни ще "
+"остане валиден шаблонът за оферта или оставете полето по подразбиране„ 0 “, "
+"за да запазите шаблона валиден за неопределено време."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:63
 msgid ""
 "In the :guilabel:`Company` field, designate to which company this quotation "
 "template applies, if working in a multi-company environment."
 msgstr ""
+"В полето :guilabel:„Дружество“ посочете за кое дружество се прилага този "
+"шаблон за оферта, ако работи в многофирмена среда."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:66
 msgid ""
 "Beneath those fields are three tabs: :guilabel:`Lines`, :guilabel:`Optional "
 "Products`, :guilabel:`Confirmation`."
 msgstr ""
+"Под тези полета има три раздела: :guilabel:„Линии “, :guilabel:"
+"„ Незадължителни продукти “, :guilabel:„Потвърждение “."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:69
 msgid ""
@@ -13379,6 +13680,12 @@ msgid ""
 "with discretionary information (such as warranty details, terms, etc.) by "
 "clicking :guilabel:`Add a note`."
 msgstr ""
+"В раздела :guilabel:„Редове“ продуктите могат да се добавят към шаблона за "
+"оферта, като щракнете върху :guilabel:„Добавяне на продукт “, организирано "
+"чрез щракване върху„ Добавяне на раздел “(и съответно плъзгане/пускане на "
+"заглавията на секциите) и допълнително обяснено с дискреционна информация "
+"(като подробности за гаранцията, условия и т.н.), като щракнете върху :"
+"guilabel:„ Добавяне на бележка “."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:74
 msgid ""
@@ -13387,6 +13694,11 @@ msgid ""
 "guilabel:`Lines` tab, if applicable. The products added here ideally "
 "compliment the original offering as added value for the prospective buyer."
 msgstr ""
+"В раздела :guilabel:„Незадължителни продукти “, :guilabel:„ Добавете линия "
+"“за всеки съвместим продукт за кръстосани продажби, свързан с оригиналните "
+"артикули, в раздела :guilabel:„ Линии “, ако е приложимо. Продуктите, "
+"добавени тук, в идеалния случай допълват първоначалната оферта като добавена "
+"стойност за бъдещия купувач."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:78
 msgid ""
@@ -13395,6 +13707,11 @@ msgid ""
 "which each allow buyers to confirm orders automatically using the web portal "
 "view after the required action is taken."
 msgstr ""
+"И накрая, в раздела :guilabel:„Потвърждение“ активирайте опциите, ако е "
+"необходимо, за да изисквате:guilabel:„Онлайн подпис“ и/или:guilabel:„Онлайн "
+"плащане “, които позволяват на купувачите да потвърждават поръчките "
+"автоматично, като използват изгледа на уеб портала след предприемане на "
+"необходимото действие."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:82
 msgid ""
@@ -13403,14 +13720,20 @@ msgid ""
 "order is confirmed, an email is sent to the customer informing them that "
 "their order has been confirmed."
 msgstr ""
+"Има и опция за добавяне на:guilabel:„Потвърждаваща поща“ към шаблона за "
+"оферти - което означава, че всеки път, когато се използва този шаблон и "
+"поръчката бъде потвърдена, на клиента се изпраща имейл, който го информира, "
+"че поръчката им е потвърдена."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "Allow customers to sign electronically or to pay online on Odoo Sales."
 msgstr ""
+"Позволете на клиентите да подписват по електронен път или да плащат онлайн на "
+"Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:91
 msgid "Design quotation templates"
-msgstr ""
+msgstr "Шаблони за дизайнерски оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:94
 msgid ""
@@ -13419,6 +13742,10 @@ msgid ""
 "accessible by following the :ref:`configuration steps above <sales/"
 "send_quotations/templates>`."
 msgstr ""
+"Следният раздел за проектиране на шаблони за оферти се отнася само за бази "
+"данни, които имат активирана функция * Строител на оферти *, която е "
+"достъпна, като следвате:ref:„стъпки за конфигуриране по - горе <sales/"
+"send_quotations/templates>“."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:98
 msgid ""
@@ -13428,6 +13755,11 @@ msgid ""
 "a :guilabel:`Template Header` specifying that this content will appear on all "
 "quotations using this specific template."
 msgstr ""
+"В горния ляв ъгъл на формуляра за шаблон за оферта има бутон:guilabel:„Шаблон "
+"за дизайн “. Когато щракнете, Odoo разкрива предварителен преглед на шаблона "
+"за оферти, тъй като той ще се появи в предния край на уебсайта, с:guilabel:"
+"„ Заглавие на шаблона “, като посочва, че това съдържание ще се показва на "
+"всички оферти, използващи този конкретен шаблон."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:103
 msgid ""
@@ -13435,10 +13767,14 @@ msgid ""
 "click the :guilabel:`Edit` button in the upper-right corner. Doing so reveals "
 "a variety of design elements and feature-filled building blocks."
 msgstr ""
+"За да редактирате съдържанието, външния вид и цялостния дизайн на шаблона за "
+"оферти, щракнете върху бутона :guilabel:„Редактиране“ в горния десен ъгъл. "
+"Това разкрива разнообразие от дизайнерски елементи и изпълнени с функции "
+"градивни елементи."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "Design quotation template on Odoo Sales."
-msgstr ""
+msgstr "Дизайнерски шаблон за оферти в продажбите на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:111
 msgid ""
@@ -13447,15 +13783,22 @@ msgid ""
 "all blocks and customizations are complete, click the :guilabel:`Save` button "
 "to put those configurations into place."
 msgstr ""
+"Плъзнете и пуснете всички желани градивни елементи в празния шаблон за оферти "
+"и продължете да персонализирате съдържанието, за да отговаря на всяка бизнес "
+"нужда. Когато всички блокове и персонализации са завършени, щракнете върху "
+"бутона :guilabel:„Save “, за да поставите тези конфигурации на място."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid ""
 "Drag and drop building blocks to create your quotation template on Odoo Sales."
 msgstr ""
+"Плъзнете и пуснете градивни елементи, за да създадете шаблона си за оферти в "
+"Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:120
+#, fuzzy
 msgid "Use quotation templates"
-msgstr ""
+msgstr "Шаблони за оферти"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:122
 msgid ""
@@ -13463,10 +13806,13 @@ msgid ""
 "preconfigured template in the :guilabel:`Quotation Template` field drop-down "
 "menu."
 msgstr ""
+"Когато създавате оферта (: menuselection:„Създаване на приложение за продажби "
+"--> “), изберете предварително конфигуриран шаблон в падащото меню:guilabel:"
+"„ Шаблон за оферта “."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:-1
 msgid "Select a specific template on Odoo Sales."
-msgstr ""
+msgstr "Изберете конкретен шаблон в Odoo Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:129
 msgid ""
@@ -13474,17 +13820,21 @@ msgid ""
 "smart button to see how the quotation template will look on the front-end of "
 "the website."
 msgstr ""
+"За да видите какво ще види клиентът, щракнете върху бутона :guilabel:"
+"`Customer Preview` smart, за да видите как ще изглежда шаблонът за оферти в "
+"предния край на уебсайта."
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:133
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:150
 msgid ""
 ":doc:`/applications/sales/sales/send_quotations/get_signature_to_validate`"
 msgstr ""
+":doc:'/ applications/sales/sales/send_quotes/get_ signature_to_validate `"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:134
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:151
 msgid ":doc:`/applications/sales/sales/send_quotations/get_paid_to_validate`"
-msgstr ""
+msgstr ":doc:'/ applications/sales/sales/send_quotes/get_paid_to_validate `"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:3
 msgid "Terms and conditions"
@@ -13496,6 +13846,9 @@ msgid ""
 "contractual points, such as payment terms, limitations of liability, and "
 "delivery terms between customers and sellers."
 msgstr ""
+"Определянето на общите условия е от съществено значение за установяването на "
+"важни договорни точки, като например условия за плащане, ограничения на "
+"отговорността и условия за доставка между клиенти и продавачи."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:8
 msgid ""
@@ -13503,16 +13856,21 @@ msgid ""
 "policy. Conversely, customers must take note of all these conditions before "
 "committing to a purchase."
 msgstr ""
+"Продавачите трябва да декларират цялата официална информация относно "
+"продуктите и фирмената политика. Обратно, клиентите трябва да вземат под "
+"внимание всички тези условия, преди да се ангажират с покупка."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:11
 msgid ""
 "With Odoo *Sales*, it's very easy to include default terms and conditions on "
 "every quotation, sales order, and invoice."
 msgstr ""
+"С Odoo *Sales* е много лесно да включите правилата и условията по "
+"подразбиране във всяка оферта, поръчка за продажба и фактура."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:15
 msgid "Default terms and conditions"
-msgstr ""
+msgstr "Общи условия по подразбиране"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:20
 msgid ""
@@ -13520,16 +13878,22 @@ msgid ""
 "to the :guilabel:`Customer Invoices` heading, and check the box beside the :"
 "guilabel:`Default Terms & Conditions` feature to activate it."
 msgstr ""
+"Отидете на:menuselection:„Настройки за конфигуриране на счетоводното "
+"приложение --> --> “, превъртете до:guilabel:„ Фактури на клиенти “и "
+"поставете отметка в квадратчето до:guilabel:„ Общи условия по подразбиране “, "
+"за да го активирате."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "How to enable Default Terms and Conditions on Odoo Sales."
-msgstr ""
+msgstr "Как да активирате Общите условия по подразбиране за продажбите на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:29
 msgid ""
 "Please note that this feature is activated via the settings of the "
 "*Accounting* app, and **not** in the settings of the *Sales* app."
 msgstr ""
+"Имайте предвид, че тази функция се активира чрез настройките на приложението "
+"*Счетоводство *, а**не ** в настройките на приложението *Продажби*."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:32
 msgid ""
@@ -13538,20 +13902,25 @@ msgid ""
 "appears beneath the feature. In this field, specific terms and conditions can "
 "be entered."
 msgstr ""
+"В:guilabel:„Настройки“ на : menuselection:„Счетоводно“ приложение, след "
+"активиране на функцията:guilabel:„Общи условия по подразбиране “, под "
+"функцията се появява поле. В това поле могат да бъдат въведени конкретни "
+"условия."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Default Terms and Conditions on quotation on Odoo Sales."
-msgstr ""
+msgstr "Правила и условия по подразбиране за оферта за продажби на Odoo."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:40
 msgid "Click :guilabel:`Save` to save the terms and conditions."
-msgstr ""
+msgstr "Кликнете :guilabel:„Запазване “, за да запазите общите условия."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:42
 msgid ""
 "These terms and conditions appear on every quotation, sales order, and "
 "invoice."
 msgstr ""
+"Тези общи условия се появяват на всяка оферта, поръчка за продажба и фактура."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:47
 msgid ""
@@ -13559,6 +13928,9 @@ msgid ""
 "depending on the specific needs of the business. This is useful when various "
 "terms and conditions are used within a company."
 msgstr ""
+"Общите условия по подразбиране могат да се прилагат и към шаблоните за "
+"оферти, в зависимост от специфичните нужди на бизнеса. Това е полезно, когато "
+"в рамките на една компания се използват различни условия."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:52
 msgid ""
@@ -13566,6 +13938,8 @@ msgid ""
 "terms and conditions specified on that template, over the terms and "
 "conditions specified in the settings."
 msgstr ""
+"Когато се използва шаблон за оферта за оферта, офертата използва условията, "
+"посочени в този шаблон, над условията, посочени в настройките."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:55
 msgid ""
@@ -13573,6 +13947,9 @@ msgid ""
 "Quotation Templates` to view all the quotation templates. From here, either "
 "select a template or create a new one, via the :guilabel:`Create` button."
 msgstr ""
+"Първо отидете на : menuselection:„Шаблони за конфигуриране на оферти за "
+"приложения за продажби --> --> “, за да видите всички шаблони за оферти. От "
+"тук или изберете шаблон, или създайте нов, чрез бутона :guilabel:`Create '."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:59
 msgid ""
@@ -13581,20 +13958,29 @@ msgid ""
 "quotation template, at the bottom of the :guilabel:`Lines` tab. Once done, "
 "click :guilabel:`Save` to save all changes."
 msgstr ""
+"След като влезете в желания шаблон за оферта, щракнете върху :guilabel:"
+"„Редактиране“ и въведете конкретни условия, които трябва да бъдат приложени "
+"към този шаблон за оферта, в долната част на раздела:guilabel:„Редове “. След "
+"като направите това, кликнете върху :guilabel:„ Запазване “, за да запазите "
+"всички промени."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Add Default Terms and Conditions to quotation templates on Odoo Sales."
 msgstr ""
+"Добавете правила и условия по подразбиране към шаблоните за оферти на Odoo "
+"Sales."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:71
 msgid "Attachment on confirmation emails"
-msgstr ""
+msgstr "Прикачен файл към имейли за потвърждение"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:73
 msgid ""
 "Terms and conditions can also be sent as an attachment on the confirmation "
 "email of a quotation template."
 msgstr ""
+"Общите условия могат да бъдат изпратени и като прикачен файл към имейла за "
+"потвърждение на шаблон за оферта."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:76
 msgid ""
@@ -13602,6 +13988,9 @@ msgid ""
 "Quotation Templates` and create a new quotation template (via the :guilabel:"
 "`Create` button), or modify an existing one."
 msgstr ""
+"За да направите това, отидете на: menuselection:„Шаблони за конфигуриране на "
+"оферти за приложения за продажби--> -->“ и създайте нов шаблон за оферти "
+"(чрез бутона:guilabel: „Създаване “) или променете съществуващ."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:79
 msgid ""
@@ -13610,6 +13999,10 @@ msgid ""
 "`Online Signature`, :guilabel:`Online Payment`, and :guilabel:`Confirmation "
 "Mail`."
 msgstr ""
+"На желания формуляр за шаблон за оферта щракнете върху :guilabel:„Редактиране "
+"“. В раздела :guilabel:„ Потвърждение “има опции за активиране на :guilabel:"
+"„ Онлайн подпис “, :guilabel:„Онлайн плащане“ и :guilabel:„Поща за "
+"потвърждение “."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:83
 msgid ""
@@ -13619,6 +14012,11 @@ msgid ""
 "select :guilabel:`Create and Edit...`, which reveals a :guilabel:`Create: "
 "Confirmation Mail` pop-up form."
 msgstr ""
+"Кликнете върху полето :guilabel:„Confirmation Mail “, за да разкриете падащо "
+"меню, от което може да бъде избран или създаден шаблон за имейл. За да "
+"създадете нов имейл шаблон от тук, започнете да въвеждате името на този нов "
+"шаблон и след това изберете :guilabel:„ Create and Edit... “, който разкрива:"
+"guilabel:„Create: Confirmation Mail“ изскачащ формуляр."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:88
 msgid ""
@@ -13627,14 +14025,19 @@ msgid ""
 "guilabel:`Content` tab to add the desired terms and conditions attachment to "
 "the mailing. Once done, click :guilabel:`Save` to save all changes."
 msgstr ""
+"В този изскачащ формуляр персонализирайте имейл съобщението по няколко "
+"различни начина, но не забравяйте да щракнете върху :guilabel:„Прикачени "
+"файлове“ в долната част на раздела:guilabel:„Съдържание “, за да добавите "
+"желаните правила и условия към съобщението. След като направите това, "
+"кликнете върху :guilabel:„ Запазване “, за да запазите всички промени."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Terms and conditions as attachment in quotation templates."
-msgstr ""
+msgstr "Общи условия като приложение в шаблони за оферти."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:97
 msgid "Website page"
-msgstr ""
+msgstr "Страница на уебсайта"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:99
 msgid ""
@@ -13651,6 +14054,10 @@ msgid ""
 "menu, using the :guilabel:`Add to menu` toggle in the pop-up form, and click :"
 "guilabel:`Continue` to create the new page."
 msgstr ""
+"След това решете дали тази страница трябва да бъде достъпна чрез главното "
+"заглавно меню на уебсайта, като използвате превключвателя:guilabel :' Add to "
+"menu `в изскачащия формуляр и кликнете :guilabel :' Continue ', за да "
+"създадете новата страница."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:108
 msgid ""
@@ -13659,6 +14066,11 @@ msgid ""
 "to add the terms and conditions to the page, and click :guilabel:`Save` to "
 "save all changes."
 msgstr ""
+"Това разкрива празна страница на уебсайта, която може да бъде напълно "
+"персонализирана и редактирана с градивните елементи за плъзгане и пускане на "
+"Odoo. Използвайте тези градивни елементи, за да добавите общите условия към "
+"страницата, и щракнете върху :guilabel:„Запазване “, за да запазите всички "
+"промени."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:112
 msgid ""
@@ -13666,10 +14078,14 @@ msgid ""
 "`Published` toggle at the top of the page. Unpublished pages will **not** be "
 "accessible to website visitors."
 msgstr ""
+"Не забравяйте да публикувате страницата чрез превключвателя :guilabel:"
+"`Unpublished` / :guilabel:`Published` в горната част на страницата. "
+"Непубликуваните страници ** няма** да бъдат достъпни за посетителите на "
+"уебсайта."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Terms and Conditions on a website."
-msgstr ""
+msgstr "Общи условия на уеб сайт."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:119
 msgid ""
@@ -13679,6 +14095,12 @@ msgid ""
 "guilabel:`Business Documents` heading, click :guilabel:`Configure Document "
 "Layout` (located beneath :guilabel:`Document Layout`)."
 msgstr ""
+"Тази страница с общи условия може да бъде свързана в долния колонтитул на "
+"всички документи, ако желаете. За да направите това, отворете оформлението на "
+"документа, като отидете на :menuselection:`Settings` app. В:guilabel:„Общи "
+"настройки “, под заглавието :guilabel:„ Бизнес документи “, кликнете върху :"
+"guilabel:„Конфигуриране на оформлението на документа“ (намира се под :"
+"guilabel:„Оформление на документа “)."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:124
 msgid ""
@@ -13686,6 +14108,10 @@ msgid ""
 "this form, in the :guilabel:`Footer` field, enter the URL for the terms and "
 "conditions page on the website."
 msgstr ""
+"Това разкрива изскачащ формуляр:guilabel:„Configure your document "
+"layout“ (Конфигуриране на оформлението на документа). В този формуляр в "
+"полето :guilabel:„Footer“ въведете url адреса за страницата с общите условия "
+"на уебсайта."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:127
 msgid ""
@@ -13693,14 +14119,17 @@ msgid ""
 "customers know what the link leads to when they see it on the footer of "
 "documents."
 msgstr ""
+"Добра практика е да предоставите и кратко заглавие, предхождащо url адреса, "
+"така че клиентите да знаят до какво води връзката, когато я видят в долния "
+"колонтитул на документите."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Terms and Conditions in business documents."
-msgstr ""
+msgstr "Общи условия в бизнес документи."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:135
 msgid "Email attachments"
-msgstr ""
+msgstr "Прикачени файлове към имейл"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:137
 msgid ""
@@ -13708,6 +14137,9 @@ msgid ""
 "containing terms and conditions, when quotations are sent by email to "
 "customers."
 msgstr ""
+"Odoo предоставя възможност за прикачване на външен документ, като например "
+"такъв, съдържащ правила и условия, когато офертите се изпращат по имейл до "
+"клиентите."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:140
 msgid ""
@@ -13715,10 +14147,14 @@ msgid ""
 "Email` button to send an email to the customer. Then, on the email form, "
 "click :guilabel:`Attach a File` to attach the terms and conditions document."
 msgstr ""
+"При оферта, поръчка за продажба или друг документ щракнете върху бутона :"
+"guilabel:„Изпращане по имейл “, за да изпратите имейл до клиента. След това "
+"във формуляра за електронна поща щракнете върху :guilabel:„ Прикачване на "
+"файл “, за да прикачите документа с общите условия."
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:-1
 msgid "Terms and conditions as attachment in emails."
-msgstr ""
+msgstr "Общи условия като прикачен файл в имейли."
 
 #: ../../content/applications/sales/subscriptions.rst:8
 msgid "Subscriptions"
@@ -13730,29 +14166,36 @@ msgid ""
 "contracts, upsell customers, keep the churn under control and have reporting "
 "on the main KPIs: MRR, ARR, retention, churn, upselling, etc."
 msgstr ""
+"** Абонаментите на Odoo ** се използват за управление на повтарящи се "
+"бизнеси: продажба на нови договори, увеличаване на продажбите на клиенти, "
+"поддържане на контрола и отчитане на основните ключови показатели за "
+"изпълнение: MRR, ARR, задържане, churn, upselling и др."
 
 #: ../../content/applications/sales/subscriptions.rst:15
 msgid ""
 "`Odoo Tutorials: Subscriptions <https://www.odoo.com/slides/subscription-20>`_"
 msgstr ""
+"`Odoo Tutorials: Subscriptions <https://www.odoo.com/slides/subscription-20>'_"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:3
 msgid "Add subscription products"
-msgstr ""
+msgstr "Добавяне на абонаментни продукти"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:5
 msgid ""
 "To properly sell your subscriptions using our amazing **Odoo Subscriptions** "
 "application, you must follow these steps:"
 msgstr ""
+"За да продавате правилно абонаментите си, като използвате нашето невероятно "
+"приложение **Odoo Абонаменти **, трябва да изпълните следните стъпки:"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:8
 msgid "**Create your own subscription templates**"
-msgstr ""
+msgstr "**Създайте свои собствени шаблони за абонамент **"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:9
 msgid "**Create your own subscription products with the right settings**"
-msgstr ""
+msgstr "**Създайте свои собствени абонаментни продукти с правилните настройки**"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:11
 msgid ""
@@ -13760,6 +14203,10 @@ msgid ""
 "product, create your quotations and continue the sales flow to track the "
 "number of subscriptions you sell and manage the revenue they generate."
 msgstr ""
+"В резултат на това ще можете да управлявате абонаментите си като всеки друг "
+"продукт, да създавате офертите си и да продължите потока от продажби, за да "
+"проследявате броя на абонаментите, които продавате, и да управлявате "
+"приходите, които те генерират."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:18
 msgid ""
@@ -13775,7 +14222,7 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:-1
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:0
 msgid "View of a subscription product form in Odoo Subscriptions"
-msgstr ""
+msgstr "Преглед на формуляр за абонаментен продукт в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:30
 msgid ""
@@ -13785,10 +14232,15 @@ msgid ""
 "is selected by default. However, if you create a product from another "
 "application, it is not the case."
 msgstr ""
+"В раздела Продажби, под секцията Абонаменти, се уверете, че опцията "
+"*Абонаментни продукти* е активирана. Всъщност, ако създадете абонаментен "
+"продукт от приложението **Odoo Абонаменти**, тази опция се избира по "
+"подразбиране. Ако обаче създадете продукт от друго приложение, това не е така."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:39
 msgid "You can also choose the subscription templates you want to use."
 msgstr ""
+"Можете също да изберете шаблоните за абонамент, които искате да използвате."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:46
 msgid ""
@@ -13808,7 +14260,7 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:80
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:83
 msgid ":doc:`../../subscriptions/configuration/subscription_templates`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/configuration/subscription_templates`"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:54
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:90
@@ -13817,21 +14269,21 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:82
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:85
 msgid ":doc:`../../subscriptions/sales_flow/create_a_quotation`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/sales_flow/create_a_quotation`"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:3
 msgid "Use subscription templates"
-msgstr ""
+msgstr "Използване на шаблони за абонамент"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:5
 msgid ""
 "The subscription business model is becoming more popular. Are you wondering "
 "why?"
-msgstr ""
+msgstr "Абонаментният бизнес модел става все по - популярен. Чудите ли се защо?"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:7
 msgid "For **customers**, value lies in **convenience**:"
-msgstr ""
+msgstr "За **клиентите** стойността се крие в **удобството **:"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:9
 msgid ""
@@ -13839,22 +14291,29 @@ msgid ""
 "to remember to renew their orders every month, which gives them the assurance "
 "that they will have everything they need before they actually need it."
 msgstr ""
+"Абонаментите опростяват бизнес процеса. Всъщност абонатите никога не трябва "
+"да помнят да подновяват поръчките си всеки месец, което им дава увереност, че "
+"ще имат всичко необходимо, преди действително да се нуждаят от него."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:12
 msgid "Subscriptions help customers stay on budget."
-msgstr ""
+msgstr "Абонаментите помагат на клиентите да поддържат бюджета си."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:14
 msgid ""
 "For **businesses**, value lies in the **ability to predict recurring "
 "revenue**:"
 msgstr ""
+"За **фирми** стойността се крие в **способността за прогнозиране на повтарящи "
+"се приходи**:"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:16
 msgid ""
 "Subscriptions reduce customer churn rate and significantly increase customer "
 "retention."
 msgstr ""
+"Абонаментите намаляват процента на отказване на клиентите и значително "
+"увеличават задържането на клиенти."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:17
 msgid ""
@@ -13862,6 +14321,9 @@ msgid ""
 "stabilize and maintain recurring revenue streams by guaranteeing monthly "
 "revenues and adding value to your business."
 msgstr ""
+"Абонаментите осигуряват много по - висока сигурност на плащанията за вашия "
+"бизнес. Те стабилизират и поддържат повтарящи се потоци от приходи, като "
+"гарантират месечни приходи и добавят стойност към вашия бизнес."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:27
 msgid ""
@@ -13870,6 +14332,10 @@ msgid ""
 "With Odoo you have the possibility to create, edit, and manage your own "
 "subscription templates."
 msgstr ""
+"** Абонаментите на Odoo ** ви помагат да спестите време и пари. Шаблоните за "
+"абонамент могат да ви помогнат да генерирате повтарящи се фактури и да "
+"управлявате подновяванията с бързи темпове. С Odoo имате възможност да "
+"създавате, редактирате и управлявате собствени шаблони за абонамент."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:34
 msgid ""
@@ -13878,20 +14344,26 @@ msgid ""
 "Monthly subscription *vs* YEA - Yearly subscription). You can also create "
 "your own ones."
 msgstr ""
+"Отидете на : menuselection:„Шаблони за конфигурация на абонамент за "
+"абонаменти --> --> “. По подразбиране Odoo Ви предлага два вида абонамент "
+"(MON - Месечен абонамент *срещу* YEA - Годишен абонамент). Можете също така "
+"да създадете свои собствени."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:-1
 msgid "Default subscription templates on Odoo Subscriptions"
-msgstr ""
+msgstr "Шаблони за абонамент по подразбиране за абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:43
 msgid ""
 "The **Odoo Subscriptions** application automatically installs **Odoo Sales** "
 "and **Odoo Invoicing** as they work integrated."
 msgstr ""
+"** Абонаментите на Odoo ** приложението автоматично инсталира ** Продажбите "
+"на Odoo ** и ** Фактурирането на Odoo **, тъй като те работят интегрирано."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:47
 msgid "Create your first template"
-msgstr ""
+msgstr "Създайте първия си шаблон"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:49
 msgid ""
@@ -13908,7 +14380,7 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:-1
 msgid "Create your own subscription templates on Odoo Subscriptions"
-msgstr ""
+msgstr "Създайте свои собствени шаблони за абонаменти в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:61
 msgid ""
@@ -13916,6 +14388,10 @@ msgid ""
 "to close their subscriptions or not. If enabled, you can set an *Automatic "
 "closing* limit and specify the *Group of subscription* and *Journal* options."
 msgstr ""
+"За всеки шаблон можете също да изберете дали искате клиентите ви да могат да "
+"затворят абонаментите си или не. Ако е активирано, можете да зададете "
+"*Автоматично затваряне* лимит и да посочите опциите *Група на абонамента* и * "
+"Дневник*."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:66
 msgid ""
@@ -13924,10 +14400,14 @@ msgid ""
 "the customers and the sellers (payment, refund policy, cancellation, "
 "complaints, etc.)."
 msgstr ""
+"Във всеки шаблон можете да добавите своите **Общи условия **. Определянето на "
+"общите условия е от съществено значение за определянето на важни договорни "
+"точки между клиентите и продавачите (плащане, политика за възстановяване, "
+"анулиране, оплаквания и др.)."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:0
 msgid "Terms & conditions on Odoo Subscriptions"
-msgstr ""
+msgstr "Правила и условия за абонаментите за Odoo"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:74
 msgid ""
@@ -13941,7 +14421,7 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:0
 msgid "Health check on Odoo Subscriptions"
-msgstr ""
+msgstr "Проверка на здравословното състояние на абонаментите за Odoo"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:85
 msgid ""
@@ -13950,6 +14430,10 @@ msgid ""
 "products <../../subscriptions/configuration/subscription_products>`, to "
 "complete the sales flow."
 msgstr ""
+"След като създадете свои собствени шаблони за абонамент, не забравяйте да "
+"разгледате нашата документация за това как да създавате, редактирате и "
+"управлявате свои собствени :doc:`Абонаментни продукти <../../subscriptions/"
+"configuration/subscription_products >', за да завършите потока на продажбите."
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:91
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:89
@@ -13959,15 +14443,15 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:81
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:84
 msgid ":doc:`../../subscriptions/configuration/subscription_products`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/configuration/subscription_products`"
 
 #: ../../content/applications/sales/subscriptions/follow_up.rst:5
 msgid "Follow-up"
-msgstr ""
+msgstr "Проследяване"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:3
 msgid "Set up automatic alerts"
-msgstr ""
+msgstr "Задаване на автоматични известия"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:5
 msgid ""
@@ -13976,6 +14460,10 @@ msgid ""
 "want to go through the list of all your subscribers to check how things are "
 "going. This is what the *Automatic Alerts* feature is for."
 msgstr ""
+"Сега, когато абонаментите ви работят, искате да сте в крак с клиентите си. "
+"Част от автоматизацията ще бъде оценена, тъй като не бихте искали да "
+"прегледате списъка с всичките си абонати, за да проверите как вървят нещата. "
+"За това служи функцията *Автоматични известия*."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:9
 msgid ""
@@ -13985,6 +14473,11 @@ msgid ""
 "want to schedule a call with them to understand the reasons for their "
 "dissatisfaction."
 msgstr ""
+"Например, когато клиентите се абонират за вашето списание, вероятно ще искате "
+"да им изпратите имейл, за да ги посрещнете и да изразите благодарността си. "
+"Или, ако нивото на удовлетвореност на вашите клиенти падне под 50%, вероятно "
+"ще искате да насрочите разговор с тях, за да разберете причините за тяхното "
+"недоволство."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:14
 msgid ""
@@ -13994,10 +14487,15 @@ msgid ""
 "satisfaction surveys so customers can evaluate your services? All of that is "
 "now possible."
 msgstr ""
+"С ** Абонаментите на Odoo ** можете да зададете автоматични имейли, да "
+"създадете задача „Обаждане“ за един от вашите търговци, така че той/тя да "
+"може да се опита да разбере недоволството на вашия клиент и накрая, защо да "
+"не изпратите автоматично анкети за удовлетвореност, така че клиентите да "
+"могат да оценят вашите услуги? Всичко това вече е възможно."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:20
 msgid "Create a new automatic alert"
-msgstr ""
+msgstr "Създаване на ново автоматично известие"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:22
 msgid ""
@@ -14006,10 +14504,14 @@ msgid ""
 "subscription. To do so, go to :menuselection:`Subscriptions --> Configuration "
 "--> Alerts`, and create a new alert."
 msgstr ""
+"Следващият пример показва как да създадете ново автоматично предупреждение, "
+"за да изпращате анкети за удовлетвореност на клиентите си по имейл след един "
+"месец абонамент. За да направите това, отидете на: menuselection:"
+"„Предупреждения за конфигурация на абонаменти--> -->“ и създайте нов сигнал."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:-1
 msgid "New automatic alert in Odoo Subscriptions"
-msgstr ""
+msgstr "Ново автоматично известие в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:30
 msgid ""
@@ -14026,6 +14528,8 @@ msgid ""
 "In this example, the alert is applied to a specific product, and the stage "
 "goes from *Undefined* to *In Progress*."
 msgstr ""
+"В този пример известието се прилага за конкретен продукт, а етапът преминава "
+"от *Неопределено * в *В процес на изпълнение *."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:40
 msgid ""
@@ -14047,6 +14551,10 @@ msgid ""
 "And because the *Send an email to the customer* action was adopted, an *Email "
 "template* can be chosen."
 msgstr ""
+"В примера по - горе *Trigger on* е зададено на *Timed condition*, "
+"следователно трябва да се посочи *Trigger date * и * Delay after trigger*. И "
+"тъй като действието *Изпращане на имейл до клиента* е прието, може да бъде "
+"избран * Шаблон за имейл *."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:55
 msgid ""
@@ -14056,6 +14564,11 @@ msgid ""
 "messages, visit :doc:`../../../marketing/sms_marketing/essentials/"
 "sms_essentials`."
 msgstr ""
+"Изпращането на SMS текстово съобщение в Odoo изисква кредит или жетони за "
+"покупка в приложението (IAP). За повече информация относно :abbr:`IAP (In - "
+"App Purchase )', посетете :doc:`../../../essentials/in_app_purchase '. За "
+"повече информация относно изпращането на SMS съобщения посетете :doc:"
+"`../../../marketing/sms_marketing/essentials/sms_enentials '."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:60
 msgid ""
@@ -14063,24 +14576,29 @@ msgid ""
 "customers who have purchased that specific product. The survey appears in the "
 "chatter of your respective subscription."
 msgstr ""
+"В резултат на това този сигнал изпраща проучване на рейтинга след един месец "
+"до клиентите, които са закупили този конкретен продукт. Проучването се "
+"появява в разговора на съответния Ви абонамент."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:-1
 msgid "Satisfaction survey in Odoo Subscriptions"
-msgstr ""
+msgstr "Проучване на удовлетвореността в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:68
 msgid "Modify an existing automatic alert"
-msgstr ""
+msgstr "Промяна на съществуващо автоматично известие"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:70
 msgid ""
 "By default, Odoo suggests you an automatic alert called *Take action on less "
 "satisfied clients*."
 msgstr ""
+"По подразбиране Odoo Ви предлага автоматично предупреждение, наречено "
+"*Предприемете действия срещу по - малко доволни клиенти*."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:-1
 msgid "Modify an existing automatic alert in Odoo Subscriptions"
-msgstr ""
+msgstr "Промяна на съществуващо автоматично известие в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:76
 msgid ""
@@ -14098,14 +14616,16 @@ msgid ""
 "By editing the alert, you can modify the *Apply on*, the *Action* and "
 "*Activity* sections, and adapt them to your own needs."
 msgstr ""
+"Като редактирате известието, можете да промените разделите *Кандидатстване "
+"на*, *Действие* и *Дейност* и да ги адаптирате към собствените си нужди."
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:91
 msgid ":doc:`../../subscriptions/reporting/subscription_reports`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/reporting/subscription_reports`"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:3
 msgid "Generate subscription reports"
-msgstr ""
+msgstr "Генериране на отчети за абонамент"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:5
 msgid ""
@@ -14113,6 +14633,9 @@ msgid ""
 "is key to success. And particularly so when we offer subscription services or "
 "products."
 msgstr ""
+"Както знаем, разбирането как се развива бизнесът ни и накъде върви, е от "
+"ключово значение за успеха. И особено когато предлагаме абонаментни услуги "
+"или продукти."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:8
 msgid ""
@@ -14120,6 +14643,8 @@ msgid ""
 "certain essential concepts to the proper understanding of the following "
 "reports:"
 msgstr ""
+"Преди да стигнем до същността на въпроса, е много важно да си припомним някои "
+"основни понятия за правилното разбиране на следните доклади:"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:11
 msgid ""
@@ -14128,6 +14653,10 @@ msgid ""
 "subscription-based products or services. It is a consistent number used to "
 "track all recurring revenue over time, in monthly increments."
 msgstr ""
+"**Месечни повтарящи се приходи (MRR)**: MRR е може би най - важният показател "
+"за бизнеса с абонаменти. Тя показва месечните приходи, реализирани с продукти "
+"или услуги, базирани на абонамент. Това е последователен брой, използван за "
+"проследяване на всички повтарящи се приходи във времето, на месечни стъпки."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:15
 msgid ""
@@ -14135,10 +14664,13 @@ msgid ""
 "on the current MRR, to estimate the coming year's performance. However, this "
 "estimation does not take variations and growth into account."
 msgstr ""
+"**Годишен коефициент на изпълнение (ARR)**: ARR е годишната версия на MRR, "
+"която се основава на текущия MRR, за да се оцени ефективността през "
+"следващата година. Тази оценка обаче не взема предвид вариациите и растежа."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Difference between MRR and ARR in Odoo Subscriptions"
-msgstr ""
+msgstr "Разлика между MRR и ARR в абонаментите за Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:23
 msgid ""
@@ -14147,6 +14679,10 @@ msgid ""
 "rare or unique nature that are unlikely to occur in the ordinary course of "
 "businesses."
 msgstr ""
+"**Непериодичниприходи (НПВ)**: НПВ показва приходите, получени за всичко "
+"друго, различно от продукти или услуги, базирани на абонамент. Това включва "
+"печалби от рядък или уникален характер, които е малко вероятно да се случат в "
+"обичайния ход на бизнеса."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:27
 msgid ""
@@ -14154,6 +14690,10 @@ msgid ""
 "buying products or services from your business. Customer retention can be a "
 "challenge, because you must prove you are worthy of your customers' trust."
 msgstr ""
+"** Задържане на клиенти **: Практики за ангажиране на съществуващите клиенти "
+"да продължат да купуват продукти или услуги от вашия бизнес. Задържането на "
+"клиенти може да бъде предизвикателство, защото трябва да докажете, че сте "
+"достойни за доверието на клиентите си."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:31
 msgid ""
@@ -14162,45 +14702,59 @@ msgid ""
 "discontinued their subscriptions within a given time period. We can "
 "distinguish two types of Churn:"
 msgstr ""
+"** Процент на отказ **: Известен също като процент на изчерпване или "
+"клиентски отказ, процентът на отказ може да бъде определен в този случай като "
+"процент на абонатите, които са прекратили абонаментите си в рамките на "
+"определен период от време. Можем да разграничим два вида Чурн:"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:35
 msgid "**Logo Churn**: It corresponds to the subscription cancellation rate."
-msgstr ""
+msgstr "**Logo Churn**: Съответства на процента анулирани абонаменти."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:37
 msgid ""
 "**Revenue Churn**: It corresponds to the monthly recurring revenue loss rate."
 msgstr ""
+"**Приходи **: Съответства на месечния процент на повтарящи се загуби на "
+"приходи."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:40
 msgid "Let's imagine a 2$ increase in a subscription service."
-msgstr ""
+msgstr "Да си представим 2 $ увеличение на абонаментна услуга."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:42
 msgid ""
 "We lost 3 customers out of the initial 20, which generates a **Logo Churn** "
 "of 15%."
 msgstr ""
+"Загубихме 3 клиенти от първоначалните 20, което генерира **лого на Churn** от "
+"15%."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:0
 msgid ""
 "Therefore, the 56$ of MRR difference out of the initial 600$ causes a "
 "**Revenue Churn**"
 msgstr ""
+"Следователно разликата от 56 $ на MRR от първоначалните 600 $ причинява "
+"**Приходи **"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:0
 msgid "of 9,33%."
-msgstr ""
+msgstr "от 9,33%."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:0
 msgid "Difference between logo churn and revenue churn in Odoo Subscriptions"
 msgstr ""
+"Разлика между бученето на логото и бученето на приходите в абонаментите на "
+"Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:50
 msgid ""
 "Reminder: even though they seem to evolve in the same direction most of the "
 "time, it might not be the case all the time."
 msgstr ""
+"Напомняне: въпреки че изглежда, че те се развиват в една и съща посока през "
+"повечето време, може да не е така през цялото време."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:53
 msgid ""
@@ -14209,16 +14763,22 @@ msgid ""
 "importance of customer retention, shifting our focus from a quarterly or "
 "yearly approach to a long-term one."
 msgstr ""
+"** Стойност за целия живот на клиента (CLV)**: Показва колко приходи могат да "
+"се очакват за даден клиент по време на целия му договор. Този подход "
+"подчертава значението на задържането на клиенти, измествайки фокуса ни от "
+"тримесечен или годишен подход към дългосрочен."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:57
 msgid ""
 "Check out the different kinds of reports you can access from the **Odoo "
 "Subscriptions** application."
 msgstr ""
+"Разгледайте различните видове отчети, до които имате достъп от приложението "
+"**Odoo Абонаменти **."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:61
 msgid "Subscriptions analysis report"
-msgstr ""
+msgstr "Отчет за анализ на абонаментите"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:63
 msgid ""
@@ -14233,11 +14793,11 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Subscriptions analysis report in Odoo Subscriptions"
-msgstr ""
+msgstr "Отчет за анализ на абонаментите в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:74
 msgid "Retention analysis report"
-msgstr ""
+msgstr "Доклад за анализ на запазването"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:76
 msgid ""
@@ -14247,14 +14807,19 @@ msgid ""
 "*Month* periodicity remains intact. By using these criteria, you can see the "
 "progression of the retention from its start."
 msgstr ""
+"Отидете на :menuselection:„Задържане на отчети за абонаменти --> --> “. "
+"Приложената мярка по подразбиране е *Count*, но можете да промените на "
+"подходящата за вас. За примера по - долу е избран *Месечни периодични приходи "
+"*, а периодичността *Месец* остава непокътната. С помощта на тези критерии "
+"можете да видите прогресията на задържането от самото начало."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Retention analysis report in Odoo Subscriptions"
-msgstr ""
+msgstr "Доклад за анализ на запазването в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:86
 msgid "Revenue KPIs report"
-msgstr ""
+msgstr "Отчет за ключовите показатели за ефективност на приходите"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:88
 msgid ""
@@ -14269,6 +14834,8 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Revenue KPIs report in Odoo Subscriptions"
 msgstr ""
+"Отчет за ключовите показатели за ефективност на приходите в абонаментите на "
+"Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:98
 msgid ""
@@ -14278,14 +14845,19 @@ msgid ""
 "populated with more and more data. Once again, you can filter these specific "
 "KPIs on subscriptions, companies, and sales teams."
 msgstr ""
+"Примерът по - долу показва подробния отчет *Месечни повтарящи се приходи*. В "
+"момента няма данни, което е типичният сценарий за нов бизнес. Но тъй като "
+"вашата компания се разраства през месеците, тези графики се запълват с все "
+"повече и повече данни. Още веднъж, можете да филтрирате тези специфични КПЕ "
+"по абонаменти, компании и търговски екипи."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Detailed MRR report in Odoo Subscriptions"
-msgstr ""
+msgstr "Подробен отчет за MRR в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:108
 msgid "Salesperson dashboard report"
-msgstr ""
+msgstr "Отчет за таблото на продавача"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:110
 msgid ""
@@ -14295,18 +14867,23 @@ msgid ""
 "Invoices* for each of your salespeople. You can choose the period you want to "
 "apply and the salesperson you want to analyze."
 msgstr ""
+"Отидете на : menuselection:„Табло за отчитане на абонаменти --> --> на "
+"продавача “. Тази страница ви предоставя обобщение на вашите *Месечни "
+"повтарящи се приходи*, * Неповтарящисе приходи*, * Промени в абонамента * и * "
+"Неповтарящисе фактури* за всеки от вашите търговци. Можете да изберете "
+"периода, който искате да приложите, и продавача, който искате да анализирате."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:-1
 msgid "Salesperson dashboard report in Odoo Subscriptions"
-msgstr ""
+msgstr "Отчет за таблото на продавача в абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow.rst:5
 msgid "Sales flow"
-msgstr ""
+msgstr "Поток на продажбите"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:3
 msgid "Close a subscription"
-msgstr ""
+msgstr "Затваряне на абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:5
 msgid ""
@@ -14315,6 +14892,9 @@ msgid ""
 "companies come up with dubious methods to reduce the probability of this "
 "happening."
 msgstr ""
+"Загубата на клиент винаги е трудна, особено ако положите много усилия, за да "
+"го накарате да се регистрира за вашите продукти/услуги. Много компании обаче "
+"измислят съмнителни методи за намаляване на вероятността това да се случи."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:14
 msgid ""
@@ -14344,6 +14924,11 @@ msgid ""
 "whenever they want to or to restrict this possibility. It depends on you and "
 "we will show you how to do that in our amazing application."
 msgstr ""
+"В обобщение, приложението **Odoo Абонаменти** ви дава **възможност да "
+"изберете това, което искате да приложите**. Всъщност можете да решите дали да "
+"дадете на клиентите си възможност да затворят абонаментите си, когато "
+"пожелаят, или да ограничите тази възможност. Зависи от вас и ние ще ви "
+"покажем как да направите това в нашето невероятно приложение."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:33
 msgid ""
@@ -14357,7 +14942,7 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid "Configuration to close your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "Конфигурация за затваряне на абонамента ви с абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:43
 msgid ""
@@ -14366,14 +14951,19 @@ msgid ""
 "fully understand the importance of this feature in a basic flow using the "
 "**Odoo Subscriptions** application."
 msgstr ""
+"Не забравяйте да разгледате документацията ни за това как да :DOC:`Използване "
+"на шаблони за абонамент <../../subscriptions/configription/"
+"subscription_templates >', за да разберете напълно значението на тази функция "
+"в основен поток, като използвате приложението **Odoo Абонаменти **."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:49
 msgid "Close your first subscription"
-msgstr ""
+msgstr "Затворете първия си абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:52
+#, fuzzy
 msgid "Administrator view"
-msgstr ""
+msgstr "администратор"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:54
 msgid ""
@@ -14381,12 +14971,16 @@ msgid ""
 "automatically created. Therefore, this subscription has the status *In "
 "progress*. From there, you have the possibility to close the subscription."
 msgstr ""
+"След като бъде потвърдена, офертата става поръчка за продажба и автоматично "
+"се създава нов абонамент. Следователно този абонамент има статус *В процес на "
+"изпълнение*. Оттам имате възможност да затворите абонамента."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid ""
 "Close your subscription from an administration point of view with Odoo "
 "Subscriptions"
 msgstr ""
+"Затворете абонамента си от административна гледна точка с абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:62
 msgid ""
@@ -14400,11 +14994,12 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid "What happens when you close your subscription with Odoo Subscriptions?"
-msgstr ""
+msgstr "Какво се случва, когато затворите абонамента си с абонаменти за Odoo?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:72
+#, fuzzy
 msgid "Customer view"
-msgstr ""
+msgstr "Клиент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:74
 msgid ""
@@ -14415,22 +15010,31 @@ msgid ""
 "her subscription whenever he/she wants to, due to the *Close Subscription* "
 "button."
 msgstr ""
+"Както вече беше обяснено в частта *Администраторски изглед*, от формуляра за "
+"абонамент имате възможност да визуализирате какво виждат клиентите ви, когато "
+"управляват абонаментите си, благодарение на бутона * Преглед на клиента *. В "
+"този пример клиентът има избор да затвори абонамента си, когато пожелае, "
+"благодарение на бутона *Затваряне на абонамента*."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid ""
 "Close your subscription from a customer point of view with Odoo Subscriptions"
 msgstr ""
+"Затворете абонамента си от гледна точка на клиента с абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:83
 msgid ""
 "By using this button, the customer can specify the reason for cancelling his/"
 "her subscription and he/she can even leave a message."
 msgstr ""
+"С помощта на този бутон клиентът може да посочи причината за анулиране на "
+"абонамента си и дори да остави съобщение."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid ""
 "What happens when customers close their subscription with Odoo Subscriptions?"
 msgstr ""
+"Какво се случва, когато клиентите затворят абонамента си с абонаменти за Odoo?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:90
 msgid ""
@@ -14440,11 +15044,17 @@ msgid ""
 "stage, the end date, the close reason, and the closing text added by the "
 "customer."
 msgstr ""
+"С потвърждаването на анулирането клиентът се пренасочва към своя портал. "
+"Администраторът е информиран за тази промяна. Всъщност статусът на абонамента "
+"става *Затворен* и в чата се появява бележка с новия етап, крайната дата, "
+"причината за затваряне и заключителния текст, добавен от клиента."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:-1
 msgid ""
 "What happens when customers close their subscription in Odoo Subscriptions?"
 msgstr ""
+"Какво се случва, когато клиентите затворят абонамента си в абонаментите на "
+"Odoo?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:100
 msgid ""
@@ -14453,10 +15063,14 @@ msgid ""
 "sales_flow/create_a_quotation>` to understand how subscriptions are managed "
 "in the **Odoo Subscriptions** application."
 msgstr ""
+"Преди да затворите абонамент, разгледайте нашата документация за това как да :"
+"doc:„Създайте оферта, като използвате абонаментни продукти <../../"
+"subscriptions/sales_flow/create_a_quoteation >“, за да разберете как се "
+"управляват абонаментите в приложението **Odoo Абонаменти **."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:3
 msgid "Create a quotation using subscription products"
-msgstr ""
+msgstr "Създаване на оферта с помощта на абонаментни продукти"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:5
 msgid ""
@@ -14466,16 +15080,23 @@ msgid ""
 "maximize your income and streamline your cash flow. You can sell any type of "
 "product or service through a subscription business model."
 msgstr ""
+"Продажбата на цифров продукт или услуга дава незабавно удовлетворение. Трябва "
+"обаче да работите усилено, за да може нов клиент да направи покупка. Това "
+"струва време и пари. Убеждавайки клиентите да се регистрират за абонамент, "
+"вие максимизирате приходите си и рационализирате паричния си поток. Можете да "
+"продавате всякакъв тип продукт или услуга чрез абонаментен бизнес модел."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:15
 msgid ""
 "Here is a scenario using **Odoo Subscriptions** to create a quotation "
 "including subscription products."
 msgstr ""
+"Ето сценарий, при който се използват ** абонаменти за Odoo **, за да се "
+"създаде оферта, включваща продукти за абонамент."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:19
 msgid "Create your first quotation"
-msgstr ""
+msgstr "Създайте първата си оферта"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:21
 msgid ""
@@ -14485,12 +15106,19 @@ msgid ""
 "`Subscription products <../../subscriptions/configuration/"
 "subscription_products>` to your templates."
 msgstr ""
+"Преди да създадете първата си оферта, не забравяйте да разгледате нашата "
+"документация за това как да създадете и управлявате своя собствена :doc:"
+"`Абонаментни шаблони <../../абонаменти/конфигурация/subscription_templates >' "
+"и за това как да добавите :doc:` Абонаментни продукти <../../абонаменти/"
+"конфигурация/subscription_products >' към вашите шаблони."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:30
 msgid ""
 "These steps are **mandatory** to make a basic sales flow using **Odoo "
 "Subscriptions**."
 msgstr ""
+"Тези стъпки са **задължителни**, за да направите основен поток от продажби, "
+"като използвате ** Абонаменти за Odoo **."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:32
 msgid ""
@@ -14498,10 +15126,13 @@ msgid ""
 "add a product. Be careful to select a product that you previously configured "
 "as a *Subscription product*."
 msgstr ""
+"Отворете ** Продажби на Odoo ** и създайте нова оферта. След това изберете "
+"клиент и добавете продукт. Внимавайте да изберете продукт, който преди това "
+"сте конфигурирали като *Абонаментен продукт*."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:-1
 msgid "View of a quotation form in Odoo Sales"
-msgstr ""
+msgstr "Преглед на формуляр за оферта в продажбите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:39
 msgid ""
@@ -14514,7 +15145,7 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:-1
 msgid "Customer preview of a quotation form in Odoo Sales"
-msgstr ""
+msgstr "Преглед на клиента на формуляр за оферта в продажбите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:48
 msgid ""
@@ -14527,17 +15158,19 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:54
 msgid "Manage your subscriptions from your SO"
-msgstr ""
+msgstr "Управлявайте абонаментите си от вашия SO"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:56
 msgid ""
 "Once confirmed, the quotation becomes a sales order and a new button appears, "
 "*Subscriptions*. Indeed, a subscription is automatically created."
 msgstr ""
+"След като бъде потвърдена, офертата става поръчка за продажба и се появява "
+"нов бутон *Абонаменти*. Всъщност абонаментът се създава автоматично."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:-1
 msgid "Quotation form in Odoo Sales with a button \"Subscriptions\""
-msgstr ""
+msgstr "Формуляр за оферта в ODOO Продажби с бутон \"Абонаменти\""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:63
 msgid ""
@@ -14547,10 +15180,15 @@ msgid ""
 "subscriptions/sales_flow/closing>` or :doc:`Upsell <../../subscriptions/"
 "sales_flow/upselling>` your subscription."
 msgstr ""
+"Като щракнете върху бутона *Абонаменти*, можете да видите, че статусът на "
+"абонамента е *В процес на изпълнение*. Оттам ще имате три опции:: doc:"
+"`Подновяване <../../subscriptions/sales_flow/renewals >',: doc:` Затваряне "
+"<../../subscriptions/sales_flow/closing>' или :doc:`Upsell <../../"
+"subscriptions/sales_flow/upselling>' Вашия абонамент."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:-1
 msgid "Use of the intelligent button \"Subscriptions\" in Odoo Sales"
-msgstr ""
+msgstr "Използване на интелигентния бутон \"Абонаменти\" в продажбите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:73
 msgid ""
@@ -14560,22 +15198,27 @@ msgid ""
 "Finally, when a customer decides to close his subscription, the status "
 "becomes *Closed*."
 msgstr ""
+"В горния десен ъгъл можете да видите състоянието на абонамента. Когато "
+"абонаментът е нов и създаден от ** Абонаменти за Odoo **, статусът е "
+"*Чернова*. Когато поръчката за продажба е валидирана, статусът е *В процес на "
+"изпълнение*. Накрая, когато клиент реши да затвори абонамента си, статусът "
+"става *Затворен*."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:81
 msgid ":doc:`../../subscriptions/sales_flow/renewals`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/sales_flow/renewals`"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:82
 msgid ":doc:`../../subscriptions/sales_flow/closing`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/sales_flow/closing`"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:83
 msgid ":doc:`../../subscriptions/sales_flow/upselling`"
-msgstr ""
+msgstr ":doc:`../../subscriptions/sales_flow/upselling`"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:3
 msgid "Renew a subscription"
-msgstr ""
+msgstr "Подновяване на абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:5
 msgid ""
@@ -14583,6 +15226,9 @@ msgid ""
 "payments. In this model, customers pay a recurring amount in exchange for "
 "access to a product or a service."
 msgstr ""
+"Ключовата характеристика на абонаментния бизнес модел е повтарящият се "
+"характер на плащанията. В този модел клиентите плащат повтаряща се сума в "
+"замяна на достъп до продукт или услуга."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:14
 msgid ""
@@ -14591,6 +15237,11 @@ msgid ""
 "companies choose to automate their renewal processes but, in some cases, "
 "manual subscription renewals are still the preferred option."
 msgstr ""
+"Всеки абонат преживява този процес на подновяване месечно, годишно или "
+"понякога повече, в зависимост от продължителността на договора. Повечето "
+"абонаментни компании избират да автоматизират процесите си на подновяване, но "
+"в някои случаи ръчното подновяване на абонамента все още е предпочитаният "
+"вариант."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:18
 msgid ""
@@ -14599,10 +15250,14 @@ msgid ""
 "well as a manual one) and, finally, filter all your subscriptions and easily "
 "find those to renew (with the help of the tag *To renew*)."
 msgstr ""
+"С ** Абонаментите на Odoo ** можете да имате всичките си абонаменти в едно "
+"приложение, да предложите автоматично подновяване на абонамента на клиентите "
+"си (както и ръчно) и накрая да филтрирате всичките си абонаменти и лесно да "
+"намерите тези, които да подновите (с помощта на маркера *За подновяване*)."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:23
 msgid "Renew your first subscription"
-msgstr ""
+msgstr "Подновете първия си абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:25
 msgid ""
@@ -14619,7 +15274,7 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:-1
 msgid "Renew your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "Подновете абонамента си с абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:38
 msgid ""
@@ -14628,10 +15283,14 @@ msgid ""
 "have to click on the *Customer preview* button. The tag *To renew* appears on "
 "the top right corner."
 msgstr ""
+"Маркерът *За подновяване* се маркира автоматично, когато плащането е "
+"неуспешно. Този индикатор се появява и на клиентския портал. За да "
+"визуализирате това, просто трябва да кликнете върху бутона * Преглед на "
+"клиента *. Маркерът *За подновяване* се показва в горния десен ъгъл."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:0
 msgid "Customer preview of a renewal with Odoo Subscriptions"
-msgstr ""
+msgstr "Преглед от клиента на подновяване с абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:46
 msgid ""
@@ -14650,10 +15309,14 @@ msgid ""
 "your customers, this quotation becomes a sales order and a new sale is "
 "mentioned in the upper right corner of the subscription."
 msgstr ""
+"В Chatter на тази нова оферта се споменава, че „Тази поръчка за подновяване е "
+"създадена от предишния абонамент “. След като бъде потвърдена от вашите "
+"клиенти, тази оферта се превръща в поръчка за продажба и в горния десен ъгъл "
+"на абонамента се споменава нова продажба."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:0
 msgid "Renew a quotation with Odoo Subscriptions"
-msgstr ""
+msgstr "Подновяване на оферта с абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:61
 msgid ""
@@ -14662,14 +15325,19 @@ msgid ""
 "description underneath the *Subscription Management* category. There, you can "
 "easily visualize which one is your renewal."
 msgstr ""
+"Като щракнете върху бутона *Продажби*, имате обобщение на поръчките си за "
+"продажба в списъчен изглед. Единствената разлика между двете ви оферти е "
+"описанието под категорията *Абонаментно управление*. Там можете лесно да "
+"визуализирате кое е вашето подновяване."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:0
 msgid "Renewal as Subscription Management form in Odoo Subscriptions"
 msgstr ""
+"Подновяване като формуляр за управление на абонамент в абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:70
 msgid "Visualize your subscriptions to renew"
-msgstr ""
+msgstr "Визуализирайте абонаментите си за подновяване"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:72
 msgid ""
@@ -14677,16 +15345,21 @@ msgid ""
 "those to renew, you can go to your *Subscriptions dashboard* and use the "
 "filter *To renew*."
 msgstr ""
+"И накрая, ако искате да визуализирате всичките си абонаменти и лесно да ги "
+"намерите за подновяване, можете да отидете на таблото *Абонаменти * и да "
+"използвате филтъра *За подновяване*."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:-1
 msgid ""
 "List view of all subscriptions and use of the filter to renew in Odoo "
 "Subscriptions"
 msgstr ""
+"Списък на всички абонаменти и използване на филтъра за подновяване в "
+"абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:3
 msgid "Upsell a subscription"
-msgstr ""
+msgstr "Повишаване на продажба на абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:5
 msgid ""
@@ -14695,6 +15368,10 @@ msgid ""
 "or change the products’ quantities to accommodate their needs. Two situations "
 "can happen:"
 msgstr ""
+"Абонаментите са повтарящи се и продължават неопределено време. С течение на "
+"времето нашите клиенти може да искат да ги променят. След това трябва да "
+"можем да адаптираме цените или да променим количествата на продуктите, за да "
+"отговорим на техните нужди. Могат да възникнат две ситуации:"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:9
 msgid ""
@@ -14703,6 +15380,10 @@ msgid ""
 "for your products and services. Consequently, it is easier to sell them "
 "something additional than it would be to a new customer."
 msgstr ""
+"**Лоялни клиенти :** Този вид клиенти вече ви се доверяват като марка. Ето "
+"защо сте уверени в това, което предлагате, тъй като те продължават да плащат "
+"за вашите продукти и услуги. Следователно е по - лесно да им се продаде нещо "
+"допълнително, отколкото би било на нов клиент."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:14
 msgid ""
@@ -14712,6 +15393,10 @@ msgid ""
 "for new customers strengthens your relationships with them and also increases "
 "their retention."
 msgstr ""
+"**Нови клиенти:** За този вид клиенти трябва да дойдете с нещо ново, нещо "
+"привлекателно. Ами отстъпките? Обикновено всеки абонамент приключва след "
+"определено време. Изготвянето на тези видове оферти за нови клиенти укрепва "
+"взаимоотношенията ви с тях и също така увеличава тяхното задържане."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:27
 msgid ""
@@ -14720,14 +15405,19 @@ msgid ""
 "menuselection:`Sales --> Configuration --> Settings` and, under the *Pricing* "
 "category, you have the possibility to grant discounts on sales order lines."
 msgstr ""
+"Както беше обяснено по - горе, за да продадете абонамент на нови клиенти, се "
+"препоръчва да предложите *Отстъпки*. За да активирате тази опция, отидете на: "
+"menuselection:„Настройки за конфигуриране на продажбите--> -->“ и в "
+"категорията *Ценообразуване* имате възможност да предоставите отстъпки за "
+"линии за поръчки за продажби."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:-1
 msgid "Activation of the discount option in Odoo Sales"
-msgstr ""
+msgstr "Активиране на опцията за отстъпка в продажбите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:36
 msgid "Upsell your first subscription"
-msgstr ""
+msgstr "Увеличете продажбите на първия си абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:38
 msgid ""
@@ -14741,18 +15431,22 @@ msgstr ""
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:-1
 msgid "Upsell your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "Наддавайте абонамента си с абонаменти за Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:48
 msgid ""
 "By using the smart button *Upsell*, you are able to create a new quotation "
 "with new subscription products and send it to your customers for approval."
 msgstr ""
+"С помощта на интелигентния бутон *Upsell* можете да създадете нова оферта с "
+"нови абонаментни продукти и да я изпратите на клиентите си за одобрение."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:-1
 msgid ""
 "Add products to your subscription via the upsell option in Odoo Subscriptions"
 msgstr ""
+"Добавете продукти към абонамента си чрез опцията за upsell в абонаментите на "
+"Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:56
 msgid ""
@@ -14760,6 +15454,9 @@ msgid ""
 "the initial subscription. Quotation prices are, then, prorated to the "
 "remaining time of the current invoicing period."
 msgstr ""
+"Когато офертата бъде потвърдена от вашите клиенти, продуктите се добавят към "
+"първоначалния абонамент. Следователно цените на офертите са пропорционални на "
+"оставащото време от текущия период на фактуриране."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:60
 msgid ""
@@ -14777,16 +15474,19 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:-1
 msgid "Visualize all your subscriptions updates with Odoo Subscriptions"
 msgstr ""
+"Визуализирайте всички актуализации на абонаментите си с абонаментите на Odoo"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:72
 msgid ""
 "In addition, by clicking on the *Sales* button, you have a summary of your "
 "sales orders in a list view."
 msgstr ""
+"Освен това, като кликнете върху бутона *Продажби*, имате обобщение на "
+"поръчките си за продажба в списъчен изглед."
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:-1
 msgid "List view of all sales orders created for a subscription"
-msgstr ""
+msgstr "Списък на всички поръчки за продажба, създадени за абонамент"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:79
 msgid ""
@@ -14794,3 +15494,6 @@ msgid ""
 "underneath the *Subscription Management* category. There, you can easily "
 "visualize which one is your upselling."
 msgstr ""
+"Единствената разлика между вашите две поръчки за продажба е описанието под "
+"категорията *Абонаментно управление*. Там можете лесно да визуализирате кой "
+"от тях е вашият upselling."
